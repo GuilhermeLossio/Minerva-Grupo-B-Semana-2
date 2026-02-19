@@ -118,9 +118,29 @@ def build_theme_css(colors: Dict[str, str]) -> str:
         padding: 8px;
       }}
 
-      div[data-testid="stChatInput"] {{
-        background: var(--panel-bg);
+      div[data-testid="stBottomBlockContainer"] {{
+        /* 30% transparency (70% opacity) to keep the footer menu readable */
+        background: rgba(9, 17, 31, 0.70) !important;
         border-top: 1px solid var(--border);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        z-index: 998 !important;
+      }}
+
+      div[data-testid="stBottomBlockContainer"] > div {{
+        max-width: 1100px;
+        margin: 0 auto;
+      }}
+
+      div[data-testid="stBottomBlockContainer"] div[data-testid="stChatInput"] {{
+        background: transparent !important;
+        border-top: none !important;
+        padding: 0.75rem 1rem;
+      }}
+
+      div[data-testid="stChatInput"] {{
+        background: transparent;
+        border-top: none;
         padding: 0.75rem 1rem;
       }}
 
@@ -164,6 +184,7 @@ def build_theme_css(colors: Dict[str, str]) -> str:
 
       .block-container {{
         padding-top: 1.5rem;
+        padding-bottom: 7rem;
         animation: al-fade 0.55s ease-out;
       }}
 

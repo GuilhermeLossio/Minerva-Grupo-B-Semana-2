@@ -36,30 +36,24 @@ def _ensure_embedding_model():
         pass
 
 def exibir_chat():
+    """Render main chat interface with improved styling and responsiveness."""
     logo_path = get_logo_path()
-    col_logo, col_title = st.columns([1, 4])
+    
+    # Responsive header with flexbox-like behavior
+    col_logo, col_title = st.columns([1, 4], gap="medium")
     with col_logo:
         if logo_path:
             st.image(str(logo_path), width=72)
     with col_title:
-        st.markdown("## Alea Lumen")
-        st.caption("Chat corporativo com contexto inteligente.")
+        st.markdown(
+            '<h2 style="margin:0; color:#e9f2ff;">Alea Lumen <span style="color:#4cc3ff;">Chat</span></h2>',
+            unsafe_allow_html=True
+        )
+        st.caption("💬 Inteligência corporativa com contexto seguro.")
 
     # --- 1. IDENTIFICAÇÃO DO USUÁRIO (CONTEXTO) ---
-    # Tenta pegar os dados reais do login (se auth estiver implementado)
     user_session = st.session_state.get("user", {})
-    
-    # Se não houver login real, usamos valores de "Convidado" para não quebrar o log
-    # (Ou você pode manter os inputs na sidebar para teste manual, como deixei comentado abaixo)
     _ = user_session.get("id", None)
-
-    # --- DEBUG/SIMULAÇÃO (Opcional: Descomente se quiser testar setores sem fazer login) ---
-    # with st.sidebar:
-    #     st.divider()
-    #     st.caption("👤 Simulação de Identidade")
-    #     user_name = st.text_input("Nome", user_name)
-    #     user_sector = st.selectbox("Setor", ["TI", "RH", "Financeiro", "Jurídico"], index=0)
-    # -------------------------------------------------------------------------------------
 
     # --- 2. SELEÇÃO DO AGENTE ---
     agents = load_agents()
@@ -67,36 +61,39 @@ def exibir_chat():
         st.error("⚠️ Nenhum agente configurado. Vá na aba 'Admin' para criar um.")
         return
 
-    # Mapeia ID -> Nome para o Selectbox
     agent_options = {agent_id: data['name'] for agent_id, data in agents.items()}
     
-    col_sel, col_info = st.columns([3, 1])
+    col_sel, col_role = st.columns([3, 1], gap="medium")
     
     with col_sel:
-        # O usuário escolhe com quem quer falar
         selected_agent_id = st.selectbox(
-            "Falar com:", 
+            "🤖 Falar com:", 
             options=list(agent_options.keys()), 
-            format_func=lambda x: agent_options[x]
+            format_func=lambda x: agent_options[x],
+            help="Selecione com qual assistente deseja conversar"
         )
     
-    # Recupera os dados completos do agente escolhido
     current_agent = agents[selected_agent_id]
     
-    with col_info:
-        # Mostra cargo/função do agente
-        st.info(f"**{current_agent.get('role', 'Assistente')}**")
+    with col_role:
+        role_badge = current_agent.get('role', 'Assistente')
+        st.markdown(
+            f'<div style="background:rgba(76,195,255,0.15); padding:0.5rem 0.75rem; '
+            f'border-radius:8px; text-align:center; color:#4cc3ff; font-weight:600;">{role_badge}</div>',
+            unsafe_allow_html=True
+        )
 
     st.divider()
 
     # --- Upload de Contexto (CSV/JSON/PDF) ---
     with st.sidebar:
-        st.markdown("### Contexto do Agente")
+        st.markdown("### 📎 Contexto do Agente")
         uploaded_files = st.file_uploader(
             "Enviar arquivos (CSV, JSON, PDF)",
             type=["csv", "json", "pdf"],
             accept_multiple_files=True,
             key="chat_context_files",
+            help="Carregue arquivos para treinar o contexto do assistente"
         )
         if st.button("Processar arquivos", type="secondary"):
             if not uploaded_files:
@@ -167,7 +164,7 @@ def main(set_page_config: bool = True) -> None:
     if set_page_config:
         st.set_page_config(page_title="Chat", layout="wide")
     init_theme_state()
-    apply_theme(st.session_state.get("dark_mode", True))
+    apply_theme()
     # Initialize heavy vector/embedding resources only when entering the chat
     _ensure_embedding_model()
     exibir_chat()

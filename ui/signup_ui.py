@@ -1,4 +1,4 @@
-"""Login page entrypoint."""
+"""Public sign-up page for low-priority user creation."""
 
 from __future__ import annotations
 
@@ -6,61 +6,22 @@ import json
 
 import streamlit as st
 
-from routes.routes import DEFAULT_ROUTE
 from database.init_db import init_db
-from services.auth_service import login as auth_login, require_auth
+from services.auth_service import cadastro_publico_usuario
 from ui.brand import get_logo_path
 from ui.theme import apply_theme, init_theme_state
-from utils.debug import log, time_block
+from utils.debug import time_block
 from utils.rerun import safe_rerun
 
-USERS_ROUTE = "users"
-SIGNUP_ROUTE = "signup"
-
-
-def _get_query_param(name: str) -> str:
-    try:
-        value = st.query_params.get(name)
-    except Exception:
-        value = st.experimental_get_query_params().get(name)
-    if isinstance(value, list):
-        return value[0] if value else ""
-    return value or ""
-
-
-def _clear_auth_state() -> None:
-    for key in ("token", "user", "role", "logged_in", "user_info"):
-        st.session_state.pop(key, None)
-    st.session_state["authenticated"] = False
-
-
-def _is_authenticated() -> bool:
-    token = st.session_state.get("token")
-    if not token:
-        st.session_state["authenticated"] = False
-        return False
-
-    try:
-        result = json.loads(require_auth(token))
-    except Exception:
-        st.session_state["authenticated"] = False
-        return False
-
-    authenticated = bool(result.get("success"))
-    st.session_state["authenticated"] = authenticated
-    if authenticated:
-        st.session_state["logged_in"] = True
-        st.session_state["user_info"] = result.get("user")
-    return authenticated
+LOGIN_ROUTE = "login"
 
 
 def _set_query_param(name: str, value: str) -> None:
     try:
         if value:
             st.query_params[name] = value
-        else:
-            if name in st.query_params:
-                del st.query_params[name]
+        elif name in st.query_params:
+            del st.query_params[name]
     except Exception:
         params = st.experimental_get_query_params()
         if value:
@@ -70,17 +31,16 @@ def _set_query_param(name: str, value: str) -> None:
         st.experimental_set_query_params(**params)
 
 
-def _redirect_to(page: str) -> None:
-    _set_query_param("page", page)
-    _set_query_param("next", "")
-    safe_rerun()
-    st.stop()
+def _parse_response(raw: str) -> dict:
+    try:
+        return json.loads(raw)
+    except Exception:
+        return {"success": False, "message": "Resposta invalida do servico"}
 
 
-def _logout() -> None:
-    _clear_auth_state()
+def _redirect_to_login() -> None:
+    _set_query_param("page", LOGIN_ROUTE)
     _set_query_param("next", "")
-    _set_query_param("page", "login")
     safe_rerun()
     st.stop()
 
@@ -157,14 +117,14 @@ def _apply_auth_card_styles() -> None:
 def _ensure_db_initialized() -> None:
     if st.session_state.get("db_initialized"):
         return
-    with time_block("login: init_db"):
+    with time_block("signup: init_db"):
         init_db()
     st.session_state["db_initialized"] = True
 
 
 def main(set_page_config: bool = True) -> None:
     if set_page_config:
-        st.set_page_config(page_title="Login", layout="centered")
+        st.set_page_config(page_title="Criar Conta", layout="centered")
     _hide_sidebar()
     _apply_auth_card_styles()
     init_theme_state()
@@ -179,69 +139,49 @@ def main(set_page_config: bool = True) -> None:
         st.markdown(
             '<h3 style="color:#000000; margin-bottom:0.2rem; '
             'font-family:\'Trebuchet MS\', \'Segoe UI\', \'Gill Sans\', sans-serif; '
-            'font-weight:700; letter-spacing:0.02em;">Alea Lumen</h3>',
+            'font-weight:700; letter-spacing:0.02em;">Criar Conta</h3>',
             unsafe_allow_html=True,
         )
         st.markdown(
             '<p style="color:#000000; margin-top:0; '
             'font-family:\'Trebuchet MS\', \'Segoe UI\', \'Gill Sans\', sans-serif;">'
-            'Acesso seguro a inteligencia corporativa.</p>',
+            'Cadastro com acesso inicial.</p>',
             unsafe_allow_html=True,
         )
 
     _, card_col, _ = st.columns([3, 4, 3])
     with card_col:
-        if _is_authenticated():
-            st.success("Voce ja esta logado.")
-            next_page = _get_query_param("next") or DEFAULT_ROUTE
-            role = (st.session_state.get("user_info") or {}).get("role")
-            col_primary, col_secondary, col_tertiary = st.columns([1, 1, 1])
-            with col_primary:
-                if st.button("Ir para o app", type="primary"):
-                    _redirect_to(next_page)
-            with col_secondary:
-                if role == "ADMIN" and st.button("Ir para Cadastro", type="secondary"):
-                    _redirect_to(USERS_ROUTE)
-            with col_tertiary:
-                if st.button("Logout", type="secondary"):
-                    _logout()
-            return
-
-        with st.form("login_form"):
-            email = st.text_input("Email", placeholder="email@empresa.com")
+        with st.form("public_signup_screen_form", clear_on_submit=True):
+            usuario = st.text_input("Nome completo", max_chars=60)
+            email = st.text_input("Email", max_chars=120, placeholder="email@empresa.com")
+            setor = st.text_input("Setor", max_chars=80)
             password = st.text_input("Senha", type="password")
-            login_clicked = st.form_submit_button("Entrar", type="primary")
+            confirm_password = st.text_input("Confirmar senha", type="password")
+            submitted = st.form_submit_button("Criar conta", type="primary")
 
-        if st.button("Criar conta", type="secondary"):
-            _redirect_to(SIGNUP_ROUTE)
+        if submitted:
+            if not usuario.strip() or not email.strip() or not setor.strip():
+                st.warning("Preencha nome, email e setor.")
+            elif password != confirm_password:
+                st.warning("As senhas nao conferem.")
+            else:
+                result = _parse_response(
+                    cadastro_publico_usuario(
+                        usuario=usuario.strip(),
+                        email=email.strip(),
+                        password=password,
+                        setor=setor.strip(),
+                    )
+                )
+                if result.get("success"):
+                    st.success(result.get("message", "Conta criada com sucesso."))
+                    if st.button("Ir para login", type="secondary"):
+                        _redirect_to_login()
+                else:
+                    st.error(result.get("message", "Falha ao criar conta."))
 
-        if login_clicked:
-            if not email or not password:
-                st.warning("Informe email e senha.")
-                return
-
-            try:
-                with time_block("login: auth_login"):
-                    result = json.loads(auth_login(email, password))
-            except Exception:
-                st.error("Erro interno ao processar login.")
-                return
-
-            if not result.get("success"):
-                log("login: invalid credentials")
-                st.error(result.get("message", "Falha ao realizar login."))
-                return
-
-            st.session_state["token"] = result.get("token")
-            st.session_state["user"] = result.get("user")
-            st.session_state["role"] = result.get("role")
-            st.session_state["authenticated"] = True
-            st.session_state["logged_in"] = True
-            st.session_state["user_info"] = result.get("user")
-
-            log("login: success")
-            next_page = _get_query_param("next") or DEFAULT_ROUTE
-            _redirect_to(next_page)
+        if st.button("Voltar para login", type="secondary"):
+            _redirect_to_login()
 
 
 if __name__ == "__main__":

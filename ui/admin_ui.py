@@ -140,7 +140,7 @@ def main(set_page_config: bool = True) -> None:
     if set_page_config:
         st.set_page_config(page_title=APP_TITLE, layout="wide")
     init_theme_state()
-    apply_theme(st.session_state.get("dark_mode", True))
+    apply_theme()
     role = st.session_state.get("role")
     if role != "ADMIN":
         st.error("Acesso restrito a administradores.")

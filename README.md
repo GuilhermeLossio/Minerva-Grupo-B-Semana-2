@@ -31,7 +31,11 @@ Funcionalidades:
 - valida campos obrigatorios
 - valida email
 - valida confirmacao de senha
+- permite alterar nivel de acesso (`NORMAL`, `COMPLIANCE`, `ADMIN`) somente para perfil `ADMIN`
 - lista usuarios `NORMAL` ja cadastrados
+
+Na tela de login existe o botao `Criar conta`, que abre uma tela dedicada de cadastro.
+Esse fluxo sempre cria conta com nivel `NORMAL` (baixo acesso).
 
 ## Auditoria de usuarios
 
@@ -122,3 +126,4 @@ ui/
 - O banco SQLite fica em `database/db_users.db`.
 - A tabela de auditoria de usuarios eh `user_audit_logs`.
 - Logs tecnicos continuam em `logs`.
+- O script `database/create_user.py` cria apenas usuario de nivel baixo (`NORMAL`).

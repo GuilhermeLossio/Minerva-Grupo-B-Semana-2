@@ -14,6 +14,7 @@ from database import connection
 ROLE_MAP = {0: "ADMIN", 1: "NORMAL", 2: "COMPLIANCE"}
 LOW_ACCESS_LEVEL = 1
 VALID_LEVELS = set(ROLE_MAP.keys())
+ADMIN_LEVEL = 0
 EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 MIN_PASSWORD_LEN = 8
 
@@ -210,6 +211,12 @@ def criar_usuario(token: str, usuario: str, email: str, password: str, nivel: in
     if not auth.get("success"):
         return json.dumps(auth)
 
+    if nivel != LOW_ACCESS_LEVEL:
+        return json.dumps({
+            "success": False,
+            "message": "Novo usuario deve ser criado com nivel NORMAL (baixo acesso)",
+        })
+
     normalized_name = _normalize_text(usuario)
     normalized_email = _normalize_email(email)
     normalized_setor = _normalize_text(setor)
@@ -265,6 +272,72 @@ def criar_usuario(token: str, usuario: str, email: str, password: str, nivel: in
         return json.dumps({"success": False, "message": "Erro interno ao criar usuario"})
 
 
+def cadastro_publico_usuario(usuario: str, email: str, password: str, setor: str):
+    """Permite auto-cadastro de usuario com nivel baixo (NORMAL)."""
+    normalized_name = _normalize_text(usuario)
+    normalized_email = _normalize_email(email)
+    normalized_setor = _normalize_text(setor)
+
+    validation_error = _validate_new_user(
+        usuario=normalized_name,
+        email=normalized_email,
+        password=password,
+        nivel=LOW_ACCESS_LEVEL,
+        setor=normalized_setor,
+    )
+    if validation_error:
+        return json.dumps({"success": False, "message": validation_error})
+
+    try:
+        with connection.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT 1 FROM users WHERE lower(email) = ?", (normalized_email,))
+            if cursor.fetchone():
+                return json.dumps({"success": False, "message": "Usuario ja esta cadastrado"})
+
+            cursor.execute(
+                """
+                INSERT INTO users (usuario, email, password, nivel, setor)
+                VALUES (?, ?, ?, ?, ?)
+                """,
+                (
+                    normalized_name,
+                    normalized_email,
+                    hash_password(password),
+                    LOW_ACCESS_LEVEL,
+                    normalized_setor,
+                ),
+            )
+            conn.commit()
+            new_user_id = cursor.lastrowid
+
+        audit_event(
+            action="users.self_register",
+            user_id_target=new_user_id,
+            details={
+                "usuario": normalized_name,
+                "email": normalized_email,
+                "nivel": LOW_ACCESS_LEVEL,
+                "setor": normalized_setor,
+                "role": ROLE_MAP.get(LOW_ACCESS_LEVEL, "NORMAL"),
+            },
+            token=None,
+            user_id_admin=None,
+        )
+        return json.dumps({
+            "success": True,
+            "message": "Conta criada com sucesso. Seu acesso inicial e NORMAL (baixo).",
+        })
+    except Exception as exc:
+        log_error(
+            action="cadastro_publico_usuario",
+            message="Erro no cadastro publico de usuario",
+            details=str(exc),
+            token=None,
+        )
+        return json.dumps({"success": False, "message": "Erro interno ao criar conta"})
+
+
 def listar_usuarios(token: str):
     """Retorna todos os usuarios cadastrados para o admin."""
     auth = json.loads(require_auth(token, "ADMIN"))
@@ -290,6 +363,73 @@ def listar_usuarios(token: str):
             token=token,
         )
         return json.dumps({"success": False, "message": "Erro interno ao buscar usuarios"})
+
+
+def alterar_nivel_acesso(token: str, target_user_id: int, novo_nivel: int):
+    """Altera o nivel de acesso de um usuario. Apenas ADMIN pode executar."""
+    auth = json.loads(require_auth(token, "ADMIN"))
+    if not auth.get("success"):
+        return json.dumps(auth)
+
+    if target_user_id <= 0:
+        return json.dumps({"success": False, "message": "Usuario alvo invalido"})
+
+    if novo_nivel not in VALID_LEVELS:
+        return json.dumps({"success": False, "message": "Nivel de acesso invalido"})
+
+    actor_id = auth.get("user", {}).get("id")
+
+    try:
+        with connection.get_connection() as conn:
+            current = conn.execute(
+                "SELECT id, usuario, email, nivel FROM users WHERE id = ?",
+                (target_user_id,),
+            ).fetchone()
+            if not current:
+                return json.dumps({"success": False, "message": "Usuario nao encontrado"})
+
+            current_level = current["nivel"]
+            if current_level == novo_nivel:
+                return json.dumps({"success": True, "message": "Nivel de acesso ja esta atualizado"})
+
+            if current_level == ADMIN_LEVEL and novo_nivel != ADMIN_LEVEL:
+                admin_count = conn.execute(
+                    "SELECT COUNT(*) FROM users WHERE nivel = ?",
+                    (ADMIN_LEVEL,),
+                ).fetchone()[0]
+                if admin_count <= 1:
+                    return json.dumps({
+                        "success": False,
+                        "message": "Deve existir ao menos um administrador no sistema",
+                    })
+
+            conn.execute(
+                "UPDATE users SET nivel = ? WHERE id = ?",
+                (novo_nivel, target_user_id),
+            )
+            conn.commit()
+
+        audit_event(
+            action="users.update_role",
+            user_id_target=target_user_id,
+            details={
+                "old_nivel": current_level,
+                "new_nivel": novo_nivel,
+                "old_role": ROLE_MAP.get(current_level, "NORMAL"),
+                "new_role": ROLE_MAP.get(novo_nivel, "NORMAL"),
+                "actor_id": actor_id,
+            },
+            token=token,
+        )
+        return json.dumps({"success": True, "message": "Nivel de acesso atualizado com sucesso"})
+    except Exception as exc:
+        log_error(
+            action="alterar_nivel_acesso",
+            message=f"Erro ao alterar nivel de acesso do usuario {target_user_id}",
+            details=str(exc),
+            token=token,
+        )
+        return json.dumps({"success": False, "message": "Erro interno ao alterar nivel de acesso"})
 
 
 def atualizar_usuario(
@@ -334,6 +474,17 @@ def atualizar_usuario(
             ).fetchone()
             if not current_user:
                 return json.dumps({"success": False, "message": "Usuario nao encontrado"})
+
+            if nivel is not None and current_user["nivel"] == ADMIN_LEVEL and nivel != ADMIN_LEVEL:
+                admin_count = conn.execute(
+                    "SELECT COUNT(*) FROM users WHERE nivel = ?",
+                    (ADMIN_LEVEL,),
+                ).fetchone()[0]
+                if admin_count <= 1:
+                    return json.dumps({
+                        "success": False,
+                        "message": "Deve existir ao menos um administrador no sistema",
+                    })
 
             if normalized_email:
                 existing_email = conn.execute(

@@ -10,6 +10,7 @@ from database.connection import get_connection
 from database.init_db import init_db
 
 EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
+LOW_ACCESS_LEVEL = 1
 
 
 def hash_password(password: str) -> str:
@@ -22,12 +23,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--usuario", required=True, help="Nome do usuario.")
     parser.add_argument("--email", required=True, help="Email do usuario.")
     parser.add_argument("--password", help="Senha do usuario (se omitida, sera solicitada).")
-    parser.add_argument(
-        "--nivel",
-        type=int,
-        default=1,
-        help="Nivel do usuario (0=ADMIN, 1=NORMAL, 2=COMPLIANCE).",
-    )
     parser.add_argument("--setor", required=True, help="Setor do usuario.")
     return parser.parse_args()
 
@@ -37,10 +32,6 @@ def main() -> int:
 
     if not EMAIL_RE.match(args.email):
         print("Erro: email invalido.")
-        return 1
-
-    if args.nivel not in (0, 1, 2):
-        print("Erro: nivel deve ser 0, 1 ou 2.")
         return 1
 
     password = args.password or getpass.getpass("Senha: ")
@@ -68,10 +59,10 @@ def main() -> int:
             INSERT INTO users (usuario, email, password, nivel, setor)
             VALUES (?, ?, ?, ?, ?)
             """,
-            (args.usuario, args.email, hash_password(password), args.nivel, args.setor),
+            (args.usuario, args.email, hash_password(password), LOW_ACCESS_LEVEL, args.setor),
         )
         conn.commit()
-        print("Usuario criado com sucesso.")
+        print("Usuario criado com sucesso (nivel NORMAL).")
         return 0
     except Exception as exc:
         print(f"Erro ao criar usuario: {exc}")

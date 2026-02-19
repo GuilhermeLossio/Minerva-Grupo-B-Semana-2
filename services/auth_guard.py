@@ -6,7 +6,7 @@ import json
 
 import streamlit as st
 
-from routes.routes import DEFAULT_ROUTE
+from routes.routes import DEFAULT_ROUTE, ROUTES
 from services.auth_service import require_auth
 from utils.debug import log, time_block
 from utils.rerun import safe_rerun
@@ -68,10 +68,29 @@ def _is_authenticated() -> bool:
     return True
 
 
+def _can_access_page(current_page: str) -> bool:
+    route = ROUTES.get(current_page or "")
+    if not route:
+        return True
+
+    required_roles = route.get("roles")
+    if not required_roles:
+        return True
+
+    role = st.session_state.get("role")
+    return role in set(required_roles)
+
+
 def ensure_authenticated(current_page: str) -> bool:
     """Return True when authenticated; otherwise redirect to login and stop."""
     if _is_authenticated():
-        return True
+        if _can_access_page(current_page):
+            return True
+        log(f"auth_guard: access denied to page '{current_page}'")
+        _set_query_param("next", "")
+        _set_query_param("page", DEFAULT_ROUTE)
+        safe_rerun()
+        st.stop()
 
     log(f"auth_guard: redirect to login (from {current_page})")
     _set_query_param("next", current_page or DEFAULT_ROUTE)

@@ -8,7 +8,13 @@ import pandas as pd
 import streamlit as st
 
 from database.init_db import init_db
-from services.auth_service import LOW_ACCESS_LEVEL, ROLE_MAP, criar_usuario, listar_usuarios
+from services.auth_service import (
+    LOW_ACCESS_LEVEL,
+    ROLE_MAP,
+    alterar_nivel_acesso,
+    criar_usuario,
+    listar_usuarios,
+)
 from ui.theme import apply_theme, init_theme_state
 from utils.debug import time_block
 
@@ -94,12 +100,66 @@ def _load_low_access_users(token: str) -> pd.DataFrame:
     return df[keep_cols].sort_values(by="id", ascending=False)
 
 
+def _render_access_level_editor(token: str) -> None:
+    st.subheader("Alterar nivel de acesso")
+    st.caption("Somente administradores podem alterar nivel de acesso de usuarios.")
+
+    response = _parse_response(listar_usuarios(token))
+    if not response.get("success"):
+        st.error(response.get("message", "Falha ao listar usuarios."))
+        return
+
+    rows = response.get("data", [])
+    if not rows:
+        st.info("Nenhum usuario encontrado para alteracao de nivel.")
+        return
+
+    level_options = [1, 2, 0]
+    level_labels = {
+        0: "ADMIN",
+        1: "NORMAL (Baixo)",
+        2: "COMPLIANCE",
+    }
+    user_options = sorted(rows, key=lambda user: user.get("id", 0))
+    user_ids = [user["id"] for user in user_options]
+    user_labels = {
+        user["id"]: (
+            f"#{user['id']} - {user.get('usuario', '-')}"
+            f" ({user.get('email', '-')}) [{ROLE_MAP.get(user.get('nivel'), 'NORMAL')}]"
+        )
+        for user in user_options
+    }
+
+    with st.form("change_user_access_level_form"):
+        target_user_id = st.selectbox(
+            "Usuario alvo",
+            options=user_ids,
+            format_func=lambda user_id: user_labels.get(user_id, str(user_id)),
+        )
+        novo_nivel = st.selectbox(
+            "Novo nivel de acesso",
+            options=level_options,
+            format_func=lambda nivel: level_labels[nivel],
+        )
+        submitted = st.form_submit_button("Atualizar nivel", type="secondary")
+
+    if not submitted:
+        return
+
+    result = _parse_response(alterar_nivel_acesso(token, int(target_user_id), int(novo_nivel)))
+    if result.get("success"):
+        st.success(result.get("message", "Nivel de acesso atualizado."))
+        st.rerun()
+    else:
+        st.error(result.get("message", "Nao foi possivel atualizar o nivel de acesso."))
+
+
 def main(set_page_config: bool = True) -> None:
     _ensure_db_initialized()
     if set_page_config:
         st.set_page_config(page_title=APP_TITLE, layout="wide")
     init_theme_state()
-    apply_theme(st.session_state.get("dark_mode", True))
+    apply_theme()
 
     if not _require_admin():
         return
@@ -107,8 +167,10 @@ def main(set_page_config: bool = True) -> None:
     token = st.session_state["token"]
 
     st.title("Cadastro de Usuarios")
-    st.caption("Gerencie o cadastro de usuarios com acesso basico.")
+    st.caption("Crie usuarios com acesso baixo e gerencie niveis com permissao de administrador.")
     _render_registration_form(token)
+    st.divider()
+    _render_access_level_editor(token)
 
     st.divider()
     st.subheader("Usuarios de baixo acesso cadastrados")

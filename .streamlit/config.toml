@@ -8,3 +8,6 @@ folderWatchBlacklist = [
   "chroma_db",
   "database",
 ]
+
+[client]
+showSidebarNavigation = false

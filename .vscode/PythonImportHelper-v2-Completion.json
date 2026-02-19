@@ -298,6 +298,30 @@
         "documentation": {}
     },
     {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
         "label": "argparse",
         "kind": 6,
         "isExtraImport": true,
@@ -439,6 +463,14 @@
         "documentation": {}
     },
     {
+        "label": "init_db",
+        "importPath": "database.init_db",
+        "description": "database.init_db",
+        "isExtraImport": true,
+        "detail": "database.init_db",
+        "documentation": {}
+    },
+    {
         "label": "hash_password",
         "importPath": "services.auth_service",
         "description": "services.auth_service",
@@ -479,6 +511,14 @@
         "documentation": {}
     },
     {
+        "label": "cadastro_publico_usuario",
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "isExtraImport": true,
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
         "label": "LOW_ACCESS_LEVEL",
         "importPath": "services.auth_service",
         "description": "services.auth_service",
@@ -488,6 +528,14 @@
     },
     {
         "label": "ROLE_MAP",
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "isExtraImport": true,
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "alterar_nivel_acesso",
         "importPath": "services.auth_service",
         "description": "services.auth_service",
         "isExtraImport": true,
@@ -787,6 +835,14 @@
         "documentation": {}
     },
     {
+        "label": "time_block",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
         "label": "ensure_authenticated",
         "importPath": "services.auth_guard",
         "description": "services.auth_guard",
@@ -868,6 +924,14 @@
     },
     {
         "label": "main",
+        "importPath": "ui.signup_ui",
+        "description": "ui.signup_ui",
+        "isExtraImport": true,
+        "detail": "ui.signup_ui",
+        "documentation": {}
+    },
+    {
+        "label": "main",
         "importPath": "ui.user_registration_ui",
         "description": "ui.user_registration_ui",
         "isExtraImport": true,
@@ -926,11 +990,27 @@
         "documentation": {}
     },
     {
+        "label": "ROUTES",
+        "importPath": "routes.routes",
+        "description": "routes.routes",
+        "isExtraImport": true,
+        "detail": "routes.routes",
+        "documentation": {}
+    },
+    {
         "label": "DEFAULT_ROUTE",
         "importPath": "routes.routes",
         "description": "routes.routes",
         "isExtraImport": true,
         "detail": "routes.routes",
+        "documentation": {}
+    },
+    {
+        "label": "safe_rerun",
+        "importPath": "utils.rerun",
+        "description": "utils.rerun",
+        "isExtraImport": true,
+        "detail": "utils.rerun",
         "documentation": {}
     },
     {
@@ -1073,6 +1153,14 @@
         "documentation": {}
     },
     {
+        "label": "apply_theme",
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "isExtraImport": true,
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
         "label": "init_theme_state",
         "importPath": "ui.theme",
         "description": "ui.theme",
@@ -1195,6 +1283,14 @@
         "documentation": {}
     },
     {
+        "label": "get_logo_path",
+        "importPath": "ui.brand",
+        "description": "ui.brand",
+        "isExtraImport": true,
+        "detail": "ui.brand",
+        "documentation": {}
+    },
+    {
         "label": "get_ai_response",
         "importPath": "services.llm_service",
         "description": "services.llm_service",
@@ -1260,7 +1356,7 @@
         "documentation": {}
     },
     {
-        "label": "is_logged_in",
+        "label": "current_role",
         "importPath": "ui.common",
         "description": "ui.common",
         "isExtraImport": true,
@@ -1268,7 +1364,7 @@
         "documentation": {}
     },
     {
-        "label": "require_session",
+        "label": "is_logged_in",
         "importPath": "ui.common",
         "description": "ui.common",
         "isExtraImport": true,
@@ -1284,7 +1380,7 @@
         "documentation": {}
     },
     {
-        "label": "current_role",
+        "label": "require_session",
         "importPath": "ui.common",
         "description": "ui.common",
         "isExtraImport": true,
@@ -1375,7 +1471,7 @@
         "kind": 2,
         "importPath": "database.create_user",
         "description": "database.create_user",
-        "peekOfCode": "def hash_password(password: str) -> str:\n    hashed = bcrypt.hashpw(password.encode(\"utf-8\"), bcrypt.gensalt())\n    return hashed.decode(\"utf-8\")\ndef parse_args() -> argparse.Namespace:\n    parser = argparse.ArgumentParser(description=\"Create a new user in the database.\")\n    parser.add_argument(\"--usuario\", required=True, help=\"Nome do usuario.\")\n    parser.add_argument(\"--email\", required=True, help=\"Email do usuario.\")\n    parser.add_argument(\"--password\", help=\"Senha do usuario (se omitida, sera solicitada).\")\n    parser.add_argument(\n        \"--nivel\",",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    hashed = bcrypt.hashpw(password.encode(\"utf-8\"), bcrypt.gensalt())\n    return hashed.decode(\"utf-8\")\ndef parse_args() -> argparse.Namespace:\n    parser = argparse.ArgumentParser(description=\"Create a new user in the database.\")\n    parser.add_argument(\"--usuario\", required=True, help=\"Nome do usuario.\")\n    parser.add_argument(\"--email\", required=True, help=\"Email do usuario.\")\n    parser.add_argument(\"--password\", help=\"Senha do usuario (se omitida, sera solicitada).\")\n    parser.add_argument(\"--setor\", required=True, help=\"Setor do usuario.\")\n    return parser.parse_args()",
         "detail": "database.create_user",
         "documentation": {}
     },
@@ -1384,7 +1480,7 @@
         "kind": 2,
         "importPath": "database.create_user",
         "description": "database.create_user",
-        "peekOfCode": "def parse_args() -> argparse.Namespace:\n    parser = argparse.ArgumentParser(description=\"Create a new user in the database.\")\n    parser.add_argument(\"--usuario\", required=True, help=\"Nome do usuario.\")\n    parser.add_argument(\"--email\", required=True, help=\"Email do usuario.\")\n    parser.add_argument(\"--password\", help=\"Senha do usuario (se omitida, sera solicitada).\")\n    parser.add_argument(\n        \"--nivel\",\n        type=int,\n        default=1,\n        help=\"Nivel do usuario (0=ADMIN, 1=NORMAL, 2=COMPLIANCE).\",",
+        "peekOfCode": "def parse_args() -> argparse.Namespace:\n    parser = argparse.ArgumentParser(description=\"Create a new user in the database.\")\n    parser.add_argument(\"--usuario\", required=True, help=\"Nome do usuario.\")\n    parser.add_argument(\"--email\", required=True, help=\"Email do usuario.\")\n    parser.add_argument(\"--password\", help=\"Senha do usuario (se omitida, sera solicitada).\")\n    parser.add_argument(\"--setor\", required=True, help=\"Setor do usuario.\")\n    return parser.parse_args()\ndef main() -> int:\n    args = parse_args()\n    if not EMAIL_RE.match(args.email):",
         "detail": "database.create_user",
         "documentation": {}
     },
@@ -1393,7 +1489,7 @@
         "kind": 2,
         "importPath": "database.create_user",
         "description": "database.create_user",
-        "peekOfCode": "def main() -> int:\n    args = parse_args()\n    if not EMAIL_RE.match(args.email):\n        print(\"Erro: email invalido.\")\n        return 1\n    if args.nivel not in (0, 1, 2):\n        print(\"Erro: nivel deve ser 0, 1 ou 2.\")\n        return 1\n    password = args.password or getpass.getpass(\"Senha: \")\n    if not password:",
+        "peekOfCode": "def main() -> int:\n    args = parse_args()\n    if not EMAIL_RE.match(args.email):\n        print(\"Erro: email invalido.\")\n        return 1\n    password = args.password or getpass.getpass(\"Senha: \")\n    if not password:\n        print(\"Erro: senha vazia.\")\n        return 1\n    init_db()",
         "detail": "database.create_user",
         "documentation": {}
     },
@@ -1402,7 +1498,16 @@
         "kind": 5,
         "importPath": "database.create_user",
         "description": "database.create_user",
-        "peekOfCode": "EMAIL_RE = re.compile(r\"^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$\")\ndef hash_password(password: str) -> str:\n    hashed = bcrypt.hashpw(password.encode(\"utf-8\"), bcrypt.gensalt())\n    return hashed.decode(\"utf-8\")\ndef parse_args() -> argparse.Namespace:\n    parser = argparse.ArgumentParser(description=\"Create a new user in the database.\")\n    parser.add_argument(\"--usuario\", required=True, help=\"Nome do usuario.\")\n    parser.add_argument(\"--email\", required=True, help=\"Email do usuario.\")\n    parser.add_argument(\"--password\", help=\"Senha do usuario (se omitida, sera solicitada).\")\n    parser.add_argument(",
+        "peekOfCode": "EMAIL_RE = re.compile(r\"^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$\")\nLOW_ACCESS_LEVEL = 1\ndef hash_password(password: str) -> str:\n    hashed = bcrypt.hashpw(password.encode(\"utf-8\"), bcrypt.gensalt())\n    return hashed.decode(\"utf-8\")\ndef parse_args() -> argparse.Namespace:\n    parser = argparse.ArgumentParser(description=\"Create a new user in the database.\")\n    parser.add_argument(\"--usuario\", required=True, help=\"Nome do usuario.\")\n    parser.add_argument(\"--email\", required=True, help=\"Email do usuario.\")\n    parser.add_argument(\"--password\", help=\"Senha do usuario (se omitida, sera solicitada).\")",
+        "detail": "database.create_user",
+        "documentation": {}
+    },
+    {
+        "label": "LOW_ACCESS_LEVEL",
+        "kind": 5,
+        "importPath": "database.create_user",
+        "description": "database.create_user",
+        "peekOfCode": "LOW_ACCESS_LEVEL = 1\ndef hash_password(password: str) -> str:\n    hashed = bcrypt.hashpw(password.encode(\"utf-8\"), bcrypt.gensalt())\n    return hashed.decode(\"utf-8\")\ndef parse_args() -> argparse.Namespace:\n    parser = argparse.ArgumentParser(description=\"Create a new user in the database.\")\n    parser.add_argument(\"--usuario\", required=True, help=\"Nome do usuario.\")\n    parser.add_argument(\"--email\", required=True, help=\"Email do usuario.\")\n    parser.add_argument(\"--password\", help=\"Senha do usuario (se omitida, sera solicitada).\")\n    parser.add_argument(\"--setor\", required=True, help=\"Setor do usuario.\")",
         "detail": "database.create_user",
         "documentation": {}
     },
@@ -1589,6 +1694,15 @@
     {
         "label": "main",
         "kind": 2,
+        "importPath": "Pages.signup",
+        "description": "Pages.signup",
+        "peekOfCode": "def main() -> None:\n    signup_main(set_page_config=False)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Pages.signup",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
         "importPath": "Pages.users",
         "description": "Pages.users",
         "peekOfCode": "def main() -> None:\n    if not ensure_authenticated(\"users\"):\n        return\n    users_main(set_page_config=False)\nif __name__ == \"__main__\":\n    main()",
@@ -1663,7 +1777,7 @@
         "kind": 2,
         "importPath": "services.auth_guard",
         "description": "services.auth_guard",
-        "peekOfCode": "def ensure_authenticated(current_page: str) -> bool:\n    \"\"\"Return True when authenticated; otherwise redirect to login and stop.\"\"\"\n    if _is_authenticated():\n        return True\n    log(f\"auth_guard: redirect to login (from {current_page})\")\n    _set_query_param(\"next\", current_page or DEFAULT_ROUTE)\n    _set_query_param(\"page\", \"login\")\n    safe_rerun()\n    st.stop()",
+        "peekOfCode": "def ensure_authenticated(current_page: str) -> bool:\n    \"\"\"Return True when authenticated; otherwise redirect to login and stop.\"\"\"\n    if _is_authenticated():\n        if _can_access_page(current_page):\n            return True\n        log(f\"auth_guard: access denied to page '{current_page}'\")\n        _set_query_param(\"next\", \"\")\n        _set_query_param(\"page\", DEFAULT_ROUTE)\n        safe_rerun()\n        st.stop()",
         "detail": "services.auth_guard",
         "documentation": {}
     },
@@ -1744,7 +1858,16 @@
         "kind": 2,
         "importPath": "services.auth_service",
         "description": "services.auth_service",
-        "peekOfCode": "def criar_usuario(token: str, usuario: str, email: str, password: str, nivel: int, setor: str):\n    \"\"\"Cria um usuario novo apos validar permissao e integridade dos dados.\"\"\"\n    auth = json.loads(require_auth(token, \"ADMIN\"))\n    if not auth.get(\"success\"):\n        return json.dumps(auth)\n    normalized_name = _normalize_text(usuario)\n    normalized_email = _normalize_email(email)\n    normalized_setor = _normalize_text(setor)\n    validation_error = _validate_new_user(\n        usuario=normalized_name,",
+        "peekOfCode": "def criar_usuario(token: str, usuario: str, email: str, password: str, nivel: int, setor: str):\n    \"\"\"Cria um usuario novo apos validar permissao e integridade dos dados.\"\"\"\n    auth = json.loads(require_auth(token, \"ADMIN\"))\n    if not auth.get(\"success\"):\n        return json.dumps(auth)\n    if nivel != LOW_ACCESS_LEVEL:\n        return json.dumps({\n            \"success\": False,\n            \"message\": \"Novo usuario deve ser criado com nivel NORMAL (baixo acesso)\",\n        })",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "cadastro_publico_usuario",
+        "kind": 2,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "def cadastro_publico_usuario(usuario: str, email: str, password: str, setor: str):\n    \"\"\"Permite auto-cadastro de usuario com nivel baixo (NORMAL).\"\"\"\n    normalized_name = _normalize_text(usuario)\n    normalized_email = _normalize_email(email)\n    normalized_setor = _normalize_text(setor)\n    validation_error = _validate_new_user(\n        usuario=normalized_name,\n        email=normalized_email,\n        password=password,\n        nivel=LOW_ACCESS_LEVEL,",
         "detail": "services.auth_service",
         "documentation": {}
     },
@@ -1754,6 +1877,15 @@
         "importPath": "services.auth_service",
         "description": "services.auth_service",
         "peekOfCode": "def listar_usuarios(token: str):\n    \"\"\"Retorna todos os usuarios cadastrados para o admin.\"\"\"\n    auth = json.loads(require_auth(token, \"ADMIN\"))\n    if not auth.get(\"success\"):\n        return json.dumps(auth)\n    try:\n        with connection.get_connection() as conn:\n            users = conn.execute(\n                \"SELECT id, usuario, email, setor, nivel, created_at, updated_at FROM users\"\n            ).fetchall()",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "alterar_nivel_acesso",
+        "kind": 2,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "def alterar_nivel_acesso(token: str, target_user_id: int, novo_nivel: int):\n    \"\"\"Altera o nivel de acesso de um usuario. Apenas ADMIN pode executar.\"\"\"\n    auth = json.loads(require_auth(token, \"ADMIN\"))\n    if not auth.get(\"success\"):\n        return json.dumps(auth)\n    if target_user_id <= 0:\n        return json.dumps({\"success\": False, \"message\": \"Usuario alvo invalido\"})\n    if novo_nivel not in VALID_LEVELS:\n        return json.dumps({\"success\": False, \"message\": \"Nivel de acesso invalido\"})\n    actor_id = auth.get(\"user\", {}).get(\"id\")",
         "detail": "services.auth_service",
         "documentation": {}
     },
@@ -1780,7 +1912,7 @@
         "kind": 5,
         "importPath": "services.auth_service",
         "description": "services.auth_service",
-        "peekOfCode": "ROLE_MAP = {0: \"ADMIN\", 1: \"NORMAL\", 2: \"COMPLIANCE\"}\nLOW_ACCESS_LEVEL = 1\nVALID_LEVELS = set(ROLE_MAP.keys())\nEMAIL_RE = re.compile(r\"^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$\")\nMIN_PASSWORD_LEN = 8\ndef _normalize_email(email: str) -> str:\n    return (email or \"\").strip().lower()\ndef _normalize_text(value: str | None) -> str:\n    return (value or \"\").strip()\ndef _is_valid_email(email: str) -> bool:",
+        "peekOfCode": "ROLE_MAP = {0: \"ADMIN\", 1: \"NORMAL\", 2: \"COMPLIANCE\"}\nLOW_ACCESS_LEVEL = 1\nVALID_LEVELS = set(ROLE_MAP.keys())\nADMIN_LEVEL = 0\nEMAIL_RE = re.compile(r\"^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$\")\nMIN_PASSWORD_LEN = 8\ndef _normalize_email(email: str) -> str:\n    return (email or \"\").strip().lower()\ndef _normalize_text(value: str | None) -> str:\n    return (value or \"\").strip()",
         "detail": "services.auth_service",
         "documentation": {}
     },
@@ -1789,7 +1921,7 @@
         "kind": 5,
         "importPath": "services.auth_service",
         "description": "services.auth_service",
-        "peekOfCode": "LOW_ACCESS_LEVEL = 1\nVALID_LEVELS = set(ROLE_MAP.keys())\nEMAIL_RE = re.compile(r\"^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$\")\nMIN_PASSWORD_LEN = 8\ndef _normalize_email(email: str) -> str:\n    return (email or \"\").strip().lower()\ndef _normalize_text(value: str | None) -> str:\n    return (value or \"\").strip()\ndef _is_valid_email(email: str) -> bool:\n    return bool(EMAIL_RE.match(email))",
+        "peekOfCode": "LOW_ACCESS_LEVEL = 1\nVALID_LEVELS = set(ROLE_MAP.keys())\nADMIN_LEVEL = 0\nEMAIL_RE = re.compile(r\"^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$\")\nMIN_PASSWORD_LEN = 8\ndef _normalize_email(email: str) -> str:\n    return (email or \"\").strip().lower()\ndef _normalize_text(value: str | None) -> str:\n    return (value or \"\").strip()\ndef _is_valid_email(email: str) -> bool:",
         "detail": "services.auth_service",
         "documentation": {}
     },
@@ -1798,7 +1930,16 @@
         "kind": 5,
         "importPath": "services.auth_service",
         "description": "services.auth_service",
-        "peekOfCode": "VALID_LEVELS = set(ROLE_MAP.keys())\nEMAIL_RE = re.compile(r\"^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$\")\nMIN_PASSWORD_LEN = 8\ndef _normalize_email(email: str) -> str:\n    return (email or \"\").strip().lower()\ndef _normalize_text(value: str | None) -> str:\n    return (value or \"\").strip()\ndef _is_valid_email(email: str) -> bool:\n    return bool(EMAIL_RE.match(email))\ndef _validate_new_user(usuario: str, email: str, password: str, nivel: int, setor: str) -> Optional[str]:",
+        "peekOfCode": "VALID_LEVELS = set(ROLE_MAP.keys())\nADMIN_LEVEL = 0\nEMAIL_RE = re.compile(r\"^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$\")\nMIN_PASSWORD_LEN = 8\ndef _normalize_email(email: str) -> str:\n    return (email or \"\").strip().lower()\ndef _normalize_text(value: str | None) -> str:\n    return (value or \"\").strip()\ndef _is_valid_email(email: str) -> bool:\n    return bool(EMAIL_RE.match(email))",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "ADMIN_LEVEL",
+        "kind": 5,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "ADMIN_LEVEL = 0\nEMAIL_RE = re.compile(r\"^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$\")\nMIN_PASSWORD_LEN = 8\ndef _normalize_email(email: str) -> str:\n    return (email or \"\").strip().lower()\ndef _normalize_text(value: str | None) -> str:\n    return (value or \"\").strip()\ndef _is_valid_email(email: str) -> bool:\n    return bool(EMAIL_RE.match(email))\ndef _validate_new_user(usuario: str, email: str, password: str, nivel: int, setor: str) -> Optional[str]:",
         "detail": "services.auth_service",
         "documentation": {}
     },
@@ -2086,7 +2227,7 @@
         "kind": 2,
         "importPath": "ui.admin_ui",
         "description": "ui.admin_ui",
-        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    _ensure_db_initialized()\n    if set_page_config:\n        st.set_page_config(page_title=APP_TITLE, layout=\"wide\")\n    init_theme_state()\n    apply_theme(st.session_state.get(\"dark_mode\", True))\n    role = st.session_state.get(\"role\")\n    if role != \"ADMIN\":\n        st.error(\"Acesso restrito a administradores.\")\n        return",
+        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    _ensure_db_initialized()\n    if set_page_config:\n        st.set_page_config(page_title=APP_TITLE, layout=\"wide\")\n    init_theme_state()\n    apply_theme()\n    role = st.session_state.get(\"role\")\n    if role != \"ADMIN\":\n        st.error(\"Acesso restrito a administradores.\")\n        return",
         "detail": "ui.admin_ui",
         "documentation": {}
     },
@@ -2230,7 +2371,7 @@
         "kind": 2,
         "importPath": "ui.chat_ui",
         "description": "ui.chat_ui",
-        "peekOfCode": "def exibir_chat():\n    logo_path = get_logo_path()\n    col_logo, col_title = st.columns([1, 4])\n    with col_logo:\n        if logo_path:\n            st.image(str(logo_path), width=72)\n    with col_title:\n        st.markdown(\"## Alea Lumen\")\n        st.caption(\"Chat corporativo com contexto inteligente.\")\n    # --- 1. IDENTIFICAÇÃO DO USUÁRIO (CONTEXTO) ---",
+        "peekOfCode": "def exibir_chat():\n    \"\"\"Render main chat interface with improved styling and responsiveness.\"\"\"\n    logo_path = get_logo_path()\n    # Responsive header with flexbox-like behavior\n    col_logo, col_title = st.columns([1, 4], gap=\"medium\")\n    with col_logo:\n        if logo_path:\n            st.image(str(logo_path), width=72)\n    with col_title:\n        st.markdown(",
         "detail": "ui.chat_ui",
         "documentation": {}
     },
@@ -2239,7 +2380,7 @@
         "kind": 2,
         "importPath": "ui.chat_ui",
         "description": "ui.chat_ui",
-        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    if set_page_config:\n        st.set_page_config(page_title=\"Chat\", layout=\"wide\")\n    init_theme_state()\n    apply_theme(st.session_state.get(\"dark_mode\", True))\n    # Initialize heavy vector/embedding resources only when entering the chat\n    _ensure_embedding_model()\n    exibir_chat()",
+        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    if set_page_config:\n        st.set_page_config(page_title=\"Chat\", layout=\"wide\")\n    init_theme_state()\n    apply_theme()\n    # Initialize heavy vector/embedding resources only when entering the chat\n    _ensure_embedding_model()\n    exibir_chat()",
         "detail": "ui.chat_ui",
         "documentation": {}
     },
@@ -2248,7 +2389,7 @@
         "kind": 2,
         "importPath": "ui.common",
         "description": "ui.common",
-        "peekOfCode": "def parse(resp: str) -> dict:\n    try:\n        return json.loads(resp) if isinstance(resp, str) else {\"success\": False, \"message\": \"Resposta inválida\"}\n    except Exception:\n        return {\"success\": False, \"message\": \"JSON inválido\", \"raw\": str(resp)[:500]}\ndef logout():\n    st.session_state.clear()\n    st.rerun()\ndef is_logged_in() -> bool:\n    return bool(st.session_state.get(\"logged_in\")) and bool(st.session_state.get(\"token\"))",
+        "peekOfCode": "def parse(resp: str) -> dict:\n    try:\n        return json.loads(resp) if isinstance(resp, str) else {\"success\": False, \"message\": \"Resposta invalida\"}\n    except Exception:\n        return {\"success\": False, \"message\": \"JSON invalido\", \"raw\": str(resp)[:500]}\ndef logout():\n    st.session_state.clear()\n    st.rerun()\ndef is_logged_in() -> bool:\n    return bool(st.session_state.get(\"logged_in\")) and bool(st.session_state.get(\"token\"))",
         "detail": "ui.common",
         "documentation": {}
     },
@@ -2257,7 +2398,7 @@
         "kind": 2,
         "importPath": "ui.common",
         "description": "ui.common",
-        "peekOfCode": "def logout():\n    st.session_state.clear()\n    st.rerun()\ndef is_logged_in() -> bool:\n    return bool(st.session_state.get(\"logged_in\")) and bool(st.session_state.get(\"token\"))\ndef current_role() -> str:\n    return (st.session_state.get(\"user_info\") or {}).get(\"role\", \"NORMAL\")\ndef require_session() -> bool:\n    \"\"\"Se token expirou/inválido: derruba sessão.\"\"\"\n    if not is_logged_in():",
+        "peekOfCode": "def logout():\n    st.session_state.clear()\n    st.rerun()\ndef is_logged_in() -> bool:\n    return bool(st.session_state.get(\"logged_in\")) and bool(st.session_state.get(\"token\"))\ndef current_role() -> str:\n    return (st.session_state.get(\"user_info\") or {}).get(\"role\", \"NORMAL\")\ndef _format_display_name(user: dict) -> str:\n    \"\"\"Avoid showing email in the username field.\"\"\"\n    usuario = str(user.get(\"usuario\", \"\") or \"\").strip()",
         "detail": "ui.common",
         "documentation": {}
     },
@@ -2266,7 +2407,7 @@
         "kind": 2,
         "importPath": "ui.common",
         "description": "ui.common",
-        "peekOfCode": "def is_logged_in() -> bool:\n    return bool(st.session_state.get(\"logged_in\")) and bool(st.session_state.get(\"token\"))\ndef current_role() -> str:\n    return (st.session_state.get(\"user_info\") or {}).get(\"role\", \"NORMAL\")\ndef require_session() -> bool:\n    \"\"\"Se token expirou/inválido: derruba sessão.\"\"\"\n    if not is_logged_in():\n        return False\n    token = st.session_state[\"token\"]\n    auth = parse(require_auth(token))",
+        "peekOfCode": "def is_logged_in() -> bool:\n    return bool(st.session_state.get(\"logged_in\")) and bool(st.session_state.get(\"token\"))\ndef current_role() -> str:\n    return (st.session_state.get(\"user_info\") or {}).get(\"role\", \"NORMAL\")\ndef _format_display_name(user: dict) -> str:\n    \"\"\"Avoid showing email in the username field.\"\"\"\n    usuario = str(user.get(\"usuario\", \"\") or \"\").strip()\n    email = str(user.get(\"email\", \"\") or \"\").strip()\n    if usuario and \"@\" not in usuario:\n        return usuario",
         "detail": "ui.common",
         "documentation": {}
     },
@@ -2275,7 +2416,7 @@
         "kind": 2,
         "importPath": "ui.common",
         "description": "ui.common",
-        "peekOfCode": "def current_role() -> str:\n    return (st.session_state.get(\"user_info\") or {}).get(\"role\", \"NORMAL\")\ndef require_session() -> bool:\n    \"\"\"Se token expirou/inválido: derruba sessão.\"\"\"\n    if not is_logged_in():\n        return False\n    token = st.session_state[\"token\"]\n    auth = parse(require_auth(token))\n    if not auth.get(\"success\"):\n        st.warning(\"Sessão expirada ou inválida. Faça login novamente.\")",
+        "peekOfCode": "def current_role() -> str:\n    return (st.session_state.get(\"user_info\") or {}).get(\"role\", \"NORMAL\")\ndef _format_display_name(user: dict) -> str:\n    \"\"\"Avoid showing email in the username field.\"\"\"\n    usuario = str(user.get(\"usuario\", \"\") or \"\").strip()\n    email = str(user.get(\"email\", \"\") or \"\").strip()\n    if usuario and \"@\" not in usuario:\n        return usuario\n    if usuario and email and usuario.lower() != email.lower():\n        return usuario",
         "detail": "ui.common",
         "documentation": {}
     },
@@ -2284,7 +2425,7 @@
         "kind": 2,
         "importPath": "ui.common",
         "description": "ui.common",
-        "peekOfCode": "def require_session() -> bool:\n    \"\"\"Se token expirou/inválido: derruba sessão.\"\"\"\n    if not is_logged_in():\n        return False\n    token = st.session_state[\"token\"]\n    auth = parse(require_auth(token))\n    if not auth.get(\"success\"):\n        st.warning(\"Sessão expirada ou inválida. Faça login novamente.\")\n        st.session_state.clear()\n        st.rerun()",
+        "peekOfCode": "def require_session() -> bool:\n    \"\"\"Se token expirou/invalido: derruba sessao.\"\"\"\n    if not is_logged_in():\n        return False\n    token = st.session_state[\"token\"]\n    auth = parse(require_auth(token))\n    if not auth.get(\"success\"):\n        st.warning(\"Sessao expirada ou invalida. Faca login novamente.\")\n        st.session_state.clear()\n        st.rerun()",
         "detail": "ui.common",
         "documentation": {}
     },
@@ -2293,7 +2434,7 @@
         "kind": 2,
         "importPath": "ui.common",
         "description": "ui.common",
-        "peekOfCode": "def render_session_sidebar():\n    user = st.session_state.get(\"user_info\", {})\n    role = user.get(\"role\", \"NORMAL\")\n    logo_path = get_logo_path()\n    if logo_path:\n        st.sidebar.image(str(logo_path), width=120)\n        st.sidebar.divider()\n    st.sidebar.markdown(\"### Sessao\")\n    st.sidebar.write(f\"Usuario: {user.get('usuario','-')}\")\n    st.sidebar.write(f\"Email: {user.get('email','-')}\")",
+        "peekOfCode": "def render_session_sidebar():\n    \"\"\"Render user session info and logout button in sidebar.\"\"\"\n    user = st.session_state.get(\"user_info\", {})\n    role = user.get(\"role\", \"NORMAL\")\n    display_name = _format_display_name(user)\n    logo_path = get_logo_path()\n    if logo_path:\n        st.sidebar.image(str(logo_path), width=120)\n        st.sidebar.divider()\n    st.sidebar.markdown(\"### Sessao\")",
         "detail": "ui.common",
         "documentation": {}
     },
@@ -2302,7 +2443,7 @@
         "kind": 2,
         "importPath": "ui.common",
         "description": "ui.common",
-        "peekOfCode": "def guard_role(required: str):\n    \"\"\"Protege UI: se não for o role exigido, barra a página.\"\"\"\n    if current_role() != required:\n        st.error(f\"Acesso negado. Requer perfil: {required}\")\n        st.stop()",
+        "peekOfCode": "def guard_role(required: str):\n    \"\"\"Protege UI: se nao for o role exigido, barra a pagina.\"\"\"\n    if current_role() != required:\n        st.error(f\"Acesso negado. Requer perfil: {required}\")\n        st.stop()",
         "detail": "ui.common",
         "documentation": {}
     },
@@ -2311,7 +2452,7 @@
         "kind": 5,
         "importPath": "ui.common",
         "description": "ui.common",
-        "peekOfCode": "ROLE_LABEL = {\"ADMIN\": \"Administrador\", \"NORMAL\": \"Usuário\", \"COMPLIANCE\": \"Compliance\"}\nNIVEL_LABEL = {0: \"ADMIN\", 1: \"NORMAL\", 2: \"COMPLIANCE\"}\ndef parse(resp: str) -> dict:\n    try:\n        return json.loads(resp) if isinstance(resp, str) else {\"success\": False, \"message\": \"Resposta inválida\"}\n    except Exception:\n        return {\"success\": False, \"message\": \"JSON inválido\", \"raw\": str(resp)[:500]}\ndef logout():\n    st.session_state.clear()\n    st.rerun()",
+        "peekOfCode": "ROLE_LABEL = {\"ADMIN\": \"Administrador\", \"NORMAL\": \"Usuario\", \"COMPLIANCE\": \"Compliance\"}\nNIVEL_LABEL = {0: \"ADMIN\", 1: \"NORMAL\", 2: \"COMPLIANCE\"}\ndef parse(resp: str) -> dict:\n    try:\n        return json.loads(resp) if isinstance(resp, str) else {\"success\": False, \"message\": \"Resposta invalida\"}\n    except Exception:\n        return {\"success\": False, \"message\": \"JSON invalido\", \"raw\": str(resp)[:500]}\ndef logout():\n    st.session_state.clear()\n    st.rerun()",
         "detail": "ui.common",
         "documentation": {}
     },
@@ -2320,7 +2461,7 @@
         "kind": 5,
         "importPath": "ui.common",
         "description": "ui.common",
-        "peekOfCode": "NIVEL_LABEL = {0: \"ADMIN\", 1: \"NORMAL\", 2: \"COMPLIANCE\"}\ndef parse(resp: str) -> dict:\n    try:\n        return json.loads(resp) if isinstance(resp, str) else {\"success\": False, \"message\": \"Resposta inválida\"}\n    except Exception:\n        return {\"success\": False, \"message\": \"JSON inválido\", \"raw\": str(resp)[:500]}\ndef logout():\n    st.session_state.clear()\n    st.rerun()\ndef is_logged_in() -> bool:",
+        "peekOfCode": "NIVEL_LABEL = {0: \"ADMIN\", 1: \"NORMAL\", 2: \"COMPLIANCE\"}\ndef parse(resp: str) -> dict:\n    try:\n        return json.loads(resp) if isinstance(resp, str) else {\"success\": False, \"message\": \"Resposta invalida\"}\n    except Exception:\n        return {\"success\": False, \"message\": \"JSON invalido\", \"raw\": str(resp)[:500]}\ndef logout():\n    st.session_state.clear()\n    st.rerun()\ndef is_logged_in() -> bool:",
         "detail": "ui.common",
         "documentation": {}
     },
@@ -2329,7 +2470,7 @@
         "kind": 2,
         "importPath": "ui.compliance_ui",
         "description": "ui.compliance_ui",
-        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    _ensure_db_initialized()\n    if set_page_config:\n        st.set_page_config(page_title=APP_TITLE, layout=\"wide\")\n    init_theme_state()\n    apply_theme(st.session_state.get(\"dark_mode\", True))\n    role = st.session_state.get(\"role\")\n    if role not in {\"ADMIN\", \"COMPLIANCE\"}:\n        st.error(\"Acesso restrito a administradores e compliance.\")\n        return",
+        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    _ensure_db_initialized()\n    if set_page_config:\n        st.set_page_config(page_title=APP_TITLE, layout=\"wide\")\n    init_theme_state()\n    apply_theme()\n    role = st.session_state.get(\"role\")\n    if role != \"ADMIN\":\n        st.error(\"Acesso restrito a administradores.\")\n        return",
         "detail": "ui.compliance_ui",
         "documentation": {}
     },
@@ -2356,8 +2497,44 @@
         "kind": 2,
         "importPath": "ui.login_ui",
         "description": "ui.login_ui",
-        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    if set_page_config:\n        st.set_page_config(page_title=\"Login\", layout=\"centered\")\n    _hide_sidebar()\n    init_theme_state()\n    apply_theme(st.session_state.get(\"dark_mode\", True))\n    _ensure_db_initialized()\n    logo_path = get_logo_path()\n    col_left, col_mid, col_right = st.columns([1, 2, 1])\n    with col_mid:",
+        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    if set_page_config:\n        st.set_page_config(page_title=\"Login\", layout=\"centered\")\n    _hide_sidebar()\n    _apply_auth_card_styles()\n    init_theme_state()\n    apply_theme()\n    _ensure_db_initialized()\n    logo_path = get_logo_path()\n    col_left, col_mid, col_right = st.columns([1, 2, 1])",
         "detail": "ui.login_ui",
+        "documentation": {}
+    },
+    {
+        "label": "USERS_ROUTE",
+        "kind": 5,
+        "importPath": "ui.login_ui",
+        "description": "ui.login_ui",
+        "peekOfCode": "USERS_ROUTE = \"users\"\nSIGNUP_ROUTE = \"signup\"\ndef _get_query_param(name: str) -> str:\n    try:\n        value = st.query_params.get(name)\n    except Exception:\n        value = st.experimental_get_query_params().get(name)\n    if isinstance(value, list):\n        return value[0] if value else \"\"\n    return value or \"\"",
+        "detail": "ui.login_ui",
+        "documentation": {}
+    },
+    {
+        "label": "SIGNUP_ROUTE",
+        "kind": 5,
+        "importPath": "ui.login_ui",
+        "description": "ui.login_ui",
+        "peekOfCode": "SIGNUP_ROUTE = \"signup\"\ndef _get_query_param(name: str) -> str:\n    try:\n        value = st.query_params.get(name)\n    except Exception:\n        value = st.experimental_get_query_params().get(name)\n    if isinstance(value, list):\n        return value[0] if value else \"\"\n    return value or \"\"\ndef _clear_auth_state() -> None:",
+        "detail": "ui.login_ui",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "ui.signup_ui",
+        "description": "ui.signup_ui",
+        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    if set_page_config:\n        st.set_page_config(page_title=\"Criar Conta\", layout=\"centered\")\n    _hide_sidebar()\n    _apply_auth_card_styles()\n    init_theme_state()\n    apply_theme()\n    _ensure_db_initialized()\n    logo_path = get_logo_path()\n    col_left, col_mid, col_right = st.columns([1, 2, 1])",
+        "detail": "ui.signup_ui",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_ROUTE",
+        "kind": 5,
+        "importPath": "ui.signup_ui",
+        "description": "ui.signup_ui",
+        "peekOfCode": "LOGIN_ROUTE = \"login\"\ndef _set_query_param(name: str, value: str) -> None:\n    try:\n        if value:\n            st.query_params[name] = value\n        elif name in st.query_params:\n            del st.query_params[name]\n    except Exception:\n        params = st.experimental_get_query_params()\n        if value:",
+        "detail": "ui.signup_ui",
         "documentation": {}
     },
     {
@@ -2365,7 +2542,7 @@
         "kind": 2,
         "importPath": "ui.theme",
         "description": "ui.theme",
-        "peekOfCode": "def init_theme_state() -> None:\n    \"\"\"Ensure the theme preference exists in session state.\"\"\"\n    if _DARK_MODE_KEY not in st.session_state:\n        st.session_state[_DARK_MODE_KEY] = True\ndef apply_theme(dark_mode: bool) -> None:\n    \"\"\"Render theme CSS based on the selected mode.\"\"\"\n    if dark_mode:\n        colors = {\n            \"app_bg\": (\n                \"radial-gradient(1200px circle at 12% -20%, \"",
+        "peekOfCode": "def init_theme_state() -> None:\n    \"\"\"Force dark mode in session state.\"\"\"\n    st.session_state[_DARK_MODE_KEY] = True\ndef apply_theme() -> None:\n    \"\"\"Render only the dark theme CSS with improved consistency.\"\"\"\n    colors = {\n        \"app_bg\": (\n            \"radial-gradient(1200px circle at 12% -20%, \"\n            \"rgba(76, 195, 255, 0.22) 0%, rgba(10, 16, 32, 0.96) 55%, #05070f 100%)\"\n        ),",
         "detail": "ui.theme",
         "documentation": {}
     },
@@ -2374,7 +2551,7 @@
         "kind": 2,
         "importPath": "ui.theme",
         "description": "ui.theme",
-        "peekOfCode": "def apply_theme(dark_mode: bool) -> None:\n    \"\"\"Render theme CSS based on the selected mode.\"\"\"\n    if dark_mode:\n        colors = {\n            \"app_bg\": (\n                \"radial-gradient(1200px circle at 12% -20%, \"\n                \"rgba(76, 195, 255, 0.22) 0%, rgba(10, 16, 32, 0.96) 55%, #05070f 100%)\"\n            ),\n            \"panel_bg\": \"rgba(9, 17, 31, 0.92)\",\n            \"panel_strong\": \"rgba(14, 24, 40, 0.98)\",",
+        "peekOfCode": "def apply_theme() -> None:\n    \"\"\"Render only the dark theme CSS with improved consistency.\"\"\"\n    colors = {\n        \"app_bg\": (\n            \"radial-gradient(1200px circle at 12% -20%, \"\n            \"rgba(76, 195, 255, 0.22) 0%, rgba(10, 16, 32, 0.96) 55%, #05070f 100%)\"\n        ),\n        \"panel_bg\": \"rgba(9, 17, 31, 0.92)\",\n        \"panel_strong\": \"rgba(14, 24, 40, 0.98)\",\n        \"text\": \"#e9f2ff\",",
         "detail": "ui.theme",
         "documentation": {}
     },
@@ -2383,7 +2560,7 @@
         "kind": 2,
         "importPath": "ui.theme",
         "description": "ui.theme",
-        "peekOfCode": "def render_theme_toggle() -> None:\n    \"\"\"Render the dark mode toggle in the main area (not sidebar).\"\"\"\n    init_theme_state()\n    spacer, toggle_col = st.columns([6, 1], gap=\"small\")\n    with toggle_col:\n        st.toggle(\"Modo escuro\", key=_DARK_MODE_KEY)",
+        "peekOfCode": "def render_theme_toggle() -> None:\n    \"\"\"Kept for compatibility; white mode has been removed.\"\"\"\n    init_theme_state()",
         "detail": "ui.theme",
         "documentation": {}
     },
@@ -2392,7 +2569,7 @@
         "kind": 5,
         "importPath": "ui.theme",
         "description": "ui.theme",
-        "peekOfCode": "_DARK_MODE_KEY = \"dark_mode\"\ndef init_theme_state() -> None:\n    \"\"\"Ensure the theme preference exists in session state.\"\"\"\n    if _DARK_MODE_KEY not in st.session_state:\n        st.session_state[_DARK_MODE_KEY] = True\ndef apply_theme(dark_mode: bool) -> None:\n    \"\"\"Render theme CSS based on the selected mode.\"\"\"\n    if dark_mode:\n        colors = {\n            \"app_bg\": (",
+        "peekOfCode": "_DARK_MODE_KEY = \"dark_mode\"\ndef init_theme_state() -> None:\n    \"\"\"Force dark mode in session state.\"\"\"\n    st.session_state[_DARK_MODE_KEY] = True\ndef apply_theme() -> None:\n    \"\"\"Render only the dark theme CSS with improved consistency.\"\"\"\n    colors = {\n        \"app_bg\": (\n            \"radial-gradient(1200px circle at 12% -20%, \"\n            \"rgba(76, 195, 255, 0.22) 0%, rgba(10, 16, 32, 0.96) 55%, #05070f 100%)\"",
         "detail": "ui.theme",
         "documentation": {}
     },
@@ -2401,7 +2578,7 @@
         "kind": 2,
         "importPath": "ui.user_registration_ui",
         "description": "ui.user_registration_ui",
-        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    _ensure_db_initialized()\n    if set_page_config:\n        st.set_page_config(page_title=APP_TITLE, layout=\"wide\")\n    init_theme_state()\n    apply_theme(st.session_state.get(\"dark_mode\", True))\n    if not _require_admin():\n        return\n    token = st.session_state[\"token\"]\n    st.title(\"Cadastro de Usuarios\")",
+        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    _ensure_db_initialized()\n    if set_page_config:\n        st.set_page_config(page_title=APP_TITLE, layout=\"wide\")\n    init_theme_state()\n    apply_theme()\n    if not _require_admin():\n        return\n    token = st.session_state[\"token\"]\n    st.title(\"Cadastro de Usuarios\")",
         "detail": "ui.user_registration_ui",
         "documentation": {}
     },
@@ -2457,6 +2634,33 @@
         "description": "utils.rerun",
         "peekOfCode": "_RERUN_FLAG = \"_rerun_pending\"\ndef reset_rerun_guard() -> None:\n    \"\"\"Reset the rerun guard for the current execution.\"\"\"\n    st.session_state[_RERUN_FLAG] = False\ndef safe_rerun() -> bool:\n    \"\"\"Trigger a rerun once per execution. Returns True if requested.\"\"\"\n    if st.session_state.get(_RERUN_FLAG):\n        return False\n    st.session_state[_RERUN_FLAG] = True\n    try:",
         "detail": "utils.rerun",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def main() -> None:\n    st.set_page_config(page_title=\"Alea Lumen\", page_icon=\"🦁\", layout=\"wide\")\n    init_theme_state()\n    apply_theme()\n    _hide_default_page_navigation()\n    if \"logged_in\" not in st.session_state:\n        st.session_state[\"logged_in\"] = False\n    if not is_logged_in():\n        public_page = _get_query_param(\"page\")\n        if public_page == \"signup\":",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "ROUTE_TO_LABEL",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "ROUTE_TO_LABEL = {\n    \"index\": \"App\",\n    \"audit\": \"Auditoria\",\n    \"users\": \"Cadastro de Usuarios\",\n    \"admin\": \"SQL Admin\",\n}\nLABEL_TO_ROUTE = {label: route for route, label in ROUTE_TO_LABEL.items()}\ndef _get_query_param(name: str) -> str:\n    try:\n        value = st.query_params.get(name)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "LABEL_TO_ROUTE",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "LABEL_TO_ROUTE = {label: route for route, label in ROUTE_TO_LABEL.items()}\ndef _get_query_param(name: str) -> str:\n    try:\n        value = st.query_params.get(name)\n    except Exception:\n        value = st.experimental_get_query_params().get(name)\n    if isinstance(value, list):\n        return value[0] if value else \"\"\n    return value or \"\"\ndef _set_query_param(name: str, value: str) -> None:",
+        "detail": "app",
         "documentation": {}
     },
     {
