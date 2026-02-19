@@ -1,6 +1,10 @@
 # Alea Lumen
 
 Corporate Streamlit application for AI chat, local JWT authentication, role-based access control, and SQLite audit tracking.
+<img width="1899" height="911" alt="image" src="https://github.com/user-attachments/assets/b4a456e7-f345-4415-bb5e-7bcdc56e3a87" />
+
+The project was done for the : Fast-Track Challenge, Institute Minerva. Week 1.
+Institute Minerva
 
 ## Current State
 
