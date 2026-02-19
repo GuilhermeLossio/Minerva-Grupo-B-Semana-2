@@ -1,86 +1,195 @@
-# Playground Streamlit
+# 🦁 Alea-lumen | Corporate AI Playground
 
-Este repositório contém um playground simples em Streamlit para explorar datasets e criar visualizações interativas.
+> **Versão:** 1.0.0 (MVP)  
+> **Sprint:** 4 Dias  
+> **Stack:** Python + Streamlit + OpenAI
 
-Como usar
+Bem-vindo ao repositório oficial do **Alea-lumen**.
+Esta plataforma é um *playground* corporativo seguro que permite aos colaboradores utilizarem IA (LLMs) com contexto da empresa, garantindo **compliance** (auditoria), **controle de custos** e **gestão de acessos**.
 
-1. Crie um ambiente virtual (recomendado).
+---
 
-Windows (PowerShell):
+## 🚀 Visão Geral da Arquitetura
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install --upgrade pip
-pip install -r requirements.txt
+O projeto utiliza uma arquitetura **Monolítica Modular** para facilitar o desenvolvimento rápido. Não separamos Frontend e Backend; tudo roda junto via Streamlit.
+
+* **Frontend & Backend:** [Streamlit](https://streamlit.io/)
+* **Inteligência (LLM):** OpenAI/Gemini API + LangChain
+* **Banco de Dados (Relacional):** SQLite (Local - para usuários/logs)
+* **Banco de Dados (Vetorial):** ChromaDB (Local - para documentos/RAG)
+
+---
+
+## 📂 Estrutura de Pastas (Onde trabalhar?)
+
+Para evitar conflitos, cada desenvolvedor é responsável por uma pasta específica. **Não edite arquivos fora da sua responsabilidade sem avisar a equipe.**
+
+```text
+alea-lumen/
+│
+├── .gitignore             # Arquivos ignorados pelo Git (NUNCA remova .env daqui)
+├── requirements.txt       # Lista de bibliotecas do projeto
+├── README.md              # Este arquivo
+├── app.py                 # 🏁 Ponto de Entrada (Roteador de Telas)
+│
+├── config/                # Configurações Globais
+│   └── settings.py        # Carrega variáveis de ambiente (.env)
+│
+├── database/              # Persistência de Dados
+│   ├── init_db.py         # Script para criar tabelas iniciais (Rodar 1x)
+│   ├── connection.py      # Conexão com SQLite
+│   └── vector_store.py    # 🧠 Lógica do ChromaDB (Dev 1)
+│
+├── services/              # Regras de Negócio (O "Cérebro")
+│   ├── auth_service.py    # 🔐 Login e Permissões (Dev 2)
+│   ├── llm_service.py     # 🤖 Chamadas à OpenAI (Dev 1)
+│   ├── document_service.py# 📄 Processamento de PDF (Dev 1)
+│   └── audit_service.py   # 📊 Logs e Custos (Dev 4)
+│
+├── ui/                    # Interface Visual (Telas)
+│   ├── login_ui.py        # Tela de Login (Dev 2)
+│   ├── chat_ui.py         # 💬 Tela de Chat Principal (Dev 3)
+│   ├── admin_ui.py        # Painel Admin (Dev 2)
+│   └── compliance_ui.py   # Dashboard Auditoria (Dev 4)
+│
+└── utils/                 # Funções auxiliares genéricas
+    └── helpers.py         # Formatadores de texto, validadores, etc.
 ```
 
-2. Rode o app Streamlit:
+## ⚙️ Instalação e Setup (Passo a Passo)
 
-```powershell
+Siga estes passos rigorosamente na primeira vez que baixar o projeto.
+
+### 1. Clonar o Repositório
+
+```bash
+git clone [https://github.com/SEU_USUARIO/alea-lumen.git](https://github.com/SEU_USUARIO/alea-lumen.git)
+cd alea-lumen
+
+```
+
+### 2. Criar Ambiente Virtual (Recomendado)
+
+Isso evita bugs com versões do Python.
+
+```bash
+# Windows
+python -m venv venv
+.\venv\Scripts\activate
+
+# Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+
+```
+
+### 3. Instalar Dependências
+
+```bash
+pip install -r requirements.txt
+
+```
+
+### 4. Configurar Variáveis de Ambiente
+
+1. Crie um arquivo chamado `.env` na raiz do projeto (copie o modelo abaixo).
+2. **IMPORTANTE:** Nunca suba este arquivo para o GitHub.
+
+**Conteúdo do `.env`:**
+
+```ini
+GOOGLE_API_KEY="AIzaSy..."
+ADMIN_DEFAULT_PASS="admin123"
+
+```
+
+### 5. Inicializar o Banco de Dados
+
+Rode este script uma única vez para criar as tabelas de Usuários e Logs vazias:
+
+```bash
+python database/init_db.py
+
+```
+
+### 6. Rodar o Projeto
+
+```bash
 streamlit run app.py
+
 ```
 
-Funcionalidades
+O navegador abrirá automaticamente em `http://localhost:8501`.
 
-- Seleção de datasets de exemplo (`Iris`, `Tips`, `Penguins`).
-- Upload de CSV pelo painel lateral.
-- Visualização interativa com Plotly (scatter, histograma, linha).
-- Exibição de primeiras linhas, estatísticas básicas e contagem de nulos.
+---
 
-- Upload e extração de PDFs/TXT: extração de texto completo e tabelas presentes nas páginas (download em CSV).
-- Upload e OCR de imagens (PNG, JPG, BMP, GIF, TIFF): extração de texto direto com Tesseract OCR, download em TXT.
+## 🤝 Fluxo de Trabalho e Git (Regras de Ouro)
 
-Observações
+Como temos apenas **4 dias**, a organização é vital. Siga o fluxo abaixo:
 
-- Se `penguins` não carregar, instale/atualize `seaborn` para a versão que inclui esse dataset.
-- Este playground não executa código arbitrário do usuário — serve como ambiente seguro para explorar dados e gráficos.
+### 1. Branches (Ramos)
 
-PDF / TXT
+* **`main`**: ⛔ **PROIBIDO COMMIT DIRETO**. Apenas código pronto e testado entra aqui.
+* **`develop`**: Branch de integração diária.
+* **`feature/SCRUM-ID`**: Onde você trabalha.
 
-- No painel lateral selecione `Upload PDF / TXT` e envie um arquivo PDF ou TXT.
-- Para `TXT` o conteúdo será exibido como texto.
-- Para `PDF` o app usa OCR (se ativado) ou extração tradicional. Tabelas extraídas aparecem como tabelas interativas e podem ser baixadas em CSV.
+### 2. Padrão de Nomes (Jira Integration)
 
-Imagens
+Use sempre o ID do card do Jira para rastreabilidade.
 
-- No painel lateral selecione `Upload Imagens` e arraste uma imagem (PNG, JPG, BMP, GIF, TIFF).
-- O app exibe a imagem e extrai texto com OCR.
-- O texto extraído pode ser baixado em TXT.
+* **Nome da Branch:** `feature/SCRUM-5-banco-vetorial`
+* **Mensagem de Commit:** `feat(SCRUM-5): implementa conexão com chromadb`
 
-Limitações
+### 3. Rotina Diária do Desenvolvedor
 
-- A extração funciona melhor em PDFs com texto pesquisável (não imagens). Para PDFs digitalizados (imagens) é necessário adicionar OCR (ex.: `pytesseract`) — posso ajudar a integrar isso se desejar.
-- Atualmente suportamos PDF e TXT; suporte a `docx` pode ser adicionado mediante solicitação.
- 
-OCR (PDFs digitalizados)
+**☕ De Manhã (Antes de codar):**
+Garanta que você tem a versão mais atual do projeto.
 
-- O app agora tem suporte opcional de OCR. Nas opções laterais marque `Ativar OCR para PDFs` para que o app tente extrair texto de imagens dentro do PDF.
-- Dependências necessárias:
-	- Python: `pytesseract`, `pdf2image`, `Pillow` (estão listadas em `requirements.txt`).
-	- Sistema (Windows):
-		- Tesseract OCR: instale o binário do Tesseract e adicione-o ao `PATH` (ex.: instale o instalador do Tesseract e reinicie o terminal).
-		- Poppler: necessário para `pdf2image` (baixe o binário do Poppler for Windows e adicione o diretório `bin` ao `PATH`).
+```bash
+git checkout develop
+git pull origin develop
+git checkout -b feature/SCRUM-X-minha-tarefa
 
-Instalação no Windows (resumo):
-
-1. Instale Tesseract: baixe o instalador em https://github.com/tesseract-ocr/tesseract (ou https://digi.bib.uni-mannheim.de/tesseract/) e instale. Adicione o caminho do executável (`tesseract.exe`) ao `PATH`.
-2. Instale Poppler: baixe um build do Poppler para Windows (ex.: `poppler-win32` / `poppler-xx`), extraia e adicione o diretório `bin` ao `PATH`.
-3. No projeto, instale as dependências Python:
-
-```powershell
-pip install -r requirements.txt
 ```
 
-Notas sobre qualidade OCR
+**✅ Ao Terminar uma Task:**
 
-- `pdf2image` às vezes produz imagens de baixa qualidade dependendo do PDF e das opções de DPI; aumentar `dpi` ajuda, mas aumenta o tempo de processamento.
-- OCR extrai texto melhor que tabelas; extração de tabelas a partir de imagens é menos robusta e pode exigir ferramentas especializadas (ex.: `camelot`/`tabula` combinadas com pré-processamento ou serviços OCR comerciais).
-- Se quiser, eu adiciono heurísticas de pré-processamento das imagens (binarização, deskew, remoção de ruído) para melhorar resultados do OCR.
+1. Verifique se o código roda sem erros.
+2. Commit e Push:
+```bash
+git add .
+git commit -m "feat(SCRUM-X): finalizei tal funcionalidade"
+git push origin feature/SCRUM-X-minha-tarefa
 
-Formatos suportados
+```
 
-- **CSV**: upload simples, visualização e análise interativa.
-- **TXT**: exibição de conteúdo.
-- **PDF**: extração de texto (OCR ou tradicional), tabelas (download em CSV).
-- **Imagens** (PNG, JPG, JPEG, BMP, GIF, TIFF): OCR com extração de texto (download em TXT).
+
+3. Vá ao GitHub e abra um **Pull Request (PR)** da sua branch para a `develop`.
+4. Avise no grupo: *"PR da Task X aberto, alguém revisa?"*
+
+---
+
+## 🛠️ Definição de Pronto (Definition of Done)
+
+Uma tarefa só é considerada **PRONTA** quando:
+
+1. Funciona na máquina local sem erros no terminal.
+2. Não quebra o fluxo de outras áreas (ex: Login continua funcionando).
+3. O código foi enviado via Pull Request e aprovado por 1 colega.
+4. A tarefa foi movida para **Done** no Jira.
+
+---
+
+## 🆘 Troubleshooting (Deu erro?)
+
+* **`ModuleNotFoundError`**: Você esqueceu de ativar a `venv` ou de rodar o `pip install -r requirements.txt`.
+* **`OpenAIError`**: Verifique se sua API Key no arquivo `.env` está correta e se você tem créditos na plataforma.
+* **Erro de Importação Circular**: Evite importar `services` dentro de `ui` e depois `ui` dentro de `services`. Mantenha o fluxo em uma direção só (UI -> Services -> Database).
+
+---
+
+**🦁 Alea-lumen Team | Foco na entrega!**
+
+```
+
+```

@@ -1,10 +1,22 @@
-streamlit>=1.20
-pandas>=1.5
-seaborn>=0.12
-plotly>=5.0
-matplotlib>=3.5
-pdfplumber>=0.7
-PyPDF2>=3.0
-pytesseract>=0.3
-pdf2image>=1.16
-Pillow>=9.0
+# --- Framework da Aplicação (Frontend & Backend) ---
+streamlit==1.41.1          # Cria o chat e dashboards (Task 7.1, 8.2)
+
+# --- Inteligência Artificial & LLM (Google Gemini) ---
+langchain-google-genai==2.0.0
+google-generativeai==0.7.2    # SDK oficial do Google
+
+# --- Banco de Dados Vetorial (RAG/Memória) ---
+chromadb==0.6.0            # Banco de dados local para guardar os arquivos (Task 1.1)
+langchain-chroma
+langchain-huggingface
+
+# --- Processamento de Documentos (RAG) ---
+langchain==0.3.14          # Facilita a leitura e "quebra" dos textos (Task 1.2)
+langchain-community==0.3.14 # Ferramentas extras do LangChain
+pypdf==5.1.0               # Para ler arquivos PDF (Task 1.2)
+
+# --- Utilitários & Segurança ---
+python-dotenv==1.0.1       # Para ler a API Key do arquivo .env (Segurança)
+bcrypt==4.2.1              # Para criptografar as senhas dos usuários (Task 3.1)
+pandas==2.2.3              # Para gerar tabelas e relatórios de auditoria (Task 5.2)
+plotly==6.0.0              # Para gráficos bonitos no Dashboard (Task 6.2)

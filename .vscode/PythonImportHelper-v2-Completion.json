@@ -1,0 +1,2164 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "getpass",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "getpass",
+        "description": "getpass",
+        "detail": "getpass",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bcrypt",
+        "description": "bcrypt",
+        "detail": "bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "database.connection",
+        "description": "database.connection",
+        "isExtraImport": true,
+        "detail": "database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "database.connection",
+        "description": "database.connection",
+        "isExtraImport": true,
+        "detail": "database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "database.connection",
+        "description": "database.connection",
+        "isExtraImport": true,
+        "detail": "database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "DB_PATH",
+        "importPath": "database.connection",
+        "description": "database.connection",
+        "isExtraImport": true,
+        "detail": "database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "database.connection",
+        "description": "database.connection",
+        "isExtraImport": true,
+        "detail": "database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "DB_PATH",
+        "importPath": "database.connection",
+        "description": "database.connection",
+        "isExtraImport": true,
+        "detail": "database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "database.connection",
+        "description": "database.connection",
+        "isExtraImport": true,
+        "detail": "database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "importPath": "database.init_db",
+        "description": "database.init_db",
+        "isExtraImport": true,
+        "detail": "database.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "importPath": "database.init_db",
+        "description": "database.init_db",
+        "isExtraImport": true,
+        "detail": "database.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "importPath": "database.init_db",
+        "description": "database.init_db",
+        "isExtraImport": true,
+        "detail": "database.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "importPath": "database.init_db",
+        "description": "database.init_db",
+        "isExtraImport": true,
+        "detail": "database.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "isExtraImport": true,
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "require_auth",
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "isExtraImport": true,
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "require_auth",
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "isExtraImport": true,
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "isExtraImport": true,
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "require_auth",
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "isExtraImport": true,
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "chromadb",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "chromadb",
+        "description": "chromadb",
+        "detail": "chromadb",
+        "documentation": {}
+    },
+    {
+        "label": "Embeddings",
+        "importPath": "langchain_core.embeddings",
+        "description": "langchain_core.embeddings",
+        "isExtraImport": true,
+        "detail": "langchain_core.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "Chroma",
+        "importPath": "langchain_chroma",
+        "description": "langchain_chroma",
+        "isExtraImport": true,
+        "detail": "langchain_chroma",
+        "documentation": {}
+    },
+    {
+        "label": "Chroma",
+        "importPath": "langchain_chroma",
+        "description": "langchain_chroma",
+        "isExtraImport": true,
+        "detail": "langchain_chroma",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Mapping",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_authenticated",
+        "importPath": "services.auth_guard",
+        "description": "services.auth_guard",
+        "isExtraImport": true,
+        "detail": "services.auth_guard",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_authenticated",
+        "importPath": "services.auth_guard",
+        "description": "services.auth_guard",
+        "isExtraImport": true,
+        "detail": "services.auth_guard",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_authenticated",
+        "importPath": "services.auth_guard",
+        "description": "services.auth_guard",
+        "isExtraImport": true,
+        "detail": "services.auth_guard",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "ui.admin_ui",
+        "description": "ui.admin_ui",
+        "isExtraImport": true,
+        "detail": "ui.admin_ui",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "ui.compliance_ui",
+        "description": "ui.compliance_ui",
+        "isExtraImport": true,
+        "detail": "ui.compliance_ui",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "ui.chat_ui",
+        "description": "ui.chat_ui",
+        "isExtraImport": true,
+        "detail": "ui.chat_ui",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_ROUTE",
+        "importPath": "routes.routes",
+        "description": "routes.routes",
+        "isExtraImport": true,
+        "detail": "routes.routes",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_ROUTE",
+        "importPath": "routes.routes",
+        "description": "routes.routes",
+        "isExtraImport": true,
+        "detail": "routes.routes",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "time_block",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "time_block",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "time_block",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "time_block",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "safe_rerun",
+        "importPath": "utils.rerun",
+        "description": "utils.rerun",
+        "isExtraImport": true,
+        "detail": "utils.rerun",
+        "documentation": {}
+    },
+    {
+        "label": "safe_rerun",
+        "importPath": "utils.rerun",
+        "description": "utils.rerun",
+        "isExtraImport": true,
+        "detail": "utils.rerun",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "isExtraImport": true,
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "isExtraImport": true,
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ISSUER",
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "isExtraImport": true,
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TOKEN_TTL_HOURS",
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "isExtraImport": true,
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "PdfReader",
+        "importPath": "pypdf",
+        "description": "pypdf",
+        "isExtraImport": true,
+        "detail": "pypdf",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGoogleGenerativeAI",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleGenerativeAIEmbeddings",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "StrOutputParser",
+        "importPath": "langchain_core.output_parsers",
+        "description": "langchain_core.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain_core.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "ui.login_ui",
+        "description": "ui.login_ui",
+        "isExtraImport": true,
+        "detail": "ui.login_ui",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "ui.login_ui",
+        "description": "ui.login_ui",
+        "isExtraImport": true,
+        "detail": "ui.login_ui",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "apply_theme",
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "isExtraImport": true,
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "init_theme_state",
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "isExtraImport": true,
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "apply_theme",
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "isExtraImport": true,
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "init_theme_state",
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "isExtraImport": true,
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "init_theme_state",
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "isExtraImport": true,
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "apply_theme",
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "isExtraImport": true,
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "init_theme_state",
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "isExtraImport": true,
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "apply_theme",
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "isExtraImport": true,
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "init_theme_state",
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "isExtraImport": true,
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "apply_theme",
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "isExtraImport": true,
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "init_theme_state",
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "isExtraImport": true,
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "html",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "html",
+        "description": "html",
+        "detail": "html",
+        "documentation": {}
+    },
+    {
+        "label": "get_logo_data_uri",
+        "importPath": "ui.brand",
+        "description": "ui.brand",
+        "isExtraImport": true,
+        "detail": "ui.brand",
+        "documentation": {}
+    },
+    {
+        "label": "get_logo_path",
+        "importPath": "ui.brand",
+        "description": "ui.brand",
+        "isExtraImport": true,
+        "detail": "ui.brand",
+        "documentation": {}
+    },
+    {
+        "label": "get_logo_path",
+        "importPath": "ui.brand",
+        "description": "ui.brand",
+        "isExtraImport": true,
+        "detail": "ui.brand",
+        "documentation": {}
+    },
+    {
+        "label": "get_logo_path",
+        "importPath": "ui.brand",
+        "description": "ui.brand",
+        "isExtraImport": true,
+        "detail": "ui.brand",
+        "documentation": {}
+    },
+    {
+        "label": "get_ai_response",
+        "importPath": "services.llm_service",
+        "description": "services.llm_service",
+        "isExtraImport": true,
+        "detail": "services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "load_agents",
+        "importPath": "services.agent_service",
+        "description": "services.agent_service",
+        "isExtraImport": true,
+        "detail": "services.agent_service",
+        "documentation": {}
+    },
+    {
+        "label": "process_uploaded_file",
+        "importPath": "services.document_service",
+        "description": "services.document_service",
+        "isExtraImport": true,
+        "detail": "services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "process_uploaded_csv",
+        "importPath": "services.document_service",
+        "description": "services.document_service",
+        "isExtraImport": true,
+        "detail": "services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "process_uploaded_json",
+        "importPath": "services.document_service",
+        "description": "services.document_service",
+        "isExtraImport": true,
+        "detail": "services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "build_theme_css",
+        "importPath": "ui.chat_markup",
+        "description": "ui.chat_markup",
+        "isExtraImport": true,
+        "detail": "ui.chat_markup",
+        "documentation": {}
+    },
+    {
+        "label": "contextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "is_logged_in",
+        "importPath": "ui.common",
+        "description": "ui.common",
+        "isExtraImport": true,
+        "detail": "ui.common",
+        "documentation": {}
+    },
+    {
+        "label": "require_session",
+        "importPath": "ui.common",
+        "description": "ui.common",
+        "isExtraImport": true,
+        "detail": "ui.common",
+        "documentation": {}
+    },
+    {
+        "label": "render_session_sidebar",
+        "importPath": "ui.common",
+        "description": "ui.common",
+        "isExtraImport": true,
+        "detail": "ui.common",
+        "documentation": {}
+    },
+    {
+        "label": "current_role",
+        "importPath": "ui.common",
+        "description": "ui.common",
+        "isExtraImport": true,
+        "detail": "ui.common",
+        "documentation": {}
+    },
+    {
+        "label": "admin_ui",
+        "importPath": "ui",
+        "description": "ui",
+        "isExtraImport": true,
+        "detail": "ui",
+        "documentation": {}
+    },
+    {
+        "label": "compliance_ui",
+        "importPath": "ui",
+        "description": "ui",
+        "isExtraImport": true,
+        "detail": "ui",
+        "documentation": {}
+    },
+    {
+        "label": "chat_ui",
+        "importPath": "ui",
+        "description": "ui",
+        "isExtraImport": true,
+        "detail": "ui",
+        "documentation": {}
+    },
+    {
+        "label": "login_page",
+        "importPath": "ui",
+        "description": "ui",
+        "isExtraImport": true,
+        "detail": "ui",
+        "documentation": {}
+    },
+    {
+        "label": "canvas",
+        "importPath": "reportlab.pdfgen",
+        "description": "reportlab.pdfgen",
+        "isExtraImport": true,
+        "detail": "reportlab.pdfgen",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"JWT_SECRET_KEY\")\nALGORITHM = os.getenv(\"JWT_ALGORITHM\", \"HS256\")\nISSUER = os.getenv(\"JWT_ISSUER\", \"alea-lumen-auth\")\nTOKEN_TTL_HOURS = int(os.getenv(\"JWT_TOKEN_TTL_HOURS\", \"8\"))\nif not SECRET_KEY:\n    raise RuntimeError(\"JWT_SECRET_KEY não definida no .env\")",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "ALGORITHM = os.getenv(\"JWT_ALGORITHM\", \"HS256\")\nISSUER = os.getenv(\"JWT_ISSUER\", \"alea-lumen-auth\")\nTOKEN_TTL_HOURS = int(os.getenv(\"JWT_TOKEN_TTL_HOURS\", \"8\"))\nif not SECRET_KEY:\n    raise RuntimeError(\"JWT_SECRET_KEY não definida no .env\")",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ISSUER",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "ISSUER = os.getenv(\"JWT_ISSUER\", \"alea-lumen-auth\")\nTOKEN_TTL_HOURS = int(os.getenv(\"JWT_TOKEN_TTL_HOURS\", \"8\"))\nif not SECRET_KEY:\n    raise RuntimeError(\"JWT_SECRET_KEY não definida no .env\")",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TOKEN_TTL_HOURS",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "TOKEN_TTL_HOURS = int(os.getenv(\"JWT_TOKEN_TTL_HOURS\", \"8\"))\nif not SECRET_KEY:\n    raise RuntimeError(\"JWT_SECRET_KEY não definida no .env\")",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "kind": 2,
+        "importPath": "database.connection",
+        "description": "database.connection",
+        "peekOfCode": "def get_connection():\n    \"\"\"\n    Cria e retorna uma conexão com o banco de dados SQLite\n    localizado na mesma pasta deste arquivo.\n    \"\"\"\n    try: \n        conn = sqlite3.connect(DB_PATH)\n        conn.row_factory = sqlite3.Row\n        return conn\n    except sqlite3.Error as e:",
+        "detail": "database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "database.connection",
+        "description": "database.connection",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent\n# nome do banco de dados\nDB_PATH = BASE_DIR / \"db_users.db\"\ndef get_connection():\n    \"\"\"\n    Cria e retorna uma conexão com o banco de dados SQLite\n    localizado na mesma pasta deste arquivo.\n    \"\"\"\n    try: \n        conn = sqlite3.connect(DB_PATH)",
+        "detail": "database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "DB_PATH",
+        "kind": 5,
+        "importPath": "database.connection",
+        "description": "database.connection",
+        "peekOfCode": "DB_PATH = BASE_DIR / \"db_users.db\"\ndef get_connection():\n    \"\"\"\n    Cria e retorna uma conexão com o banco de dados SQLite\n    localizado na mesma pasta deste arquivo.\n    \"\"\"\n    try: \n        conn = sqlite3.connect(DB_PATH)\n        conn.row_factory = sqlite3.Row\n        return conn",
+        "detail": "database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "kind": 2,
+        "importPath": "database.create_user",
+        "description": "database.create_user",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    hashed = bcrypt.hashpw(password.encode(\"utf-8\"), bcrypt.gensalt())\n    return hashed.decode(\"utf-8\")\ndef parse_args() -> argparse.Namespace:\n    parser = argparse.ArgumentParser(description=\"Create a new user in the database.\")\n    parser.add_argument(\"--usuario\", required=True, help=\"Nome do usuario.\")\n    parser.add_argument(\"--email\", required=True, help=\"Email do usuario.\")\n    parser.add_argument(\"--password\", help=\"Senha do usuario (se omitida, sera solicitada).\")\n    parser.add_argument(\n        \"--nivel\",",
+        "detail": "database.create_user",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "database.create_user",
+        "description": "database.create_user",
+        "peekOfCode": "def parse_args() -> argparse.Namespace:\n    parser = argparse.ArgumentParser(description=\"Create a new user in the database.\")\n    parser.add_argument(\"--usuario\", required=True, help=\"Nome do usuario.\")\n    parser.add_argument(\"--email\", required=True, help=\"Email do usuario.\")\n    parser.add_argument(\"--password\", help=\"Senha do usuario (se omitida, sera solicitada).\")\n    parser.add_argument(\n        \"--nivel\",\n        type=int,\n        default=1,\n        help=\"Nivel do usuario (0=ADMIN, 1=NORMAL, 2=COMPLIANCE).\",",
+        "detail": "database.create_user",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "database.create_user",
+        "description": "database.create_user",
+        "peekOfCode": "def main() -> int:\n    args = parse_args()\n    if not EMAIL_RE.match(args.email):\n        print(\"Erro: email invalido.\")\n        return 1\n    if args.nivel not in (0, 1, 2):\n        print(\"Erro: nivel deve ser 0, 1 ou 2.\")\n        return 1\n    password = args.password or getpass.getpass(\"Senha: \")\n    if not password:",
+        "detail": "database.create_user",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_RE",
+        "kind": 5,
+        "importPath": "database.create_user",
+        "description": "database.create_user",
+        "peekOfCode": "EMAIL_RE = re.compile(r\"^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$\")\ndef hash_password(password: str) -> str:\n    hashed = bcrypt.hashpw(password.encode(\"utf-8\"), bcrypt.gensalt())\n    return hashed.decode(\"utf-8\")\ndef parse_args() -> argparse.Namespace:\n    parser = argparse.ArgumentParser(description=\"Create a new user in the database.\")\n    parser.add_argument(\"--usuario\", required=True, help=\"Nome do usuario.\")\n    parser.add_argument(\"--email\", required=True, help=\"Email do usuario.\")\n    parser.add_argument(\"--password\", help=\"Senha do usuario (se omitida, sera solicitada).\")\n    parser.add_argument(",
+        "detail": "database.create_user",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "kind": 2,
+        "importPath": "database.init_db",
+        "description": "database.init_db",
+        "peekOfCode": "def init_db() -> None:\n    \"\"\"Initialize the SQLite schema and default admin user.\"\"\"\n    with get_connection() as conn:\n        cursor = conn.cursor()\n        cursor.execute(\n            \"\"\"\n            CREATE TABLE IF NOT EXISTS users (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                usuario TEXT NOT NULL,\n                email TEXT UNIQUE NOT NULL,",
+        "detail": "database.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT",
+        "kind": 5,
+        "importPath": "database.init_db",
+        "description": "database.init_db",
+        "peekOfCode": "ROOT = Path(__file__).resolve().parents[1]\nif str(ROOT) not in sys.path:\n    sys.path.insert(0, str(ROOT))\nfrom database.connection import get_connection\nfrom services.auth_service import hash_password\ndef init_db() -> None:\n    \"\"\"Initialize the SQLite schema and default admin user.\"\"\"\n    with get_connection() as conn:\n        cursor = conn.cursor()\n        cursor.execute(",
+        "detail": "database.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformerEmbeddings",
+        "kind": 6,
+        "importPath": "database.vector_store",
+        "description": "database.vector_store",
+        "peekOfCode": "class SentenceTransformerEmbeddings(Embeddings):\n    def __init__(self, model_name: str):\n        from sentence_transformers import SentenceTransformer\n        self.model = SentenceTransformer(model_name)\n    def embed_documents(self, texts: List[str]) -> List[List[float]]:\n        return self.model.encode(texts).tolist()\n    def embed_query(self, text: str) -> List[float]:\n        return self.model.encode(text).tolist()\n@st.cache_resource\ndef get_vectorstore(collection_name: str = \"corporate_docs\"):",
+        "detail": "database.vector_store",
+        "documentation": {}
+    },
+    {
+        "label": "get_vectorstore",
+        "kind": 2,
+        "importPath": "database.vector_store",
+        "description": "database.vector_store",
+        "peekOfCode": "def get_vectorstore(collection_name: str = \"corporate_docs\"):\n  \"\"\"\n    Inicializa ou carrega o banco de dados vetorial (ChromaDB). Usando modelo local\n    Não precisa de API Key, não tem limite de cota, funciona offline.\n    \"\"\"\n  print(f\"Carregando modelo de Embeddings Local\")\n  embedding_function = SentenceTransformerEmbeddings(\n        model_name=\"sentence-transformers/all-MiniLM-L6-v2\"\n    )\n  vectorstore = Chroma(",
+        "detail": "database.vector_store",
+        "documentation": {}
+    },
+    {
+        "label": "add_documents_to_db",
+        "kind": 2,
+        "importPath": "database.vector_store",
+        "description": "database.vector_store",
+        "peekOfCode": "def add_documents_to_db(texts, metadatas=None, collection_name: str = \"corporate_docs\"):\n  '''\n    Recebe uma lista de textos e salva no banco.\n  '''\n  try:\n        db = get_vectorstore(collection_name)\n        # Se não houver metadados, cria lista vazia para evitar erro\n        if metadatas is None:\n            metadatas = [{} for _ in texts]\n        # Cria objetos Document do LangChain",
+        "detail": "database.vector_store",
+        "documentation": {}
+    },
+    {
+        "label": "search_context",
+        "kind": 2,
+        "importPath": "database.vector_store",
+        "description": "database.vector_store",
+        "peekOfCode": "def search_context(query, k=4, collection_name: str = \"corporate_docs\"):\n  '''\n  Busca os 4 trechos mais parecidos com a pergunta do usuário\n  '''\n  try:\n        db = get_vectorstore(collection_name)\n        results = db.similarity_search(query, k=k)\n        return results\n  except Exception as e:\n      print(f\"Erro na busca vetorial: {e}\")",
+        "detail": "database.vector_store",
+        "documentation": {}
+    },
+    {
+        "label": "clear_database",
+        "kind": 2,
+        "importPath": "database.vector_store",
+        "description": "database.vector_store",
+        "peekOfCode": "def clear_database():\n    '''\n    Utilitário: apaga o banco para resetar dados.\n    '''\n    if os.path.exists(PERSIST_DIRECTORY):\n        shutil.rmtree(PERSIST_DIRECTORY)\n        print(\"Banco de dados limpo\")",
+        "detail": "database.vector_store",
+        "documentation": {}
+    },
+    {
+        "label": "PERSIST_DIRECTORY",
+        "kind": 5,
+        "importPath": "database.vector_store",
+        "description": "database.vector_store",
+        "peekOfCode": "PERSIST_DIRECTORY = \"./chroma_db\"\nGOOGLE_API_KEY = os.getenv(\"GOOGLE_API_KEY\")\nclass SentenceTransformerEmbeddings(Embeddings):\n    def __init__(self, model_name: str):\n        from sentence_transformers import SentenceTransformer\n        self.model = SentenceTransformer(model_name)\n    def embed_documents(self, texts: List[str]) -> List[List[float]]:\n        return self.model.encode(texts).tolist()\n    def embed_query(self, text: str) -> List[float]:\n        return self.model.encode(text).tolist()",
+        "detail": "database.vector_store",
+        "documentation": {}
+    },
+    {
+        "label": "GOOGLE_API_KEY",
+        "kind": 5,
+        "importPath": "database.vector_store",
+        "description": "database.vector_store",
+        "peekOfCode": "GOOGLE_API_KEY = os.getenv(\"GOOGLE_API_KEY\")\nclass SentenceTransformerEmbeddings(Embeddings):\n    def __init__(self, model_name: str):\n        from sentence_transformers import SentenceTransformer\n        self.model = SentenceTransformer(model_name)\n    def embed_documents(self, texts: List[str]) -> List[List[float]]:\n        return self.model.encode(texts).tolist()\n    def embed_query(self, text: str) -> List[float]:\n        return self.model.encode(text).tolist()\n@st.cache_resource",
+        "detail": "database.vector_store",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Pages.admin",
+        "description": "Pages.admin",
+        "peekOfCode": "def main() -> None:\n    if not ensure_authenticated(\"admin\"):\n        return\n    admin_main(set_page_config=False)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Pages.admin",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Pages.audit",
+        "description": "Pages.audit",
+        "peekOfCode": "def main() -> None:\n    if not ensure_authenticated(\"audit\"):\n        return\n    audit_main(set_page_config=False)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Pages.audit",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Pages.index",
+        "description": "Pages.index",
+        "peekOfCode": "def main() -> None:\n    if not ensure_authenticated(\"index\"):\n        return\n    chat_main(set_page_config=False)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Pages.index",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_ROUTE",
+        "kind": 5,
+        "importPath": "routes.routes",
+        "description": "routes.routes",
+        "peekOfCode": "DEFAULT_ROUTE = \"index\"",
+        "detail": "routes.routes",
+        "documentation": {}
+    },
+    {
+        "label": "load_agents",
+        "kind": 2,
+        "importPath": "services.agent_service",
+        "description": "services.agent_service",
+        "peekOfCode": "def load_agents():\n    \"\"\"Carrega a lista de agentes do arquivo JSON.\"\"\"\n    if not os.path.exists(AGENTS_FILE):\n        # Cria um agente padrão se não existir nenhum\n        default_agents = {\n            \"default\": {\n                \"name\": \"Generalista\",\n                \"role\": \"Assistente Corporativo\",\n                \"system_prompt\": \"Você é um assistente útil e prestativo da empresa.\",\n                \"collection_name\": \"corporate_docs\" # Coleção padrão antiga",
+        "detail": "services.agent_service",
+        "documentation": {}
+    },
+    {
+        "label": "save_agents",
+        "kind": 2,
+        "importPath": "services.agent_service",
+        "description": "services.agent_service",
+        "peekOfCode": "def save_agents(agents_data):\n    \"\"\"Salva os agentes no JSON.\"\"\"\n    with open(AGENTS_FILE, \"w\", encoding=\"utf-8\") as f:\n        json.dump(agents_data, f, indent=4, ensure_ascii=False)\ndef create_agent(agent_id, name, role, system_prompt):\n    \"\"\"\n    Cria um novo agente e salva no arquivo.\n    \"\"\"\n    agents = load_agents()\n    # O nome da coleção no banco será baseado no ID do agente para garantir unicidade",
+        "detail": "services.agent_service",
+        "documentation": {}
+    },
+    {
+        "label": "create_agent",
+        "kind": 2,
+        "importPath": "services.agent_service",
+        "description": "services.agent_service",
+        "peekOfCode": "def create_agent(agent_id, name, role, system_prompt):\n    \"\"\"\n    Cria um novo agente e salva no arquivo.\n    \"\"\"\n    agents = load_agents()\n    # O nome da coleção no banco será baseado no ID do agente para garantir unicidade\n    # Ex: se o ID for 'rh', a coleção será 'collection_rh'\n    collection_name = f\"collection_{agent_id}\"\n    agents[agent_id] = {\n        \"name\": name,",
+        "detail": "services.agent_service",
+        "documentation": {}
+    },
+    {
+        "label": "delete_agent",
+        "kind": 2,
+        "importPath": "services.agent_service",
+        "description": "services.agent_service",
+        "peekOfCode": "def delete_agent(agent_id):\n    \"\"\"Remove um agente da lista.\"\"\"\n    agents = load_agents()\n    if agent_id in agents:\n        del agents[agent_id]\n        save_agents(agents)\n        return True\n    return False",
+        "detail": "services.agent_service",
+        "documentation": {}
+    },
+    {
+        "label": "AGENTS_FILE",
+        "kind": 5,
+        "importPath": "services.agent_service",
+        "description": "services.agent_service",
+        "peekOfCode": "AGENTS_FILE = \"agents_config.json\"\ndef load_agents():\n    \"\"\"Carrega a lista de agentes do arquivo JSON.\"\"\"\n    if not os.path.exists(AGENTS_FILE):\n        # Cria um agente padrão se não existir nenhum\n        default_agents = {\n            \"default\": {\n                \"name\": \"Generalista\",\n                \"role\": \"Assistente Corporativo\",\n                \"system_prompt\": \"Você é um assistente útil e prestativo da empresa.\",",
+        "detail": "services.agent_service",
+        "documentation": {}
+    },
+    {
+        "label": "gerar_tabela_ranking_custos",
+        "kind": 2,
+        "importPath": "services.audit_service",
+        "description": "services.audit_service",
+        "peekOfCode": "def gerar_tabela_ranking_custos(dados_uso):\n    \"\"\"\n    Gera uma tabela consolidada de custos por setor, \n    ordenada do maior para o menor gasto.\n    \"\"\"\n    # --- PARTE PARA SUBSTITUIR OS PREÇOS (MANUALMENTE) ---\n    # Altere o valor abaixo conforme o custo real da sua API\n    #-----------------------------------------------------------------------------------------------------------------\n    # Localizar o preço atual com o Irlan dentro do código e substituir aqui \n    PRECO_POR_1K_TOKENS = 52.00  # Exemplo: R$ 52,00 por 1000 tokens",
+        "detail": "services.audit_service",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_authenticated",
+        "kind": 2,
+        "importPath": "services.auth_guard",
+        "description": "services.auth_guard",
+        "peekOfCode": "def ensure_authenticated(current_page: str) -> bool:\n    \"\"\"Return True when authenticated; otherwise redirect to login and stop.\"\"\"\n    if _is_authenticated():\n        return True\n    log(f\"auth_guard: redirect to login (from {current_page})\")\n    _set_query_param(\"next\", current_page or DEFAULT_ROUTE)\n    _set_query_param(\"page\", \"login\")\n    safe_rerun()\n    st.stop()",
+        "detail": "services.auth_guard",
+        "documentation": {}
+    },
+    {
+        "label": "create_token",
+        "kind": 2,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "def create_token(user: dict) -> str:\n    \"\"\"Gera um token JWT válido por 24 horas\"\"\"\n    now = datetime.datetime.utcnow()\n    payload = {\n        \"id\": user[\"id\"],\n        \"usuario\": user[\"usuario\"],\n        \"email\": user[\"email\"],\n        \"role\": user[\"role\"],\n        \"iss\": ISSUER,\n        \"iat\": now,",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "decode_token",
+        "kind": 2,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "def decode_token(token: str) -> Optional[dict[str, Any]]:\n    \"\"\"Valida o token e retorna os dados ou None se inválido/expirado\"\"\"\n    try:\n        return jwt.decode(\n            token,\n            SECRET_KEY,\n            algorithms=[ALGORITHM],\n            issuer=ISSUER,\n            options={\"require\": [\"exp\", \"iat\", \"iss\"]}\n        )",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "log_error",
+        "kind": 2,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "def log_error(action: str, message: str, details: str = None, token: str = None):\n    try:\n        user_id = None\n        if token:\n            data = decode_token(token)\n            if data:\n                user_id = data.get(\"id\")\n        with connection.get_connection() as conn:\n            conn.execute(\"\"\"\n                INSERT INTO logs (user_id, action, message, details, created_at)",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "audit_event",
+        "kind": 2,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "def audit_event(action: str, user_id_target: int, details: dict | None = None, token: str | None = None, user_id_admin: int | None = None):\n    \"\"\"\n    Registra eventos de auditoria (CRUD de users) na tabela users.\n    - user_id_admin: quem executou (admin). Se não for passado, tenta extrair do token.\n    - user_id_target: usuário afetado pela ação.\n    - action: ex: users.create / users.update / users.delete\n    - details: dict (será salvo como JSON)\n    \"\"\"\n    try:\n        actor_id = user_id_admin",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "kind": 2,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    '''\n    Essa função recebe uma senha em texto simples e retorna a senha\n    hasheada usando o algoritmo bcrypt.\n    Argumentos:\n    password -- A senha em texto simples a ser hasheada.\n    Retorna:\n    A senha hasheada como uma string.\n    '''\n    hashed = bcrypt.hashpw(",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "verificar_password",
+        "kind": 2,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "def verificar_password(password: str, hashed: str) -> bool:\n    '''\n    Essa função verifica se a senha em texto simples corresponde à\n    senha hasheada.\n    Argumentos:\n    password -- A senha em texto simples a ser verificada.\n    hashed -- A senha hasheada para comparação.\n    Retorna:\n    True se a senha corresponder, False caso contrário.\n    '''",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "def login(email: str, password: str):\n    '''\n    Essa função verifica as credenciais do usuário para login.\n    Argumentos:\n    email -- O email do usuário.\n    password -- A senha em texto simples do usuário.\n    Retorna:\n    Um dicionário com os dados do usuário se as credenciais forem válidas, None caso contrário.\n    '''\n    try: ",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "require_auth",
+        "kind": 2,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "def require_auth(token: str, required_role: str = None):\n    data = decode_token(token)\n    if not data:\n        return json.dumps({\n            \"success\": False,\n            \"message\": \"Sessão expirada ou inválida\"\n        })\n    if required_role and data[\"role\"] != required_role:\n        return json.dumps({\n            \"success\": False,",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "criar_usuario",
+        "kind": 2,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "def criar_usuario(token: str, usuario: str, email: str, password: str, nivel: int, setor: str):\n    '''\n    Essa função verifica se o email já está cadastrado e cria um novo usuário\n    no banco de dados com a senha hasheada.\n    Argumentos:\n    email -- O email do usuário.\n    password -- A senha em texto simples do usuário.\n    usuario -- O nível do usuário (0 para admin, 1 para usuário normal e 2 para compliance).\n    setor -- O setor do usuário.\n    Retorna:",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "listar_usuarios",
+        "kind": 2,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "def listar_usuarios(token: str):\n    '''\n    Essa função retorna uma lista de todos os usuários cadastrados no banco de dados.\n    Retorna:\n    Uma lista de dicionários, cada um contendo as informações de um usuário.\n    '''\n    auth = json.loads(require_auth(token,\"ADMIN\"))\n    if not auth[\"success\"]:\n        return json.dumps(auth)\n    try:",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "atualizar_usuario",
+        "kind": 2,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "def atualizar_usuario(token: str, target_user_id: int, usuario: str | None = None, email: str | None = None, password: str | None = None, nivel: int | None = None, setor: str | None = None):\n    '''\n    Essa função atualiza as informações de um usuário existente no banco de dados.\n    Argumentos:\n    token -- O token do usuário que está tentando atualizar o outro usuário.\n    target_user_id -- O ID do usuário a ser atualizado.\n    email -- O novo email do usuário.\n    usuario -- O novo nível do usuário (0 para admin, 1 para usuário normal e 2 para compliance).\n    setor -- O novo setor do usuário.\n    Retorna:",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "deletar_usuario",
+        "kind": 2,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "def deletar_usuario(token: str, target_user_id: int):\n    '''\n    Essa função deleta um usuário existente no banco de dados.\n    Argumentos:\n    token -- O token do usuário que está tentando deletar o outro usuário.\n    target_user_id -- O ID do usuário a ser deletado.\n    Retorna:\n    None -- Deleta o usuário do banco de dados.\n    '''\n    auth = json.loads(require_auth(token,\"ADMIN\"))",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "ContextAnalytics",
+        "kind": 6,
+        "importPath": "services.contadores",
+        "description": "services.contadores",
+        "peekOfCode": "class ContextAnalytics:\n    \"\"\"\n    Sistema de análise de contextos sem divulgar dados dos usuários.\n    Contabiliza quantas vezes cada contexto foi acessado.\n    \"\"\"\n    def __init__(self, storage_file=\"context_analytics.json\"):\n        \"\"\"\n        Inicializa o sistema de analytics.\n        Args:\n            storage_file: Arquivo onde os dados de contabilização serão armazenados",
+        "detail": "services.contadores",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_info",
+        "kind": 2,
+        "importPath": "services.contadores",
+        "description": "services.contadores",
+        "peekOfCode": "def get_user_info(user_id):\n    \"\"\"\n    Retorna informações do usuário pelo ID.\n    Args:\n        user_id: ID do usuário\n    Returns:\n        dict com 'id', 'nome', 'email' e 'setor', ou None se não encontrado\n    \"\"\"\n    conn = get_connection()\n    if not conn:",
+        "detail": "services.contadores",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_users",
+        "kind": 2,
+        "importPath": "services.contadores",
+        "description": "services.contadores",
+        "peekOfCode": "def get_all_users():\n    \"\"\"\n    Retorna todos os usuários do banco de dados.\n    Returns:\n        Lista de dicts com 'id', 'nome' (email) e 'setor'\n    \"\"\"\n    conn = get_connection()\n    if not conn:\n        return []\n    cursor = conn.cursor()",
+        "detail": "services.contadores",
+        "documentation": {}
+    },
+    {
+        "label": "get_users_name_sector_email",
+        "kind": 2,
+        "importPath": "services.contadores",
+        "description": "services.contadores",
+        "peekOfCode": "def get_users_name_sector_email():\n    \"\"\"\n    Retorna apenas nome, setor e email dos usuarios.\n    Returns:\n        Lista de dicts com 'nome', 'setor' e 'email'\n    \"\"\"\n    conn = get_connection()\n    if not conn:\n        return []\n    cursor = conn.cursor()",
+        "detail": "services.contadores",
+        "documentation": {}
+    },
+    {
+        "label": "get_users_by_sector_ranking",
+        "kind": 2,
+        "importPath": "services.contadores",
+        "description": "services.contadores",
+        "peekOfCode": "def get_users_by_sector_ranking():\n    \"\"\"\n    Retorna ranking dos setores com mais usuários.\n    Returns:\n        Lista de dicts com 'setor', 'total_usuarios' e 'ranking'\n    \"\"\"\n    users = get_users_name_sector_email()\n    if not users:\n        return []\n    sector_counts = {}",
+        "detail": "services.contadores",
+        "documentation": {}
+    },
+    {
+        "label": "show_sector_users_table",
+        "kind": 2,
+        "importPath": "services.contadores",
+        "description": "services.contadores",
+        "peekOfCode": "def show_sector_users_table():\n    \"\"\"\n    Exibe tabela formatada dos setores com mais usuários.\n    \"\"\"\n    ranking = get_users_by_sector_ranking()\n    print(\"\\n\" + \"=\" * 70)\n    print(\"RANKING DE USUÁRIOS POR SETOR\")\n    print(\"=\" * 70)\n    print(f\"{'RANKING':<10} {'SETOR':<30} {'TOTAL DE USUÁRIOS':<20}\")\n    print(\"-\" * 70)",
+        "detail": "services.contadores",
+        "documentation": {}
+    },
+    {
+        "label": "show_total_users_table",
+        "kind": 2,
+        "importPath": "services.contadores",
+        "description": "services.contadores",
+        "peekOfCode": "def show_total_users_table():\n    \"\"\"\n    Exibe tabela com o total de usuarios.\n    \"\"\"\n    users = get_users_name_sector_email()\n    total_users = len(users)\n    print(\"=\" * 40)\n    print(\"TOTAL DE USUARIOS\")\n    print(\"=\" * 40)\n    print(f\"{'TOTAL':<10} {'USUARIOS':<20}\")",
+        "detail": "services.contadores",
+        "documentation": {}
+    },
+    {
+        "label": "log_interaction",
+        "kind": 2,
+        "importPath": "services.contadores",
+        "description": "services.contadores",
+        "peekOfCode": "def log_interaction(user_id=None, context=None, response=None, attachments=None):\n    \"\"\"\n    Registra os dados de interação para fins de observabilidade.\n    \"\"\"\n    log_entry = {\n        \"timestamp\": datetime.datetime.now().isoformat(),\n        \"user_id\": user_id, #Usuário que está usando\n        \"context_summary\": context[:100] if context else \"\", # Contexto do usuário\n        \"full_context\": context,           # Para investigação\n        \"attachments\": attachments or [],",
+        "detail": "services.contadores",
+        "documentation": {}
+    },
+    {
+        "label": "track_context",
+        "kind": 2,
+        "importPath": "services.contadores",
+        "description": "services.contadores",
+        "peekOfCode": "def track_context(context, user_id=None, response=None, attachments=None):\n    \"\"\"\n    Função de conveniência para registrar acesso a um contexto.\n    Exemplo de uso:\n        from doc import track_context\n        track_context(\"contexto A\", user_id=\"user123\")\n    \"\"\"\n    return analytics.record_context_access(context, user_id, response, attachments)\ndef show_context_report():\n    \"\"\"Exibe um relatório formatado dos contextos mais acessados.\"\"\"",
+        "detail": "services.contadores",
+        "documentation": {}
+    },
+    {
+        "label": "show_context_report",
+        "kind": 2,
+        "importPath": "services.contadores",
+        "description": "services.contadores",
+        "peekOfCode": "def show_context_report():\n    \"\"\"Exibe um relatório formatado dos contextos mais acessados.\"\"\"\n    stats = analytics.get_context_statistics()\n    print(\"\\n\" + \"=\"*60)\n    print(\"RELATÓRIO DE ACESSOS A CONTEXTOS\")\n    print(\"=\"*60)\n    print(f\"Total de contextos únicos: {stats['total_unique_contexts']}\")\n    print(f\"Total de acessos: {stats['total_accesses']}\")\n    print(\"-\"*60)\n    for item in stats['contexts']:",
+        "detail": "services.contadores",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_ROOT",
+        "kind": 5,
+        "importPath": "services.contadores",
+        "description": "services.contadores",
+        "peekOfCode": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nif str(PROJECT_ROOT) not in sys.path:\n    sys.path.insert(0, str(PROJECT_ROOT))\nfrom database.connection import get_connection\n# ====== FUNÇÕES PARA OBTER DADOS DOS USUÁRIOS ======\ndef get_user_info(user_id):\n    \"\"\"\n    Retorna informações do usuário pelo ID.\n    Args:\n        user_id: ID do usuário",
+        "detail": "services.contadores",
+        "documentation": {}
+    },
+    {
+        "label": "analytics",
+        "kind": 5,
+        "importPath": "services.contadores",
+        "description": "services.contadores",
+        "peekOfCode": "analytics = ContextAnalytics()\ndef track_context(context, user_id=None, response=None, attachments=None):\n    \"\"\"\n    Função de conveniência para registrar acesso a um contexto.\n    Exemplo de uso:\n        from doc import track_context\n        track_context(\"contexto A\", user_id=\"user123\")\n    \"\"\"\n    return analytics.record_context_access(context, user_id, response, attachments)\ndef show_context_report():",
+        "detail": "services.contadores",
+        "documentation": {}
+    },
+    {
+        "label": "process_uploaded_file",
+        "kind": 2,
+        "importPath": "services.document_service",
+        "description": "services.document_service",
+        "peekOfCode": "def process_uploaded_file(uploaded_file, collection_name: str = \"corporate_docs\"):\n    '''\n    Lê um arquivo em PDF (Upload do Streamlit), extrai o texto e salva no banco.\n    '''\n    try:\n        pdf_reader = PdfReader(uploaded_file)\n        text = \"\"\n        for page in pdf_reader.pages:\n            page_text = page.extract_text()\n            if page_text:",
+        "detail": "services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "process_uploaded_csv",
+        "kind": 2,
+        "importPath": "services.document_service",
+        "description": "services.document_service",
+        "peekOfCode": "def process_uploaded_csv(uploaded_file, collection_name: str = \"corporate_docs\"):\n    try:\n        uploaded_file.seek(0)\n        df = pd.read_csv(uploaded_file)\n        text = df.to_csv(index=False)\n        chunks = _split_text(text)\n        filename = uploaded_file.name\n        return _save_chunks(chunks, filename, collection_name)\n    except Exception as e:\n        return {\"status\": \"error\", \"message\": f\"Erro ao processar CSV: {str(e)}\"}",
+        "detail": "services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "process_uploaded_json",
+        "kind": 2,
+        "importPath": "services.document_service",
+        "description": "services.document_service",
+        "peekOfCode": "def process_uploaded_json(uploaded_file, collection_name: str = \"corporate_docs\"):\n    try:\n        uploaded_file.seek(0)\n        raw = uploaded_file.read()\n        try:\n            text = raw.decode(\"utf-8\")\n        except Exception:\n            text = raw.decode(\"latin-1\", errors=\"ignore\")\n        try:\n            parsed = json.loads(text)",
+        "detail": "services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "dataframe_to_csv_bytes",
+        "kind": 2,
+        "importPath": "services.export_data",
+        "description": "services.export_data",
+        "peekOfCode": "def dataframe_to_csv_bytes(\n    df: pd.DataFrame, *, encoding: str = DEFAULT_ENCODING, include_index: bool = False\n) -> bytes:\n    return df.to_csv(index=include_index).encode(encoding)\ndef build_csv_extract(\n    df: pd.DataFrame | None,\n    *,\n    selected_columns: Sequence[str] | None = None,\n    max_rows: int | None = None,\n) -> pd.DataFrame:",
+        "detail": "services.export_data",
+        "documentation": {}
+    },
+    {
+        "label": "build_csv_extract",
+        "kind": 2,
+        "importPath": "services.export_data",
+        "description": "services.export_data",
+        "peekOfCode": "def build_csv_extract(\n    df: pd.DataFrame | None,\n    *,\n    selected_columns: Sequence[str] | None = None,\n    max_rows: int | None = None,\n) -> pd.DataFrame:\n    if df is None:\n        return pd.DataFrame()\n    active_columns = list(selected_columns) if selected_columns else list(df.columns)\n    work_df = df[active_columns].copy()",
+        "detail": "services.export_data",
+        "documentation": {}
+    },
+    {
+        "label": "export_csv_extract_to_csv_bytes",
+        "kind": 2,
+        "importPath": "services.export_data",
+        "description": "services.export_data",
+        "peekOfCode": "def export_csv_extract_to_csv_bytes(\n    df: pd.DataFrame | None,\n    *,\n    selected_columns: Sequence[str] | None = None,\n    max_rows: int | None = None,\n    encoding: str = DEFAULT_ENCODING,\n    include_index: bool = False,\n) -> bytes:\n    extract_df = build_csv_extract(\n        df, selected_columns=selected_columns, max_rows=max_rows",
+        "detail": "services.export_data",
+        "documentation": {}
+    },
+    {
+        "label": "export_csv_extract_to_json_bytes",
+        "kind": 2,
+        "importPath": "services.export_data",
+        "description": "services.export_data",
+        "peekOfCode": "def export_csv_extract_to_json_bytes(\n    df: pd.DataFrame | None,\n    *,\n    selected_columns: Sequence[str] | None = None,\n    max_rows: int | None = None,\n    encoding: str = DEFAULT_ENCODING,\n    indent: int = 2,\n) -> bytes:\n    extract_df = build_csv_extract(\n        df, selected_columns=selected_columns, max_rows=max_rows",
+        "detail": "services.export_data",
+        "documentation": {}
+    },
+    {
+        "label": "export_session_to_csv",
+        "kind": 2,
+        "importPath": "services.export_data",
+        "description": "services.export_data",
+        "peekOfCode": "def export_session_to_csv(\n    session_state: Mapping[str, Any],\n    *,\n    encoding: str = DEFAULT_ENCODING,\n    include_meta: bool = True,\n    include_index: bool = False,\n) -> bytes:\n    \"\"\"Export session messages to a CSV payload.\"\"\"\n    messages = session_state.get(\"messages\", []) or []\n    rows: list[dict[str, Any]] = []",
+        "detail": "services.export_data",
+        "documentation": {}
+    },
+    {
+        "label": "export_db_table_to_csv",
+        "kind": 2,
+        "importPath": "services.export_data",
+        "description": "services.export_data",
+        "peekOfCode": "def export_db_table_to_csv(\n    conn: Any,\n    table: str,\n    *,\n    schema: str | None = None,\n    columns: Sequence[str] | None = None,\n    where: str | None = None,\n    params: Mapping[str, Any] | Sequence[Any] | None = None,\n    encoding: str = DEFAULT_ENCODING,\n    include_index: bool = False,",
+        "detail": "services.export_data",
+        "documentation": {}
+    },
+    {
+        "label": "export_db_table_to_file",
+        "kind": 2,
+        "importPath": "services.export_data",
+        "description": "services.export_data",
+        "peekOfCode": "def export_db_table_to_file(\n    conn: Any,\n    table: str,\n    output_path: str | Path,\n    *,\n    schema: str | None = None,\n    columns: Sequence[str] | None = None,\n    where: str | None = None,\n    params: Mapping[str, Any] | Sequence[Any] | None = None,\n    encoding: str = DEFAULT_ENCODING,",
+        "detail": "services.export_data",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_ENCODING",
+        "kind": 5,
+        "importPath": "services.export_data",
+        "description": "services.export_data",
+        "peekOfCode": "DEFAULT_ENCODING = \"utf-8\"\n_IDENTIFIER_RE = re.compile(r\"^[A-Za-z_][A-Za-z0-9_]*$\")\ndef _validate_identifier(name: str, *, label: str) -> str:\n    if not _IDENTIFIER_RE.match(name):\n        raise ValueError(f\"Invalid {label} identifier: {name!r}\")\n    return name\ndef _quote_identifier(name: str) -> str:\n    return f'\"{name}\"'\ndef _qualified_table_name(table: str, schema: str | None = None) -> str:\n    if schema:",
+        "detail": "services.export_data",
+        "documentation": {}
+    },
+    {
+        "label": "_IDENTIFIER_RE",
+        "kind": 5,
+        "importPath": "services.export_data",
+        "description": "services.export_data",
+        "peekOfCode": "_IDENTIFIER_RE = re.compile(r\"^[A-Za-z_][A-Za-z0-9_]*$\")\ndef _validate_identifier(name: str, *, label: str) -> str:\n    if not _IDENTIFIER_RE.match(name):\n        raise ValueError(f\"Invalid {label} identifier: {name!r}\")\n    return name\ndef _quote_identifier(name: str) -> str:\n    return f'\"{name}\"'\ndef _qualified_table_name(table: str, schema: str | None = None) -> str:\n    if schema:\n        schema = _validate_identifier(schema, label=\"schema\")",
+        "detail": "services.export_data",
+        "documentation": {}
+    },
+    {
+        "label": "get_ai_response",
+        "kind": 2,
+        "importPath": "services.llm_service",
+        "description": "services.llm_service",
+        "peekOfCode": "def get_ai_response(user_query, system_instruction=None, collection_name: str = \"corporate_docs\"):\n    '''\n    Orquestra o fluxo de RAG:\n    1. Busca Contexto no banco vetorial\n    2. Monta o Prompt com os documentos encontrados\n    3. Envia para o Gemini gerar a resposta\n    '''\n    API_KEY = os.getenv(\"GOOGLE_API_KEY\")\n    if not API_KEY:\n        return \"Erro: GOOGLE_API_KEY não configurada no arquivo .env\"",
+        "detail": "services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "log_interaction",
+        "kind": 2,
+        "importPath": "services.llm_service",
+        "description": "services.llm_service",
+        "peekOfCode": "def log_interaction(user_id=None, context=None, response=None, attachments=None):\n    \"\"\"\n    Registra os dados de interação para fins de observabilidade.\n    \"\"\"\n    log_entry = {\n        \"timestamp\": datetime.datetime.now().isoformat(),\n        \"user_id\": user_id, #Usuário que está usando \n        \"context_summary\": context[:100], # Contexto do usuário\n        \"full_context\": context,           # Para investigação\n        \"attachments\": attachments or [],",
+        "detail": "services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "services.login",
+        "description": "services.login",
+        "peekOfCode": "def main() -> None:\n    login_main(set_page_config=False)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "services.login",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "ui.admin_ui",
+        "description": "ui.admin_ui",
+        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    _ensure_db_initialized()\n    if set_page_config:\n        st.set_page_config(page_title=APP_TITLE, layout=\"wide\")\n    init_theme_state()\n    apply_theme(st.session_state.get(\"dark_mode\", True))\n    role = st.session_state.get(\"role\")\n    if role != \"ADMIN\":\n        st.error(\"Acesso restrito a administradores.\")\n        return",
+        "detail": "ui.admin_ui",
+        "documentation": {}
+    },
+    {
+        "label": "APP_TITLE",
+        "kind": 5,
+        "importPath": "ui.admin_ui",
+        "description": "ui.admin_ui",
+        "peekOfCode": "APP_TITLE = \"Alea Lumen - Admin SQL\"\nDB_TIMEOUT_SECONDS = 1.0\nSQL_TIMEOUT_SECONDS = float(os.getenv(\"SQL_TIMEOUT_SECONDS\", \"5\"))\ndef _strip_leading_comments(sql: str) -> str:\n    text = sql.lstrip()\n    while True:\n        if text.startswith(\"--\"):\n            newline = text.find(\"\\n\")\n            if newline == -1:\n                return \"\"",
+        "detail": "ui.admin_ui",
+        "documentation": {}
+    },
+    {
+        "label": "DB_TIMEOUT_SECONDS",
+        "kind": 5,
+        "importPath": "ui.admin_ui",
+        "description": "ui.admin_ui",
+        "peekOfCode": "DB_TIMEOUT_SECONDS = 1.0\nSQL_TIMEOUT_SECONDS = float(os.getenv(\"SQL_TIMEOUT_SECONDS\", \"5\"))\ndef _strip_leading_comments(sql: str) -> str:\n    text = sql.lstrip()\n    while True:\n        if text.startswith(\"--\"):\n            newline = text.find(\"\\n\")\n            if newline == -1:\n                return \"\"\n            text = text[newline + 1 :].lstrip()",
+        "detail": "ui.admin_ui",
+        "documentation": {}
+    },
+    {
+        "label": "SQL_TIMEOUT_SECONDS",
+        "kind": 5,
+        "importPath": "ui.admin_ui",
+        "description": "ui.admin_ui",
+        "peekOfCode": "SQL_TIMEOUT_SECONDS = float(os.getenv(\"SQL_TIMEOUT_SECONDS\", \"5\"))\ndef _strip_leading_comments(sql: str) -> str:\n    text = sql.lstrip()\n    while True:\n        if text.startswith(\"--\"):\n            newline = text.find(\"\\n\")\n            if newline == -1:\n                return \"\"\n            text = text[newline + 1 :].lstrip()\n            continue",
+        "detail": "ui.admin_ui",
+        "documentation": {}
+    },
+    {
+        "label": "get_logo_path",
+        "kind": 2,
+        "importPath": "ui.brand",
+        "description": "ui.brand",
+        "peekOfCode": "def get_logo_path() -> Path | None:\n    \"\"\"Return the logo path if it exists.\"\"\"\n    if _LOGO_PATH.exists():\n        return _LOGO_PATH\n    return None\ndef get_logo_data_uri() -> str:\n    \"\"\"Return a data URI for the logo (PNG) or empty string if missing.\"\"\"\n    path = get_logo_path()\n    if not path:\n        return \"\"",
+        "detail": "ui.brand",
+        "documentation": {}
+    },
+    {
+        "label": "get_logo_data_uri",
+        "kind": 2,
+        "importPath": "ui.brand",
+        "description": "ui.brand",
+        "peekOfCode": "def get_logo_data_uri() -> str:\n    \"\"\"Return a data URI for the logo (PNG) or empty string if missing.\"\"\"\n    path = get_logo_path()\n    if not path:\n        return \"\"\n    encoded = base64.b64encode(path.read_bytes()).decode(\"ascii\")\n    return f\"data:image/png;base64,{encoded}\"",
+        "detail": "ui.brand",
+        "documentation": {}
+    },
+    {
+        "label": "_ASSETS_DIR",
+        "kind": 5,
+        "importPath": "ui.brand",
+        "description": "ui.brand",
+        "peekOfCode": "_ASSETS_DIR = Path(__file__).resolve().parents[1] / \"assets\"\n_LOGO_NAME = \"alea_lumen_logo.png\"\n_LOGO_PATH = _ASSETS_DIR / _LOGO_NAME\ndef get_logo_path() -> Path | None:\n    \"\"\"Return the logo path if it exists.\"\"\"\n    if _LOGO_PATH.exists():\n        return _LOGO_PATH\n    return None\ndef get_logo_data_uri() -> str:\n    \"\"\"Return a data URI for the logo (PNG) or empty string if missing.\"\"\"",
+        "detail": "ui.brand",
+        "documentation": {}
+    },
+    {
+        "label": "_LOGO_NAME",
+        "kind": 5,
+        "importPath": "ui.brand",
+        "description": "ui.brand",
+        "peekOfCode": "_LOGO_NAME = \"alea_lumen_logo.png\"\n_LOGO_PATH = _ASSETS_DIR / _LOGO_NAME\ndef get_logo_path() -> Path | None:\n    \"\"\"Return the logo path if it exists.\"\"\"\n    if _LOGO_PATH.exists():\n        return _LOGO_PATH\n    return None\ndef get_logo_data_uri() -> str:\n    \"\"\"Return a data URI for the logo (PNG) or empty string if missing.\"\"\"\n    path = get_logo_path()",
+        "detail": "ui.brand",
+        "documentation": {}
+    },
+    {
+        "label": "_LOGO_PATH",
+        "kind": 5,
+        "importPath": "ui.brand",
+        "description": "ui.brand",
+        "peekOfCode": "_LOGO_PATH = _ASSETS_DIR / _LOGO_NAME\ndef get_logo_path() -> Path | None:\n    \"\"\"Return the logo path if it exists.\"\"\"\n    if _LOGO_PATH.exists():\n        return _LOGO_PATH\n    return None\ndef get_logo_data_uri() -> str:\n    \"\"\"Return a data URI for the logo (PNG) or empty string if missing.\"\"\"\n    path = get_logo_path()\n    if not path:",
+        "detail": "ui.brand",
+        "documentation": {}
+    },
+    {
+        "label": "build_theme_css",
+        "kind": 2,
+        "importPath": "ui.chat_markup",
+        "description": "ui.chat_markup",
+        "peekOfCode": "def build_theme_css(colors: Dict[str, str]) -> str:\n    return f\"\"\"\n    <style>\n      :root {{\n        --app-bg: {colors[\"app_bg\"]};\n        --panel-bg: {colors[\"panel_bg\"]};\n        --panel-strong: {colors[\"panel_strong\"]};\n        --text: {colors[\"text\"]};\n        --muted: {colors[\"muted\"]};\n        --border: {colors[\"border\"]};",
+        "detail": "ui.chat_markup",
+        "documentation": {}
+    },
+    {
+        "label": "header_html",
+        "kind": 2,
+        "importPath": "ui.chat_markup",
+        "description": "ui.chat_markup",
+        "peekOfCode": "def header_html(meta: Dict[str, Any]) -> str:\n    logo_uri = get_logo_data_uri()\n    logo_html = (\n        f'<img class=\"al-logo\" src=\"{logo_uri}\" alt=\"Alea Lumen logo\" />'\n        if logo_uri\n        else '<div class=\"al-logo-fallback\">AL</div>'\n    )\n    pill_html = \"\"\n    if meta:\n        pill_html = f'<div class=\"al-pill\">{meta.get(\"rows\", 0)} linhas ativas</div>'",
+        "detail": "ui.chat_markup",
+        "documentation": {}
+    },
+    {
+        "label": "empty_state_html",
+        "kind": 2,
+        "importPath": "ui.chat_markup",
+        "description": "ui.chat_markup",
+        "peekOfCode": "def empty_state_html() -> str:\n    return \"\"\"\n        <div class=\"al-empty\">\n          <div class=\"al-empty-title\">Bem-vindo ao Alea Lumen</div>\n          <div>Suba um arquivo CSV para comecar a explorar seus dados.</div>\n        </div>\n        \"\"\"\ndef messages_html(messages: List[Dict[str, Any]], is_loading: bool = False) -> str:\n    parts = ['<div class=\"al-chat-body\">']\n    for message in messages:",
+        "detail": "ui.chat_markup",
+        "documentation": {}
+    },
+    {
+        "label": "messages_html",
+        "kind": 2,
+        "importPath": "ui.chat_markup",
+        "description": "ui.chat_markup",
+        "peekOfCode": "def messages_html(messages: List[Dict[str, Any]], is_loading: bool = False) -> str:\n    parts = ['<div class=\"al-chat-body\">']\n    for message in messages:\n        role = message.get(\"role\", \"assistant\")\n        role_class = \"user\" if role == \"user\" else \"assistant\"\n        avatar = \"U\" if role_class == \"user\" else \"A\"\n        safe_content = html.escape(str(message.get(\"content\", \"\"))).replace(\"\\n\", \"<br>\")\n        parts.append(\n            f\"\"\"\n            <div class=\"al-chat-row {role_class}\">",
+        "detail": "ui.chat_markup",
+        "documentation": {}
+    },
+    {
+        "label": "info_banner_html",
+        "kind": 2,
+        "importPath": "ui.chat_markup",
+        "description": "ui.chat_markup",
+        "peekOfCode": "def info_banner_html() -> str:\n    return \"\"\"\n        <div class=\"al-banner\">\n          Nenhum CSV carregado. O chat esta operando sem contexto de dados.\n        </div>\n        \"\"\"\ndef footer_html() -> str:\n    return \"\"\"\n        <div class=\"al-footer\">\n          A IA pode cometer erros em calculos e interpretacoes. Verifique os dados.",
+        "detail": "ui.chat_markup",
+        "documentation": {}
+    },
+    {
+        "label": "footer_html",
+        "kind": 2,
+        "importPath": "ui.chat_markup",
+        "description": "ui.chat_markup",
+        "peekOfCode": "def footer_html() -> str:\n    return \"\"\"\n        <div class=\"al-footer\">\n          A IA pode cometer erros em calculos e interpretacoes. Verifique os dados.\n        </div>\n        \"\"\"\ndef csv_loaded_card_html(row_count: int, column_count: int) -> str:\n    return f\"\"\"\n            <div class=\"al-card success\">\n              <div class=\"al-card-title\">Carregado</div>",
+        "detail": "ui.chat_markup",
+        "documentation": {}
+    },
+    {
+        "label": "csv_loaded_card_html",
+        "kind": 2,
+        "importPath": "ui.chat_markup",
+        "description": "ui.chat_markup",
+        "peekOfCode": "def csv_loaded_card_html(row_count: int, column_count: int) -> str:\n    return f\"\"\"\n            <div class=\"al-card success\">\n              <div class=\"al-card-title\">Carregado</div>\n              <div class=\"al-card-row\">Linhas: {row_count}</div>\n              <div class=\"al-card-row\">Colunas: {column_count}</div>\n            </div>\n            \"\"\"",
+        "detail": "ui.chat_markup",
+        "documentation": {}
+    },
+    {
+        "label": "exibir_chat",
+        "kind": 2,
+        "importPath": "ui.chat_ui",
+        "description": "ui.chat_ui",
+        "peekOfCode": "def exibir_chat():\n    logo_path = get_logo_path()\n    col_logo, col_title = st.columns([1, 4])\n    with col_logo:\n        if logo_path:\n            st.image(str(logo_path), width=72)\n    with col_title:\n        st.markdown(\"## Alea Lumen\")\n        st.caption(\"Chat corporativo com contexto inteligente.\")\n    # --- 1. IDENTIFICAÇÃO DO USUÁRIO (CONTEXTO) ---",
+        "detail": "ui.chat_ui",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "ui.chat_ui",
+        "description": "ui.chat_ui",
+        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    if set_page_config:\n        st.set_page_config(page_title=\"Chat\", layout=\"wide\")\n    init_theme_state()\n    apply_theme(st.session_state.get(\"dark_mode\", True))\n    exibir_chat()",
+        "detail": "ui.chat_ui",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "ui.common",
+        "description": "ui.common",
+        "peekOfCode": "def parse(resp: str) -> dict:\n    try:\n        return json.loads(resp) if isinstance(resp, str) else {\"success\": False, \"message\": \"Resposta inválida\"}\n    except Exception:\n        return {\"success\": False, \"message\": \"JSON inválido\", \"raw\": str(resp)[:500]}\ndef logout():\n    st.session_state.clear()\n    st.rerun()\ndef is_logged_in() -> bool:\n    return bool(st.session_state.get(\"logged_in\")) and bool(st.session_state.get(\"token\"))",
+        "detail": "ui.common",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "ui.common",
+        "description": "ui.common",
+        "peekOfCode": "def logout():\n    st.session_state.clear()\n    st.rerun()\ndef is_logged_in() -> bool:\n    return bool(st.session_state.get(\"logged_in\")) and bool(st.session_state.get(\"token\"))\ndef current_role() -> str:\n    return (st.session_state.get(\"user_info\") or {}).get(\"role\", \"NORMAL\")\ndef require_session() -> bool:\n    \"\"\"Se token expirou/inválido: derruba sessão.\"\"\"\n    if not is_logged_in():",
+        "detail": "ui.common",
+        "documentation": {}
+    },
+    {
+        "label": "is_logged_in",
+        "kind": 2,
+        "importPath": "ui.common",
+        "description": "ui.common",
+        "peekOfCode": "def is_logged_in() -> bool:\n    return bool(st.session_state.get(\"logged_in\")) and bool(st.session_state.get(\"token\"))\ndef current_role() -> str:\n    return (st.session_state.get(\"user_info\") or {}).get(\"role\", \"NORMAL\")\ndef require_session() -> bool:\n    \"\"\"Se token expirou/inválido: derruba sessão.\"\"\"\n    if not is_logged_in():\n        return False\n    token = st.session_state[\"token\"]\n    auth = parse(require_auth(token))",
+        "detail": "ui.common",
+        "documentation": {}
+    },
+    {
+        "label": "current_role",
+        "kind": 2,
+        "importPath": "ui.common",
+        "description": "ui.common",
+        "peekOfCode": "def current_role() -> str:\n    return (st.session_state.get(\"user_info\") or {}).get(\"role\", \"NORMAL\")\ndef require_session() -> bool:\n    \"\"\"Se token expirou/inválido: derruba sessão.\"\"\"\n    if not is_logged_in():\n        return False\n    token = st.session_state[\"token\"]\n    auth = parse(require_auth(token))\n    if not auth.get(\"success\"):\n        st.warning(\"Sessão expirada ou inválida. Faça login novamente.\")",
+        "detail": "ui.common",
+        "documentation": {}
+    },
+    {
+        "label": "require_session",
+        "kind": 2,
+        "importPath": "ui.common",
+        "description": "ui.common",
+        "peekOfCode": "def require_session() -> bool:\n    \"\"\"Se token expirou/inválido: derruba sessão.\"\"\"\n    if not is_logged_in():\n        return False\n    token = st.session_state[\"token\"]\n    auth = parse(require_auth(token))\n    if not auth.get(\"success\"):\n        st.warning(\"Sessão expirada ou inválida. Faça login novamente.\")\n        st.session_state.clear()\n        st.rerun()",
+        "detail": "ui.common",
+        "documentation": {}
+    },
+    {
+        "label": "render_session_sidebar",
+        "kind": 2,
+        "importPath": "ui.common",
+        "description": "ui.common",
+        "peekOfCode": "def render_session_sidebar():\n    user = st.session_state.get(\"user_info\", {})\n    role = user.get(\"role\", \"NORMAL\")\n    logo_path = get_logo_path()\n    if logo_path:\n        st.sidebar.image(str(logo_path), width=120)\n        st.sidebar.divider()\n    st.sidebar.markdown(\"### Sessao\")\n    st.sidebar.write(f\"Usuario: {user.get('usuario','-')}\")\n    st.sidebar.write(f\"Email: {user.get('email','-')}\")",
+        "detail": "ui.common",
+        "documentation": {}
+    },
+    {
+        "label": "guard_role",
+        "kind": 2,
+        "importPath": "ui.common",
+        "description": "ui.common",
+        "peekOfCode": "def guard_role(required: str):\n    \"\"\"Protege UI: se não for o role exigido, barra a página.\"\"\"\n    if current_role() != required:\n        st.error(f\"Acesso negado. Requer perfil: {required}\")\n        st.stop()",
+        "detail": "ui.common",
+        "documentation": {}
+    },
+    {
+        "label": "ROLE_LABEL",
+        "kind": 5,
+        "importPath": "ui.common",
+        "description": "ui.common",
+        "peekOfCode": "ROLE_LABEL = {\"ADMIN\": \"Administrador\", \"NORMAL\": \"Usuário\", \"COMPLIANCE\": \"Compliance\"}\nNIVEL_LABEL = {0: \"ADMIN\", 1: \"NORMAL\", 2: \"COMPLIANCE\"}\ndef parse(resp: str) -> dict:\n    try:\n        return json.loads(resp) if isinstance(resp, str) else {\"success\": False, \"message\": \"Resposta inválida\"}\n    except Exception:\n        return {\"success\": False, \"message\": \"JSON inválido\", \"raw\": str(resp)[:500]}\ndef logout():\n    st.session_state.clear()\n    st.rerun()",
+        "detail": "ui.common",
+        "documentation": {}
+    },
+    {
+        "label": "NIVEL_LABEL",
+        "kind": 5,
+        "importPath": "ui.common",
+        "description": "ui.common",
+        "peekOfCode": "NIVEL_LABEL = {0: \"ADMIN\", 1: \"NORMAL\", 2: \"COMPLIANCE\"}\ndef parse(resp: str) -> dict:\n    try:\n        return json.loads(resp) if isinstance(resp, str) else {\"success\": False, \"message\": \"Resposta inválida\"}\n    except Exception:\n        return {\"success\": False, \"message\": \"JSON inválido\", \"raw\": str(resp)[:500]}\ndef logout():\n    st.session_state.clear()\n    st.rerun()\ndef is_logged_in() -> bool:",
+        "detail": "ui.common",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "ui.compliance_ui",
+        "description": "ui.compliance_ui",
+        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    _ensure_db_initialized()\n    if set_page_config:\n        st.set_page_config(page_title=APP_TITLE, layout=\"wide\")\n    init_theme_state()\n    apply_theme(st.session_state.get(\"dark_mode\", True))\n    st.title(\"Auditoria de Usuários\")\n    st.caption(f\"Banco local: {DB_PATH}\")\n    limit = st.number_input(\n        \"Limite de registros\",",
+        "detail": "ui.compliance_ui",
+        "documentation": {}
+    },
+    {
+        "label": "APP_TITLE",
+        "kind": 5,
+        "importPath": "ui.compliance_ui",
+        "description": "ui.compliance_ui",
+        "peekOfCode": "APP_TITLE = \"Alea Lumen - Auditoria\"\ndef _ensure_db_initialized() -> None:\n    if st.session_state.get(\"audit_db_initialized\"):\n        return\n    with time_block(\"audit: init_db\"):\n        init_db()\n    st.session_state[\"audit_db_initialized\"] = True\ndef _get_user_columns(conn) -> list[str]:\n    rows = conn.execute(\"PRAGMA table_info(users)\").fetchall()\n    return [row[1] for row in rows]",
+        "detail": "ui.compliance_ui",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "kind": 2,
+        "importPath": "ui.login_page",
+        "description": "ui.login_page",
+        "peekOfCode": "def render() -> None:\n    login_main(set_page_config=False)",
+        "detail": "ui.login_page",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "ui.login_ui",
+        "description": "ui.login_ui",
+        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    if set_page_config:\n        st.set_page_config(page_title=\"Login\", layout=\"centered\")\n    _hide_sidebar()\n    init_theme_state()\n    apply_theme(st.session_state.get(\"dark_mode\", True))\n    with time_block(\"login: init_db\"):\n        init_db()\n    logo_path = get_logo_path()\n    col_left, col_mid, col_right = st.columns([1, 2, 1])",
+        "detail": "ui.login_ui",
+        "documentation": {}
+    },
+    {
+        "label": "init_theme_state",
+        "kind": 2,
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "peekOfCode": "def init_theme_state() -> None:\n    \"\"\"Ensure the theme preference exists in session state.\"\"\"\n    if _DARK_MODE_KEY not in st.session_state:\n        st.session_state[_DARK_MODE_KEY] = True\ndef apply_theme(dark_mode: bool) -> None:\n    \"\"\"Render theme CSS based on the selected mode.\"\"\"\n    if dark_mode:\n        colors = {\n            \"app_bg\": (\n                \"radial-gradient(1200px circle at 12% -20%, \"",
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "apply_theme",
+        "kind": 2,
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "peekOfCode": "def apply_theme(dark_mode: bool) -> None:\n    \"\"\"Render theme CSS based on the selected mode.\"\"\"\n    if dark_mode:\n        colors = {\n            \"app_bg\": (\n                \"radial-gradient(1200px circle at 12% -20%, \"\n                \"rgba(76, 195, 255, 0.22) 0%, rgba(10, 16, 32, 0.96) 55%, #05070f 100%)\"\n            ),\n            \"panel_bg\": \"rgba(9, 17, 31, 0.92)\",\n            \"panel_strong\": \"rgba(14, 24, 40, 0.98)\",",
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "render_theme_toggle",
+        "kind": 2,
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "peekOfCode": "def render_theme_toggle() -> None:\n    \"\"\"Render the dark mode toggle in the main area (not sidebar).\"\"\"\n    init_theme_state()\n    spacer, toggle_col = st.columns([6, 1], gap=\"small\")\n    with toggle_col:\n        st.toggle(\"Modo escuro\", key=_DARK_MODE_KEY)",
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "_DARK_MODE_KEY",
+        "kind": 5,
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "peekOfCode": "_DARK_MODE_KEY = \"dark_mode\"\ndef init_theme_state() -> None:\n    \"\"\"Ensure the theme preference exists in session state.\"\"\"\n    if _DARK_MODE_KEY not in st.session_state:\n        st.session_state[_DARK_MODE_KEY] = True\ndef apply_theme(dark_mode: bool) -> None:\n    \"\"\"Render theme CSS based on the selected mode.\"\"\"\n    if dark_mode:\n        colors = {\n            \"app_bg\": (",
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "kind": 2,
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "peekOfCode": "def log(message: str) -> None:\n    \"\"\"Print a debug line to console when DEBUG is enabled.\"\"\"\n    if not _enabled():\n        return\n    timestamp = time.strftime(\"%H:%M:%S\")\n    print(f\"[DEBUG {timestamp}] {message}\")\n@contextmanager\ndef time_block(label: str) -> Iterator[None]:\n    \"\"\"Log the elapsed time for a labeled block when DEBUG is enabled.\"\"\"\n    if not _enabled():",
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "time_block",
+        "kind": 2,
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "peekOfCode": "def time_block(label: str) -> Iterator[None]:\n    \"\"\"Log the elapsed time for a labeled block when DEBUG is enabled.\"\"\"\n    if not _enabled():\n        yield\n        return\n    start = time.perf_counter()\n    try:\n        yield\n    finally:\n        elapsed_ms = (time.perf_counter() - start) * 1000",
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "reset_rerun_guard",
+        "kind": 2,
+        "importPath": "utils.rerun",
+        "description": "utils.rerun",
+        "peekOfCode": "def reset_rerun_guard() -> None:\n    \"\"\"Reset the rerun guard for the current execution.\"\"\"\n    st.session_state[_RERUN_FLAG] = False\ndef safe_rerun() -> bool:\n    \"\"\"Trigger a rerun once per execution. Returns True if requested.\"\"\"\n    if st.session_state.get(_RERUN_FLAG):\n        return False\n    st.session_state[_RERUN_FLAG] = True\n    try:\n        st.rerun()",
+        "detail": "utils.rerun",
+        "documentation": {}
+    },
+    {
+        "label": "safe_rerun",
+        "kind": 2,
+        "importPath": "utils.rerun",
+        "description": "utils.rerun",
+        "peekOfCode": "def safe_rerun() -> bool:\n    \"\"\"Trigger a rerun once per execution. Returns True if requested.\"\"\"\n    if st.session_state.get(_RERUN_FLAG):\n        return False\n    st.session_state[_RERUN_FLAG] = True\n    try:\n        st.rerun()\n    except Exception:\n        st.experimental_rerun()\n    return True",
+        "detail": "utils.rerun",
+        "documentation": {}
+    },
+    {
+        "label": "_RERUN_FLAG",
+        "kind": 5,
+        "importPath": "utils.rerun",
+        "description": "utils.rerun",
+        "peekOfCode": "_RERUN_FLAG = \"_rerun_pending\"\ndef reset_rerun_guard() -> None:\n    \"\"\"Reset the rerun guard for the current execution.\"\"\"\n    st.session_state[_RERUN_FLAG] = False\ndef safe_rerun() -> bool:\n    \"\"\"Trigger a rerun once per execution. Returns True if requested.\"\"\"\n    if st.session_state.get(_RERUN_FLAG):\n        return False\n    st.session_state[_RERUN_FLAG] = True\n    try:",
+        "detail": "utils.rerun",
+        "documentation": {}
+    },
+    {
+        "label": "KEY",
+        "kind": 5,
+        "importPath": "diagnostico_banco",
+        "description": "diagnostico_banco",
+        "peekOfCode": "KEY = os.getenv(\"GOOGLE_API_KEY\")\nprint(\"--- 🕵️‍♂️ INICIANDO DIAGNÓSTICO DO BANCO ---\")\nif not KEY:\n    print(\"❌ ERRO: Arquivo .env não encontrado ou sem chave.\")\n    exit()\nprint(f\"🔑 Chave detectada: {KEY[:5]}... (OK)\")\n# TESTE 1: Tentar gerar um embedding (Sem banco de dados)\nprint(\"\\n1. Testando conexão com API de Embeddings do Google...\")\ntry:\n    # Vamos tentar o modelo mais antigo e compatível primeiro",
+        "detail": "diagnostico_banco",
+        "documentation": {}
+    },
+    {
+        "label": "pasta_banco",
+        "kind": 5,
+        "importPath": "diagnostico_banco",
+        "description": "diagnostico_banco",
+        "peekOfCode": "pasta_banco = \"./chroma_db_teste\"\n# Limpa teste anterior se existir\nif os.path.exists(pasta_banco):\n    shutil.rmtree(pasta_banco)\ntry:\n    vectorstore = Chroma(\n        collection_name=\"teste_diagnostico\",\n        embedding_function=embeddings,\n        persist_directory=pasta_banco\n    )",
+        "detail": "diagnostico_banco",
+        "documentation": {}
+    },
+    {
+        "label": "NOME_ARQUIVO",
+        "kind": 5,
+        "importPath": "gerar_pdf",
+        "description": "gerar_pdf",
+        "peekOfCode": "NOME_ARQUIVO = \"teste_oficial.pdf\"\nprint(f\"Criando {NOME_ARQUIVO}...\")\ntry:\n    c = canvas.Canvas(NOME_ARQUIVO)\n    c.setFont(\"Helvetica\", 12)\n    # Escrevendo conteúdo de texto real\n    c.drawString(50, 800, \"RELATÓRIO CONFIDENCIAL - PROJETO ALEA-LUMEN\")\n    c.drawString(50, 780, \"---------------------------------------------\")\n    c.drawString(50, 750, \"Este documento serve para validar o MVP.\")\n    c.drawString(50, 730, \"A senha secreta de acesso é: GIRASSOL.\")",
+        "detail": "gerar_pdf",
+        "documentation": {}
+    }
+]

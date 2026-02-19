@@ -1,0 +1,4 @@
+Nome,Sobrenome,CPF,RG,DataNascimento,Sexo,Email,Telefone,Endereco,Rua,Numero,Complemento,Bairro,Cidade,Estado,CEP,Pais,Nacionalidade,EstadoCivil,Profissao,Empresa,RendaMensal,DataCadastro,Status
+Jose,Silva,12345678900,1234567,1985-04-12,M,jose.silva@email.com,81999990000,Residencial,Rua das Flores,123,Apto 302,Boa Viagem,Recife,PE,51000000,Brasil,Brasileira,Casado,Engenheiro,Tech Solutions,8500.00,2024-01-10,Ativo
+Maria,Oliveira,98765432100,7654321,1990-09-30,F,maria.oliveira@email.com,11988887777,Residencial,Avenida Central,456,Casa,Centro,Sao Paulo,SP,01000000,Brasil,Brasileira,Solteira,Analista,Finance Corp,6200.00,2024-02-03,Ativo
+Carlos,Pereira,45678912300,9988776,1978-01-05,M,carlos.p@email.com,21977776666,Comercial,Rua do Porto,89,Sala 12,Estacio,Rio de Janeiro,RJ,20000000,Brasil,Brasileira,Divorciado,Gerente,Logistica RJ,10500.00,2023-11-22,Inativo
