@@ -12,7 +12,6 @@ O HTML/CSS esta centralizado em ui/chat_markup.py.
 from pathlib import Path
 
 import streamlit as st
-import time
 
 from services.llm_service import get_ai_response
 from services.agent_service import load_agents
@@ -23,6 +22,18 @@ from services.document_service import (
 )
 from ui.brand import get_logo_path
 from ui.theme import apply_theme, init_theme_state
+
+
+def _ensure_embedding_model():
+    try:
+        from database.vector_store import get_embedding_model
+
+        with st.spinner("Carregando modelo de embeddings..."):
+            # calling this will trigger the cached resource initialization
+            get_embedding_model()
+    except Exception:
+        # fail silently so UI still renders and shows errors where appropriate
+        pass
 
 def exibir_chat():
     logo_path = get_logo_path()
@@ -40,9 +51,7 @@ def exibir_chat():
     
     # Se não houver login real, usamos valores de "Convidado" para não quebrar o log
     # (Ou você pode manter os inputs na sidebar para teste manual, como deixei comentado abaixo)
-    user_id = user_session.get("id", None) 
-    user_name = user_session.get("usuario", "Convidado")
-    user_sector = user_session.get("role", "Geral") # Ou 'setor' se estiver no dict do user
+    _ = user_session.get("id", None)
 
     # --- DEBUG/SIMULAÇÃO (Opcional: Descomente se quiser testar setores sem fazer login) ---
     # with st.sidebar:
@@ -159,4 +168,6 @@ def main(set_page_config: bool = True) -> None:
         st.set_page_config(page_title="Chat", layout="wide")
     init_theme_state()
     apply_theme(st.session_state.get("dark_mode", True))
+    # Initialize heavy vector/embedding resources only when entering the chat
+    _ensure_embedding_model()
     exibir_chat()

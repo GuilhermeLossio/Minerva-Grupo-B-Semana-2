@@ -1,0 +1,10 @@
+[server]
+fileWatcherType = "watchdog"
+runOnSave = false
+folderWatchBlacklist = [
+  ".venv",
+  ".git",
+  "__pycache__",
+  "chroma_db",
+  "database",
+]

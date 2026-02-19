@@ -25,22 +25,6 @@
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
         "label": "sqlite3",
         "kind": 6,
         "isExtraImport": true,
@@ -95,6 +79,78 @@
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
         "documentation": {}
     },
     {
@@ -375,6 +431,14 @@
         "documentation": {}
     },
     {
+        "label": "init_db",
+        "importPath": "database.init_db",
+        "description": "database.init_db",
+        "isExtraImport": true,
+        "detail": "database.init_db",
+        "documentation": {}
+    },
+    {
         "label": "hash_password",
         "importPath": "services.auth_service",
         "description": "services.auth_service",
@@ -415,6 +479,47 @@
         "documentation": {}
     },
     {
+        "label": "LOW_ACCESS_LEVEL",
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "isExtraImport": true,
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "ROLE_MAP",
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "isExtraImport": true,
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "criar_usuario",
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "isExtraImport": true,
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "listar_usuarios",
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "isExtraImport": true,
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "atexit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "atexit",
+        "description": "atexit",
+        "detail": "atexit",
+        "documentation": {}
+    },
+    {
         "label": "shutil",
         "kind": 6,
         "isExtraImport": true,
@@ -424,65 +529,23 @@
         "documentation": {}
     },
     {
-        "label": "chromadb",
-        "kind": 6,
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "importPath": "chromadb",
-        "description": "chromadb",
-        "detail": "chromadb",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "Embeddings",
-        "importPath": "langchain_core.embeddings",
-        "description": "langchain_core.embeddings",
+        "label": "Mapping",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "langchain_core.embeddings",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "Chroma",
-        "importPath": "langchain_chroma",
-        "description": "langchain_chroma",
-        "isExtraImport": true,
-        "detail": "langchain_chroma",
-        "documentation": {}
-    },
-    {
-        "label": "Chroma",
-        "importPath": "langchain_chroma",
-        "description": "langchain_chroma",
-        "isExtraImport": true,
-        "detail": "langchain_chroma",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "streamlit",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "streamlit",
-        "description": "streamlit",
-        "detail": "streamlit",
-        "documentation": {}
-    },
-    {
-        "label": "List",
+        "label": "Sequence",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -491,6 +554,14 @@
     },
     {
         "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -578,6 +649,152 @@
         "documentation": {}
     },
     {
+        "label": "chromadb",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "chromadb",
+        "description": "chromadb",
+        "detail": "chromadb",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "chromadb.config",
+        "description": "chromadb.config",
+        "isExtraImport": true,
+        "detail": "chromadb.config",
+        "documentation": {}
+    },
+    {
+        "label": "Chroma",
+        "importPath": "langchain_chroma",
+        "description": "langchain_chroma",
+        "isExtraImport": true,
+        "detail": "langchain_chroma",
+        "documentation": {}
+    },
+    {
+        "label": "Chroma",
+        "importPath": "langchain_chroma",
+        "description": "langchain_chroma",
+        "isExtraImport": true,
+        "detail": "langchain_chroma",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Embeddings",
+        "importPath": "langchain_core.embeddings",
+        "description": "langchain_core.embeddings",
+        "isExtraImport": true,
+        "detail": "langchain_core.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "time_block",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "time_block",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "time_block",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "time_block",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "time_block",
+        "importPath": "utils.debug",
+        "description": "utils.debug",
+        "isExtraImport": true,
+        "detail": "utils.debug",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_authenticated",
+        "importPath": "services.auth_guard",
+        "description": "services.auth_guard",
+        "isExtraImport": true,
+        "detail": "services.auth_guard",
+        "documentation": {}
+    },
+    {
         "label": "ensure_authenticated",
         "importPath": "services.auth_guard",
         "description": "services.auth_guard",
@@ -626,12 +843,69 @@
         "documentation": {}
     },
     {
+        "label": "main",
+        "importPath": "ui.login_ui",
+        "description": "ui.login_ui",
+        "isExtraImport": true,
+        "detail": "ui.login_ui",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "ui.login_ui",
+        "description": "ui.login_ui",
+        "isExtraImport": true,
+        "detail": "ui.login_ui",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "ui.login_ui",
+        "description": "ui.login_ui",
+        "isExtraImport": true,
+        "detail": "ui.login_ui",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "ui.user_registration_ui",
+        "description": "ui.user_registration_ui",
+        "isExtraImport": true,
+        "detail": "ui.user_registration_ui",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "json",
         "description": "json",
         "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "copy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "copy",
+        "description": "copy",
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
         "documentation": {}
     },
     {
@@ -660,70 +934,6 @@
         "documentation": {}
     },
     {
-        "label": "log",
-        "importPath": "utils.debug",
-        "description": "utils.debug",
-        "isExtraImport": true,
-        "detail": "utils.debug",
-        "documentation": {}
-    },
-    {
-        "label": "time_block",
-        "importPath": "utils.debug",
-        "description": "utils.debug",
-        "isExtraImport": true,
-        "detail": "utils.debug",
-        "documentation": {}
-    },
-    {
-        "label": "log",
-        "importPath": "utils.debug",
-        "description": "utils.debug",
-        "isExtraImport": true,
-        "detail": "utils.debug",
-        "documentation": {}
-    },
-    {
-        "label": "time_block",
-        "importPath": "utils.debug",
-        "description": "utils.debug",
-        "isExtraImport": true,
-        "detail": "utils.debug",
-        "documentation": {}
-    },
-    {
-        "label": "log",
-        "importPath": "utils.debug",
-        "description": "utils.debug",
-        "isExtraImport": true,
-        "detail": "utils.debug",
-        "documentation": {}
-    },
-    {
-        "label": "time_block",
-        "importPath": "utils.debug",
-        "description": "utils.debug",
-        "isExtraImport": true,
-        "detail": "utils.debug",
-        "documentation": {}
-    },
-    {
-        "label": "log",
-        "importPath": "utils.debug",
-        "description": "utils.debug",
-        "isExtraImport": true,
-        "detail": "utils.debug",
-        "documentation": {}
-    },
-    {
-        "label": "time_block",
-        "importPath": "utils.debug",
-        "description": "utils.debug",
-        "isExtraImport": true,
-        "detail": "utils.debug",
-        "documentation": {}
-    },
-    {
         "label": "safe_rerun",
         "importPath": "utils.rerun",
         "description": "utils.rerun",
@@ -737,15 +947,6 @@
         "description": "utils.rerun",
         "isExtraImport": true,
         "detail": "utils.rerun",
-        "documentation": {}
-    },
-    {
-        "label": "jwt",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "jwt",
-        "description": "jwt",
-        "detail": "jwt",
         "documentation": {}
     },
     {
@@ -758,11 +959,12 @@
         "documentation": {}
     },
     {
-        "label": "connection",
-        "importPath": "database",
-        "description": "database",
+        "label": "jwt",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "database",
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
         "documentation": {}
     },
     {
@@ -798,6 +1000,14 @@
         "documentation": {}
     },
     {
+        "label": "connection",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
         "label": "defaultdict",
         "importPath": "collections",
         "description": "collections",
@@ -819,54 +1029,6 @@
         "description": "langchain_text_splitters",
         "isExtraImport": true,
         "detail": "langchain_text_splitters",
-        "documentation": {}
-    },
-    {
-        "label": "ChatGoogleGenerativeAI",
-        "importPath": "langchain_google_genai",
-        "description": "langchain_google_genai",
-        "isExtraImport": true,
-        "detail": "langchain_google_genai",
-        "documentation": {}
-    },
-    {
-        "label": "GoogleGenerativeAIEmbeddings",
-        "importPath": "langchain_google_genai",
-        "description": "langchain_google_genai",
-        "isExtraImport": true,
-        "detail": "langchain_google_genai",
-        "documentation": {}
-    },
-    {
-        "label": "ChatPromptTemplate",
-        "importPath": "langchain_core.prompts",
-        "description": "langchain_core.prompts",
-        "isExtraImport": true,
-        "detail": "langchain_core.prompts",
-        "documentation": {}
-    },
-    {
-        "label": "StrOutputParser",
-        "importPath": "langchain_core.output_parsers",
-        "description": "langchain_core.output_parsers",
-        "isExtraImport": true,
-        "detail": "langchain_core.output_parsers",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "importPath": "ui.login_ui",
-        "description": "ui.login_ui",
-        "isExtraImport": true,
-        "detail": "ui.login_ui",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "importPath": "ui.login_ui",
-        "description": "ui.login_ui",
-        "isExtraImport": true,
-        "detail": "ui.login_ui",
         "documentation": {}
     },
     {
@@ -904,6 +1066,22 @@
     },
     {
         "label": "init_theme_state",
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "isExtraImport": true,
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "init_theme_state",
+        "importPath": "ui.theme",
+        "description": "ui.theme",
+        "isExtraImport": true,
+        "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "apply_theme",
         "importPath": "ui.theme",
         "description": "ui.theme",
         "isExtraImport": true,
@@ -1073,6 +1251,15 @@
         "documentation": {}
     },
     {
+        "label": "importlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib",
+        "description": "importlib",
+        "detail": "importlib",
+        "documentation": {}
+    },
+    {
         "label": "is_logged_in",
         "importPath": "ui.common",
         "description": "ui.common",
@@ -1105,35 +1292,11 @@
         "documentation": {}
     },
     {
-        "label": "admin_ui",
-        "importPath": "ui",
-        "description": "ui",
+        "label": "GoogleGenerativeAIEmbeddings",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
         "isExtraImport": true,
-        "detail": "ui",
-        "documentation": {}
-    },
-    {
-        "label": "compliance_ui",
-        "importPath": "ui",
-        "description": "ui",
-        "isExtraImport": true,
-        "detail": "ui",
-        "documentation": {}
-    },
-    {
-        "label": "chat_ui",
-        "importPath": "ui",
-        "description": "ui",
-        "isExtraImport": true,
-        "detail": "ui",
-        "documentation": {}
-    },
-    {
-        "label": "login_page",
-        "importPath": "ui",
-        "description": "ui",
-        "isExtraImport": true,
-        "detail": "ui",
+        "detail": "langchain_google_genai",
         "documentation": {}
     },
     {
@@ -1248,7 +1411,7 @@
         "kind": 2,
         "importPath": "database.init_db",
         "description": "database.init_db",
-        "peekOfCode": "def init_db() -> None:\n    \"\"\"Initialize the SQLite schema and default admin user.\"\"\"\n    with get_connection() as conn:\n        cursor = conn.cursor()\n        cursor.execute(\n            \"\"\"\n            CREATE TABLE IF NOT EXISTS users (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                usuario TEXT NOT NULL,\n                email TEXT UNIQUE NOT NULL,",
+        "peekOfCode": "def init_db() -> None:\n    \"\"\"Initialize SQLite schema and ensure one default admin user exists.\"\"\"\n    conn = get_connection()\n    if conn is None:\n        raise RuntimeError(\"Failed to connect to the SQLite database.\")\n    try:\n        _create_tables(conn)\n        _create_triggers(conn)\n        _ensure_default_admin(conn)\n    finally:",
         "detail": "database.init_db",
         "documentation": {}
     },
@@ -1257,7 +1420,43 @@
         "kind": 5,
         "importPath": "database.init_db",
         "description": "database.init_db",
-        "peekOfCode": "ROOT = Path(__file__).resolve().parents[1]\nif str(ROOT) not in sys.path:\n    sys.path.insert(0, str(ROOT))\nfrom database.connection import get_connection\nfrom services.auth_service import hash_password\ndef init_db() -> None:\n    \"\"\"Initialize the SQLite schema and default admin user.\"\"\"\n    with get_connection() as conn:\n        cursor = conn.cursor()\n        cursor.execute(",
+        "peekOfCode": "ROOT = Path(__file__).resolve().parents[1]\nif str(ROOT) not in sys.path:\n    sys.path.insert(0, str(ROOT))\nfrom database.connection import get_connection\nfrom services.auth_service import hash_password\nDEFAULT_ADMIN_NAME = \"Admin\"\nDEFAULT_ADMIN_EMAIL = \"admin@local\"\nDEFAULT_ADMIN_PASSWORD = \"Admin\"\nDEFAULT_ADMIN_SECTOR = \"Admin\"\ndef _create_tables(conn) -> None:",
+        "detail": "database.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_ADMIN_NAME",
+        "kind": 5,
+        "importPath": "database.init_db",
+        "description": "database.init_db",
+        "peekOfCode": "DEFAULT_ADMIN_NAME = \"Admin\"\nDEFAULT_ADMIN_EMAIL = \"admin@local\"\nDEFAULT_ADMIN_PASSWORD = \"Admin\"\nDEFAULT_ADMIN_SECTOR = \"Admin\"\ndef _create_tables(conn) -> None:\n    cursor = conn.cursor()\n    cursor.execute(\n        \"\"\"\n        CREATE TABLE IF NOT EXISTS users (\n            id INTEGER PRIMARY KEY AUTOINCREMENT,",
+        "detail": "database.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_ADMIN_EMAIL",
+        "kind": 5,
+        "importPath": "database.init_db",
+        "description": "database.init_db",
+        "peekOfCode": "DEFAULT_ADMIN_EMAIL = \"admin@local\"\nDEFAULT_ADMIN_PASSWORD = \"Admin\"\nDEFAULT_ADMIN_SECTOR = \"Admin\"\ndef _create_tables(conn) -> None:\n    cursor = conn.cursor()\n    cursor.execute(\n        \"\"\"\n        CREATE TABLE IF NOT EXISTS users (\n            id INTEGER PRIMARY KEY AUTOINCREMENT,\n            usuario TEXT NOT NULL,",
+        "detail": "database.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_ADMIN_PASSWORD",
+        "kind": 5,
+        "importPath": "database.init_db",
+        "description": "database.init_db",
+        "peekOfCode": "DEFAULT_ADMIN_PASSWORD = \"Admin\"\nDEFAULT_ADMIN_SECTOR = \"Admin\"\ndef _create_tables(conn) -> None:\n    cursor = conn.cursor()\n    cursor.execute(\n        \"\"\"\n        CREATE TABLE IF NOT EXISTS users (\n            id INTEGER PRIMARY KEY AUTOINCREMENT,\n            usuario TEXT NOT NULL,\n            email TEXT UNIQUE NOT NULL COLLATE NOCASE,",
+        "detail": "database.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_ADMIN_SECTOR",
+        "kind": 5,
+        "importPath": "database.init_db",
+        "description": "database.init_db",
+        "peekOfCode": "DEFAULT_ADMIN_SECTOR = \"Admin\"\ndef _create_tables(conn) -> None:\n    cursor = conn.cursor()\n    cursor.execute(\n        \"\"\"\n        CREATE TABLE IF NOT EXISTS users (\n            id INTEGER PRIMARY KEY AUTOINCREMENT,\n            usuario TEXT NOT NULL,\n            email TEXT UNIQUE NOT NULL COLLATE NOCASE,\n            password TEXT NOT NULL,",
         "detail": "database.init_db",
         "documentation": {}
     },
@@ -1266,7 +1465,25 @@
         "kind": 6,
         "importPath": "database.vector_store",
         "description": "database.vector_store",
-        "peekOfCode": "class SentenceTransformerEmbeddings(Embeddings):\n    def __init__(self, model_name: str):\n        from sentence_transformers import SentenceTransformer\n        self.model = SentenceTransformer(model_name)\n    def embed_documents(self, texts: List[str]) -> List[List[float]]:\n        return self.model.encode(texts).tolist()\n    def embed_query(self, text: str) -> List[float]:\n        return self.model.encode(text).tolist()\n@st.cache_resource\ndef get_vectorstore(collection_name: str = \"corporate_docs\"):",
+        "peekOfCode": "class SentenceTransformerEmbeddings(Embeddings):\n    \"\"\"LangChain-compatible wrapper for sentence-transformers embeddings.\"\"\"\n    def __init__(self, model_name: str):\n        self.model_name = model_name\n        self._model = None\n    def _ensure_model(self):\n        if self._model is None:\n            from sentence_transformers import SentenceTransformer\n            log(f\"vector_store: loading embedding model '{self.model_name}'\")\n            self._model = SentenceTransformer(self.model_name)",
+        "detail": "database.vector_store",
+        "documentation": {}
+    },
+    {
+        "label": "get_embedding_model",
+        "kind": 2,
+        "importPath": "database.vector_store",
+        "description": "database.vector_store",
+        "peekOfCode": "def get_embedding_model(model_name: str = DEFAULT_EMBEDDING_MODEL) -> Embeddings:\n    \"\"\"Return a cached embedding model instance.\"\"\"\n    return SentenceTransformerEmbeddings(model_name=model_name)\n@st.cache_resource\ndef get_chroma_client() -> chromadb.PersistentClient:\n    \"\"\"Return a cached Chroma persistent client with telemetry disabled.\"\"\"\n    _ensure_persist_dir()\n    return chromadb.PersistentClient(\n        path=str(PERSIST_DIRECTORY),\n        settings=Settings(anonymized_telemetry=False),",
+        "detail": "database.vector_store",
+        "documentation": {}
+    },
+    {
+        "label": "get_chroma_client",
+        "kind": 2,
+        "importPath": "database.vector_store",
+        "description": "database.vector_store",
+        "peekOfCode": "def get_chroma_client() -> chromadb.PersistentClient:\n    \"\"\"Return a cached Chroma persistent client with telemetry disabled.\"\"\"\n    _ensure_persist_dir()\n    return chromadb.PersistentClient(\n        path=str(PERSIST_DIRECTORY),\n        settings=Settings(anonymized_telemetry=False),\n    )\n@st.cache_resource\ndef get_vectorstore(collection_name: str = DEFAULT_COLLECTION_NAME) -> Chroma:\n    \"\"\"Return a cached Chroma store for the target collection.\"\"\"",
         "detail": "database.vector_store",
         "documentation": {}
     },
@@ -1275,7 +1492,7 @@
         "kind": 2,
         "importPath": "database.vector_store",
         "description": "database.vector_store",
-        "peekOfCode": "def get_vectorstore(collection_name: str = \"corporate_docs\"):\n  \"\"\"\n    Inicializa ou carrega o banco de dados vetorial (ChromaDB). Usando modelo local\n    Não precisa de API Key, não tem limite de cota, funciona offline.\n    \"\"\"\n  print(f\"Carregando modelo de Embeddings Local\")\n  embedding_function = SentenceTransformerEmbeddings(\n        model_name=\"sentence-transformers/all-MiniLM-L6-v2\"\n    )\n  vectorstore = Chroma(",
+        "peekOfCode": "def get_vectorstore(collection_name: str = DEFAULT_COLLECTION_NAME) -> Chroma:\n    \"\"\"Return a cached Chroma store for the target collection.\"\"\"\n    normalized_collection = _normalize_collection_name(collection_name)\n    embedding_function = get_embedding_model()\n    client = get_chroma_client()\n    return Chroma(\n        client=client,\n        collection_name=normalized_collection,\n        embedding_function=embedding_function,\n    )",
         "detail": "database.vector_store",
         "documentation": {}
     },
@@ -1284,7 +1501,7 @@
         "kind": 2,
         "importPath": "database.vector_store",
         "description": "database.vector_store",
-        "peekOfCode": "def add_documents_to_db(texts, metadatas=None, collection_name: str = \"corporate_docs\"):\n  '''\n    Recebe uma lista de textos e salva no banco.\n  '''\n  try:\n        db = get_vectorstore(collection_name)\n        # Se não houver metadados, cria lista vazia para evitar erro\n        if metadatas is None:\n            metadatas = [{} for _ in texts]\n        # Cria objetos Document do LangChain",
+        "peekOfCode": "def add_documents_to_db(\n    texts: Sequence[str],\n    metadatas: Sequence[Mapping[str, Any]] | None = None,\n    collection_name: str = DEFAULT_COLLECTION_NAME,\n) -> bool:\n    \"\"\"Persist text chunks and optional metadata into the vector store.\"\"\"\n    cleaned_texts = _normalize_texts(texts)\n    if not cleaned_texts:\n        log(\"vector_store: no valid texts to add\")\n        return False",
         "detail": "database.vector_store",
         "documentation": {}
     },
@@ -1293,7 +1510,7 @@
         "kind": 2,
         "importPath": "database.vector_store",
         "description": "database.vector_store",
-        "peekOfCode": "def search_context(query, k=4, collection_name: str = \"corporate_docs\"):\n  '''\n  Busca os 4 trechos mais parecidos com a pergunta do usuário\n  '''\n  try:\n        db = get_vectorstore(collection_name)\n        results = db.similarity_search(query, k=k)\n        return results\n  except Exception as e:\n      print(f\"Erro na busca vetorial: {e}\")",
+        "peekOfCode": "def search_context(\n    query: str, k: int = 4, collection_name: str = DEFAULT_COLLECTION_NAME\n) -> list:\n    \"\"\"Return top-k similar chunks for the query.\"\"\"\n    normalized_query = (query or \"\").strip()\n    if not normalized_query:\n        return []\n    try:\n        top_k = max(1, int(k))\n    except Exception:",
         "detail": "database.vector_store",
         "documentation": {}
     },
@@ -1302,7 +1519,25 @@
         "kind": 2,
         "importPath": "database.vector_store",
         "description": "database.vector_store",
-        "peekOfCode": "def clear_database():\n    '''\n    Utilitário: apaga o banco para resetar dados.\n    '''\n    if os.path.exists(PERSIST_DIRECTORY):\n        shutil.rmtree(PERSIST_DIRECTORY)\n        print(\"Banco de dados limpo\")",
+        "peekOfCode": "def clear_database() -> None:\n    \"\"\"Delete persisted Chroma data and clear related Streamlit resource caches.\"\"\"\n    _clear_vector_resources()\n    if PERSIST_DIRECTORY.exists():\n        shutil.rmtree(PERSIST_DIRECTORY, ignore_errors=True)\n        log(f\"vector_store: cleared '{PERSIST_DIRECTORY}'\")\ndef _clear_vector_resources() -> None:\n    try:\n        get_vectorstore.clear()\n    except Exception:",
+        "detail": "database.vector_store",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_COLLECTION_NAME",
+        "kind": 5,
+        "importPath": "database.vector_store",
+        "description": "database.vector_store",
+        "peekOfCode": "DEFAULT_COLLECTION_NAME = \"corporate_docs\"\nDEFAULT_EMBEDDING_MODEL = os.getenv(\n    \"EMBEDDING_MODEL_NAME\", \"sentence-transformers/all-MiniLM-L6-v2\"\n)\nPERSIST_DIRECTORY = Path(os.getenv(\"CHROMA_PERSIST_DIR\", \"chroma_db\"))\nos.environ.setdefault(\"TOKENIZERS_PARALLELISM\", \"false\")\nclass SentenceTransformerEmbeddings(Embeddings):\n    \"\"\"LangChain-compatible wrapper for sentence-transformers embeddings.\"\"\"\n    def __init__(self, model_name: str):\n        self.model_name = model_name",
+        "detail": "database.vector_store",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_EMBEDDING_MODEL",
+        "kind": 5,
+        "importPath": "database.vector_store",
+        "description": "database.vector_store",
+        "peekOfCode": "DEFAULT_EMBEDDING_MODEL = os.getenv(\n    \"EMBEDDING_MODEL_NAME\", \"sentence-transformers/all-MiniLM-L6-v2\"\n)\nPERSIST_DIRECTORY = Path(os.getenv(\"CHROMA_PERSIST_DIR\", \"chroma_db\"))\nos.environ.setdefault(\"TOKENIZERS_PARALLELISM\", \"false\")\nclass SentenceTransformerEmbeddings(Embeddings):\n    \"\"\"LangChain-compatible wrapper for sentence-transformers embeddings.\"\"\"\n    def __init__(self, model_name: str):\n        self.model_name = model_name\n        self._model = None",
         "detail": "database.vector_store",
         "documentation": {}
     },
@@ -1311,16 +1546,7 @@
         "kind": 5,
         "importPath": "database.vector_store",
         "description": "database.vector_store",
-        "peekOfCode": "PERSIST_DIRECTORY = \"./chroma_db\"\nGOOGLE_API_KEY = os.getenv(\"GOOGLE_API_KEY\")\nclass SentenceTransformerEmbeddings(Embeddings):\n    def __init__(self, model_name: str):\n        from sentence_transformers import SentenceTransformer\n        self.model = SentenceTransformer(model_name)\n    def embed_documents(self, texts: List[str]) -> List[List[float]]:\n        return self.model.encode(texts).tolist()\n    def embed_query(self, text: str) -> List[float]:\n        return self.model.encode(text).tolist()",
-        "detail": "database.vector_store",
-        "documentation": {}
-    },
-    {
-        "label": "GOOGLE_API_KEY",
-        "kind": 5,
-        "importPath": "database.vector_store",
-        "description": "database.vector_store",
-        "peekOfCode": "GOOGLE_API_KEY = os.getenv(\"GOOGLE_API_KEY\")\nclass SentenceTransformerEmbeddings(Embeddings):\n    def __init__(self, model_name: str):\n        from sentence_transformers import SentenceTransformer\n        self.model = SentenceTransformer(model_name)\n    def embed_documents(self, texts: List[str]) -> List[List[float]]:\n        return self.model.encode(texts).tolist()\n    def embed_query(self, text: str) -> List[float]:\n        return self.model.encode(text).tolist()\n@st.cache_resource",
+        "peekOfCode": "PERSIST_DIRECTORY = Path(os.getenv(\"CHROMA_PERSIST_DIR\", \"chroma_db\"))\nos.environ.setdefault(\"TOKENIZERS_PARALLELISM\", \"false\")\nclass SentenceTransformerEmbeddings(Embeddings):\n    \"\"\"LangChain-compatible wrapper for sentence-transformers embeddings.\"\"\"\n    def __init__(self, model_name: str):\n        self.model_name = model_name\n        self._model = None\n    def _ensure_model(self):\n        if self._model is None:\n            from sentence_transformers import SentenceTransformer",
         "detail": "database.vector_store",
         "documentation": {}
     },
@@ -1352,6 +1578,24 @@
         "documentation": {}
     },
     {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Pages.login",
+        "description": "Pages.login",
+        "peekOfCode": "def main() -> None:\n    login_main(set_page_config=False)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Pages.login",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Pages.users",
+        "description": "Pages.users",
+        "peekOfCode": "def main() -> None:\n    if not ensure_authenticated(\"users\"):\n        return\n    users_main(set_page_config=False)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Pages.users",
+        "documentation": {}
+    },
+    {
         "label": "DEFAULT_ROUTE",
         "kind": 5,
         "importPath": "routes.routes",
@@ -1365,7 +1609,7 @@
         "kind": 2,
         "importPath": "services.agent_service",
         "description": "services.agent_service",
-        "peekOfCode": "def load_agents():\n    \"\"\"Carrega a lista de agentes do arquivo JSON.\"\"\"\n    if not os.path.exists(AGENTS_FILE):\n        # Cria um agente padrão se não existir nenhum\n        default_agents = {\n            \"default\": {\n                \"name\": \"Generalista\",\n                \"role\": \"Assistente Corporativo\",\n                \"system_prompt\": \"Você é um assistente útil e prestativo da empresa.\",\n                \"collection_name\": \"corporate_docs\" # Coleção padrão antiga",
+        "peekOfCode": "def load_agents() -> dict[str, dict[str, Any]]:\n    \"\"\"Carrega a lista de agentes com cache leve por mtime de arquivo.\"\"\"\n    _ensure_default_agents_file()\n    key = _agents_cache_key()\n    data = _load_agents_cached(key)\n    if data:\n        return data\n    return copy.deepcopy(DEFAULT_AGENTS)\ndef save_agents(agents_data: dict[str, dict[str, Any]]) -> None:\n    \"\"\"Salva os agentes no JSON e invalida cache local.\"\"\"",
         "detail": "services.agent_service",
         "documentation": {}
     },
@@ -1374,7 +1618,7 @@
         "kind": 2,
         "importPath": "services.agent_service",
         "description": "services.agent_service",
-        "peekOfCode": "def save_agents(agents_data):\n    \"\"\"Salva os agentes no JSON.\"\"\"\n    with open(AGENTS_FILE, \"w\", encoding=\"utf-8\") as f:\n        json.dump(agents_data, f, indent=4, ensure_ascii=False)\ndef create_agent(agent_id, name, role, system_prompt):\n    \"\"\"\n    Cria um novo agente e salva no arquivo.\n    \"\"\"\n    agents = load_agents()\n    # O nome da coleção no banco será baseado no ID do agente para garantir unicidade",
+        "peekOfCode": "def save_agents(agents_data: dict[str, dict[str, Any]]) -> None:\n    \"\"\"Salva os agentes no JSON e invalida cache local.\"\"\"\n    AGENTS_FILE.parent.mkdir(parents=True, exist_ok=True)\n    with AGENTS_FILE.open(\"w\", encoding=\"utf-8\") as file:\n        json.dump(agents_data, file, indent=4, ensure_ascii=False)\n    _load_agents_cached.cache_clear()\ndef create_agent(agent_id: str, name: str, role: str, system_prompt: str) -> bool:\n    \"\"\"Cria um novo agente e salva no arquivo.\"\"\"\n    agents = load_agents()\n    collection_name = f\"collection_{agent_id}\"",
         "detail": "services.agent_service",
         "documentation": {}
     },
@@ -1383,7 +1627,7 @@
         "kind": 2,
         "importPath": "services.agent_service",
         "description": "services.agent_service",
-        "peekOfCode": "def create_agent(agent_id, name, role, system_prompt):\n    \"\"\"\n    Cria um novo agente e salva no arquivo.\n    \"\"\"\n    agents = load_agents()\n    # O nome da coleção no banco será baseado no ID do agente para garantir unicidade\n    # Ex: se o ID for 'rh', a coleção será 'collection_rh'\n    collection_name = f\"collection_{agent_id}\"\n    agents[agent_id] = {\n        \"name\": name,",
+        "peekOfCode": "def create_agent(agent_id: str, name: str, role: str, system_prompt: str) -> bool:\n    \"\"\"Cria um novo agente e salva no arquivo.\"\"\"\n    agents = load_agents()\n    collection_name = f\"collection_{agent_id}\"\n    agents[agent_id] = {\n        \"name\": name,\n        \"role\": role,\n        \"system_prompt\": system_prompt,\n        \"collection_name\": collection_name,\n    }",
         "detail": "services.agent_service",
         "documentation": {}
     },
@@ -1392,7 +1636,7 @@
         "kind": 2,
         "importPath": "services.agent_service",
         "description": "services.agent_service",
-        "peekOfCode": "def delete_agent(agent_id):\n    \"\"\"Remove um agente da lista.\"\"\"\n    agents = load_agents()\n    if agent_id in agents:\n        del agents[agent_id]\n        save_agents(agents)\n        return True\n    return False",
+        "peekOfCode": "def delete_agent(agent_id: str) -> bool:\n    \"\"\"Remove um agente da lista.\"\"\"\n    agents = load_agents()\n    if agent_id not in agents:\n        return False\n    del agents[agent_id]\n    save_agents(agents)\n    return True",
         "detail": "services.agent_service",
         "documentation": {}
     },
@@ -1401,7 +1645,7 @@
         "kind": 5,
         "importPath": "services.agent_service",
         "description": "services.agent_service",
-        "peekOfCode": "AGENTS_FILE = \"agents_config.json\"\ndef load_agents():\n    \"\"\"Carrega a lista de agentes do arquivo JSON.\"\"\"\n    if not os.path.exists(AGENTS_FILE):\n        # Cria um agente padrão se não existir nenhum\n        default_agents = {\n            \"default\": {\n                \"name\": \"Generalista\",\n                \"role\": \"Assistente Corporativo\",\n                \"system_prompt\": \"Você é um assistente útil e prestativo da empresa.\",",
+        "peekOfCode": "AGENTS_FILE = Path(\"agents_config.json\")\nDEFAULT_AGENTS: dict[str, dict[str, Any]] = {\n    \"default\": {\n        \"name\": \"Generalista\",\n        \"role\": \"Assistente Corporativo\",\n        \"system_prompt\": \"Voce e um assistente util e prestativo da empresa.\",\n        \"collection_name\": \"corporate_docs\",\n    }\n}\ndef _agents_cache_key() -> tuple[str, float]:",
         "detail": "services.agent_service",
         "documentation": {}
     },
@@ -1428,7 +1672,7 @@
         "kind": 2,
         "importPath": "services.auth_service",
         "description": "services.auth_service",
-        "peekOfCode": "def create_token(user: dict) -> str:\n    \"\"\"Gera um token JWT válido por 24 horas\"\"\"\n    now = datetime.datetime.utcnow()\n    payload = {\n        \"id\": user[\"id\"],\n        \"usuario\": user[\"usuario\"],\n        \"email\": user[\"email\"],\n        \"role\": user[\"role\"],\n        \"iss\": ISSUER,\n        \"iat\": now,",
+        "peekOfCode": "def create_token(user: dict) -> str:\n    \"\"\"Gera um token JWT valido por TOKEN_TTL_HOURS.\"\"\"\n    now = datetime.datetime.utcnow()\n    payload = {\n        \"id\": user[\"id\"],\n        \"usuario\": user[\"usuario\"],\n        \"email\": user[\"email\"],\n        \"setor\": user.get(\"setor\"),\n        \"role\": user[\"role\"],\n        \"iss\": ISSUER,",
         "detail": "services.auth_service",
         "documentation": {}
     },
@@ -1437,7 +1681,7 @@
         "kind": 2,
         "importPath": "services.auth_service",
         "description": "services.auth_service",
-        "peekOfCode": "def decode_token(token: str) -> Optional[dict[str, Any]]:\n    \"\"\"Valida o token e retorna os dados ou None se inválido/expirado\"\"\"\n    try:\n        return jwt.decode(\n            token,\n            SECRET_KEY,\n            algorithms=[ALGORITHM],\n            issuer=ISSUER,\n            options={\"require\": [\"exp\", \"iat\", \"iss\"]}\n        )",
+        "peekOfCode": "def decode_token(token: str) -> Optional[dict[str, Any]]:\n    \"\"\"Valida o token e retorna os dados ou None se invalido/expirado.\"\"\"\n    try:\n        return jwt.decode(\n            token,\n            SECRET_KEY,\n            algorithms=[ALGORITHM],\n            issuer=ISSUER,\n            options={\"require\": [\"exp\", \"iat\", \"iss\"]},\n        )",
         "detail": "services.auth_service",
         "documentation": {}
     },
@@ -1446,7 +1690,7 @@
         "kind": 2,
         "importPath": "services.auth_service",
         "description": "services.auth_service",
-        "peekOfCode": "def log_error(action: str, message: str, details: str = None, token: str = None):\n    try:\n        user_id = None\n        if token:\n            data = decode_token(token)\n            if data:\n                user_id = data.get(\"id\")\n        with connection.get_connection() as conn:\n            conn.execute(\"\"\"\n                INSERT INTO logs (user_id, action, message, details, created_at)",
+        "peekOfCode": "def log_error(action: str, message: str, details: str | None = None, token: str | None = None):\n    try:\n        user_id = None\n        if token:\n            data = decode_token(token)\n            if data:\n                user_id = data.get(\"id\")\n        with connection.get_connection() as conn:\n            conn.execute(\n                \"\"\"",
         "detail": "services.auth_service",
         "documentation": {}
     },
@@ -1455,7 +1699,7 @@
         "kind": 2,
         "importPath": "services.auth_service",
         "description": "services.auth_service",
-        "peekOfCode": "def audit_event(action: str, user_id_target: int, details: dict | None = None, token: str | None = None, user_id_admin: int | None = None):\n    \"\"\"\n    Registra eventos de auditoria (CRUD de users) na tabela users.\n    - user_id_admin: quem executou (admin). Se não for passado, tenta extrair do token.\n    - user_id_target: usuário afetado pela ação.\n    - action: ex: users.create / users.update / users.delete\n    - details: dict (será salvo como JSON)\n    \"\"\"\n    try:\n        actor_id = user_id_admin",
+        "peekOfCode": "def audit_event(\n    action: str,\n    user_id_target: int,\n    details: dict | None = None,\n    token: str | None = None,\n    user_id_admin: int | None = None,\n):\n    \"\"\"Registra eventos de auditoria de usuarios na tabela user_audit_logs.\"\"\"\n    try:\n        actor_id = user_id_admin",
         "detail": "services.auth_service",
         "documentation": {}
     },
@@ -1464,7 +1708,7 @@
         "kind": 2,
         "importPath": "services.auth_service",
         "description": "services.auth_service",
-        "peekOfCode": "def hash_password(password: str) -> str:\n    '''\n    Essa função recebe uma senha em texto simples e retorna a senha\n    hasheada usando o algoritmo bcrypt.\n    Argumentos:\n    password -- A senha em texto simples a ser hasheada.\n    Retorna:\n    A senha hasheada como uma string.\n    '''\n    hashed = bcrypt.hashpw(",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    \"\"\"Gera hash bcrypt da senha em texto simples.\"\"\"\n    hashed = bcrypt.hashpw(password.encode(\"utf-8\"), bcrypt.gensalt())\n    return hashed.decode(\"utf-8\")\ndef verificar_password(password: str, hashed: str) -> bool:\n    \"\"\"Confere senha em texto simples contra hash bcrypt.\"\"\"\n    try:\n        return bcrypt.checkpw(password.encode(\"utf-8\"), hashed.encode(\"utf-8\"))\n    except Exception:\n        return False",
         "detail": "services.auth_service",
         "documentation": {}
     },
@@ -1473,7 +1717,7 @@
         "kind": 2,
         "importPath": "services.auth_service",
         "description": "services.auth_service",
-        "peekOfCode": "def verificar_password(password: str, hashed: str) -> bool:\n    '''\n    Essa função verifica se a senha em texto simples corresponde à\n    senha hasheada.\n    Argumentos:\n    password -- A senha em texto simples a ser verificada.\n    hashed -- A senha hasheada para comparação.\n    Retorna:\n    True se a senha corresponder, False caso contrário.\n    '''",
+        "peekOfCode": "def verificar_password(password: str, hashed: str) -> bool:\n    \"\"\"Confere senha em texto simples contra hash bcrypt.\"\"\"\n    try:\n        return bcrypt.checkpw(password.encode(\"utf-8\"), hashed.encode(\"utf-8\"))\n    except Exception:\n        return False\ndef login(email: str, password: str):\n    \"\"\"Valida credenciais e retorna token JWT em caso de sucesso.\"\"\"\n    normalized_email = _normalize_email(email)\n    if not normalized_email or not password:",
         "detail": "services.auth_service",
         "documentation": {}
     },
@@ -1482,7 +1726,7 @@
         "kind": 2,
         "importPath": "services.auth_service",
         "description": "services.auth_service",
-        "peekOfCode": "def login(email: str, password: str):\n    '''\n    Essa função verifica as credenciais do usuário para login.\n    Argumentos:\n    email -- O email do usuário.\n    password -- A senha em texto simples do usuário.\n    Retorna:\n    Um dicionário com os dados do usuário se as credenciais forem válidas, None caso contrário.\n    '''\n    try: ",
+        "peekOfCode": "def login(email: str, password: str):\n    \"\"\"Valida credenciais e retorna token JWT em caso de sucesso.\"\"\"\n    normalized_email = _normalize_email(email)\n    if not normalized_email or not password:\n        return json.dumps({\"success\": False, \"message\": \"Email ou senha invalidos\"})\n    try:\n        with connection.get_connection() as conn:\n            user = conn.execute(\n                \"SELECT * FROM users WHERE lower(email) = ?\",\n                (normalized_email,),",
         "detail": "services.auth_service",
         "documentation": {}
     },
@@ -1491,7 +1735,7 @@
         "kind": 2,
         "importPath": "services.auth_service",
         "description": "services.auth_service",
-        "peekOfCode": "def require_auth(token: str, required_role: str = None):\n    data = decode_token(token)\n    if not data:\n        return json.dumps({\n            \"success\": False,\n            \"message\": \"Sessão expirada ou inválida\"\n        })\n    if required_role and data[\"role\"] != required_role:\n        return json.dumps({\n            \"success\": False,",
+        "peekOfCode": "def require_auth(token: str, required_role: str | list[str] | set[str] | None = None):\n    data = decode_token(token)\n    if not data:\n        return json.dumps({\"success\": False, \"message\": \"Sessao expirada ou invalida\"})\n    if required_role:\n        allowed_roles = {required_role} if isinstance(required_role, str) else set(required_role)\n        if data.get(\"role\") not in allowed_roles:\n            roles_text = \", \".join(sorted(allowed_roles))\n            return json.dumps({\"success\": False, \"message\": f\"Acesso negado: requer {roles_text}\"})\n    return json.dumps({\"success\": True, \"user\": data})",
         "detail": "services.auth_service",
         "documentation": {}
     },
@@ -1500,7 +1744,7 @@
         "kind": 2,
         "importPath": "services.auth_service",
         "description": "services.auth_service",
-        "peekOfCode": "def criar_usuario(token: str, usuario: str, email: str, password: str, nivel: int, setor: str):\n    '''\n    Essa função verifica se o email já está cadastrado e cria um novo usuário\n    no banco de dados com a senha hasheada.\n    Argumentos:\n    email -- O email do usuário.\n    password -- A senha em texto simples do usuário.\n    usuario -- O nível do usuário (0 para admin, 1 para usuário normal e 2 para compliance).\n    setor -- O setor do usuário.\n    Retorna:",
+        "peekOfCode": "def criar_usuario(token: str, usuario: str, email: str, password: str, nivel: int, setor: str):\n    \"\"\"Cria um usuario novo apos validar permissao e integridade dos dados.\"\"\"\n    auth = json.loads(require_auth(token, \"ADMIN\"))\n    if not auth.get(\"success\"):\n        return json.dumps(auth)\n    normalized_name = _normalize_text(usuario)\n    normalized_email = _normalize_email(email)\n    normalized_setor = _normalize_text(setor)\n    validation_error = _validate_new_user(\n        usuario=normalized_name,",
         "detail": "services.auth_service",
         "documentation": {}
     },
@@ -1509,7 +1753,7 @@
         "kind": 2,
         "importPath": "services.auth_service",
         "description": "services.auth_service",
-        "peekOfCode": "def listar_usuarios(token: str):\n    '''\n    Essa função retorna uma lista de todos os usuários cadastrados no banco de dados.\n    Retorna:\n    Uma lista de dicionários, cada um contendo as informações de um usuário.\n    '''\n    auth = json.loads(require_auth(token,\"ADMIN\"))\n    if not auth[\"success\"]:\n        return json.dumps(auth)\n    try:",
+        "peekOfCode": "def listar_usuarios(token: str):\n    \"\"\"Retorna todos os usuarios cadastrados para o admin.\"\"\"\n    auth = json.loads(require_auth(token, \"ADMIN\"))\n    if not auth.get(\"success\"):\n        return json.dumps(auth)\n    try:\n        with connection.get_connection() as conn:\n            users = conn.execute(\n                \"SELECT id, usuario, email, setor, nivel, created_at, updated_at FROM users\"\n            ).fetchall()",
         "detail": "services.auth_service",
         "documentation": {}
     },
@@ -1518,7 +1762,7 @@
         "kind": 2,
         "importPath": "services.auth_service",
         "description": "services.auth_service",
-        "peekOfCode": "def atualizar_usuario(token: str, target_user_id: int, usuario: str | None = None, email: str | None = None, password: str | None = None, nivel: int | None = None, setor: str | None = None):\n    '''\n    Essa função atualiza as informações de um usuário existente no banco de dados.\n    Argumentos:\n    token -- O token do usuário que está tentando atualizar o outro usuário.\n    target_user_id -- O ID do usuário a ser atualizado.\n    email -- O novo email do usuário.\n    usuario -- O novo nível do usuário (0 para admin, 1 para usuário normal e 2 para compliance).\n    setor -- O novo setor do usuário.\n    Retorna:",
+        "peekOfCode": "def atualizar_usuario(\n    token: str,\n    target_user_id: int,\n    usuario: str | None = None,\n    email: str | None = None,\n    password: str | None = None,\n    nivel: int | None = None,\n    setor: str | None = None,\n):\n    \"\"\"Atualiza os dados de um usuario existente.\"\"\"",
         "detail": "services.auth_service",
         "documentation": {}
     },
@@ -1527,7 +1771,52 @@
         "kind": 2,
         "importPath": "services.auth_service",
         "description": "services.auth_service",
-        "peekOfCode": "def deletar_usuario(token: str, target_user_id: int):\n    '''\n    Essa função deleta um usuário existente no banco de dados.\n    Argumentos:\n    token -- O token do usuário que está tentando deletar o outro usuário.\n    target_user_id -- O ID do usuário a ser deletado.\n    Retorna:\n    None -- Deleta o usuário do banco de dados.\n    '''\n    auth = json.loads(require_auth(token,\"ADMIN\"))",
+        "peekOfCode": "def deletar_usuario(token: str, target_user_id: int):\n    \"\"\"Deleta usuario existente garantindo regras minimas de seguranca.\"\"\"\n    auth = json.loads(require_auth(token, \"ADMIN\"))\n    if not auth.get(\"success\"):\n        return json.dumps(auth)\n    actor_id = auth.get(\"user\", {}).get(\"id\")\n    if actor_id == target_user_id:\n        return json.dumps({\"success\": False, \"message\": \"Nao e permitido remover o proprio usuario logado\"})\n    try:\n        with connection.get_connection() as conn:",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "ROLE_MAP",
+        "kind": 5,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "ROLE_MAP = {0: \"ADMIN\", 1: \"NORMAL\", 2: \"COMPLIANCE\"}\nLOW_ACCESS_LEVEL = 1\nVALID_LEVELS = set(ROLE_MAP.keys())\nEMAIL_RE = re.compile(r\"^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$\")\nMIN_PASSWORD_LEN = 8\ndef _normalize_email(email: str) -> str:\n    return (email or \"\").strip().lower()\ndef _normalize_text(value: str | None) -> str:\n    return (value or \"\").strip()\ndef _is_valid_email(email: str) -> bool:",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "LOW_ACCESS_LEVEL",
+        "kind": 5,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "LOW_ACCESS_LEVEL = 1\nVALID_LEVELS = set(ROLE_MAP.keys())\nEMAIL_RE = re.compile(r\"^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$\")\nMIN_PASSWORD_LEN = 8\ndef _normalize_email(email: str) -> str:\n    return (email or \"\").strip().lower()\ndef _normalize_text(value: str | None) -> str:\n    return (value or \"\").strip()\ndef _is_valid_email(email: str) -> bool:\n    return bool(EMAIL_RE.match(email))",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "VALID_LEVELS",
+        "kind": 5,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "VALID_LEVELS = set(ROLE_MAP.keys())\nEMAIL_RE = re.compile(r\"^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$\")\nMIN_PASSWORD_LEN = 8\ndef _normalize_email(email: str) -> str:\n    return (email or \"\").strip().lower()\ndef _normalize_text(value: str | None) -> str:\n    return (value or \"\").strip()\ndef _is_valid_email(email: str) -> bool:\n    return bool(EMAIL_RE.match(email))\ndef _validate_new_user(usuario: str, email: str, password: str, nivel: int, setor: str) -> Optional[str]:",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_RE",
+        "kind": 5,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "EMAIL_RE = re.compile(r\"^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$\")\nMIN_PASSWORD_LEN = 8\ndef _normalize_email(email: str) -> str:\n    return (email or \"\").strip().lower()\ndef _normalize_text(value: str | None) -> str:\n    return (value or \"\").strip()\ndef _is_valid_email(email: str) -> bool:\n    return bool(EMAIL_RE.match(email))\ndef _validate_new_user(usuario: str, email: str, password: str, nivel: int, setor: str) -> Optional[str]:\n    if not usuario:",
+        "detail": "services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "MIN_PASSWORD_LEN",
+        "kind": 5,
+        "importPath": "services.auth_service",
+        "description": "services.auth_service",
+        "peekOfCode": "MIN_PASSWORD_LEN = 8\ndef _normalize_email(email: str) -> str:\n    return (email or \"\").strip().lower()\ndef _normalize_text(value: str | None) -> str:\n    return (value or \"\").strip()\ndef _is_valid_email(email: str) -> bool:\n    return bool(EMAIL_RE.match(email))\ndef _validate_new_user(usuario: str, email: str, password: str, nivel: int, setor: str) -> Optional[str]:\n    if not usuario:\n        return \"Nome de usuario obrigatorio\"",
         "detail": "services.auth_service",
         "documentation": {}
     },
@@ -1752,7 +2041,7 @@
         "kind": 2,
         "importPath": "services.llm_service",
         "description": "services.llm_service",
-        "peekOfCode": "def get_ai_response(user_query, system_instruction=None, collection_name: str = \"corporate_docs\"):\n    '''\n    Orquestra o fluxo de RAG:\n    1. Busca Contexto no banco vetorial\n    2. Monta o Prompt com os documentos encontrados\n    3. Envia para o Gemini gerar a resposta\n    '''\n    API_KEY = os.getenv(\"GOOGLE_API_KEY\")\n    if not API_KEY:\n        return \"Erro: GOOGLE_API_KEY não configurada no arquivo .env\"",
+        "peekOfCode": "def get_ai_response(user_query, system_instruction=None, collection_name: str = \"corporate_docs\"):\n    \"\"\"\n    Orquestra o fluxo de RAG:\n    1. Busca Contexto no banco vetorial\n    2. Monta o Prompt com os documentos encontrados\n    3. Envia para o Gemini gerar a resposta\n    \"\"\"\n    api_key = os.getenv(\"GOOGLE_API_KEY\")\n    if not api_key:\n        return \"Erro: GOOGLE_API_KEY nao configurada no arquivo .env\"",
         "detail": "services.llm_service",
         "documentation": {}
     },
@@ -1761,7 +2050,25 @@
         "kind": 2,
         "importPath": "services.llm_service",
         "description": "services.llm_service",
-        "peekOfCode": "def log_interaction(user_id=None, context=None, response=None, attachments=None):\n    \"\"\"\n    Registra os dados de interação para fins de observabilidade.\n    \"\"\"\n    log_entry = {\n        \"timestamp\": datetime.datetime.now().isoformat(),\n        \"user_id\": user_id, #Usuário que está usando \n        \"context_summary\": context[:100], # Contexto do usuário\n        \"full_context\": context,           # Para investigação\n        \"attachments\": attachments or [],",
+        "peekOfCode": "def log_interaction(user_id=None, context=None, response=None, attachments=None):\n    \"\"\"\n    Registra os dados de interacao para fins de observabilidade.\n    \"\"\"\n    safe_context = context or \"\"\n    log_entry = {\n        \"timestamp\": datetime.datetime.now().isoformat(),\n        \"user_id\": user_id,\n        \"context_summary\": safe_context[:100],\n        \"full_context\": safe_context,",
+        "detail": "services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_SYSTEM_INSTRUCTION",
+        "kind": 5,
+        "importPath": "services.llm_service",
+        "description": "services.llm_service",
+        "peekOfCode": "DEFAULT_SYSTEM_INSTRUCTION = (\n    \"Voce e o assistente virtual corporativo 'Alea-Lumen'. \"\n    \"Responda de forma profissional e direta.\"\n)\nPROMPT_TEMPLATE = \"\"\"\n{system_instruction}\nUse EXCLUSIVAMENTE o contexto abaixo para responder a pergunta do usuario.\nSe a resposta nao estiver no contexto, diga que nao encontrou a informacao nos documentos.\n--- CONTEXTO ---\n{context}",
+        "detail": "services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "PROMPT_TEMPLATE",
+        "kind": 5,
+        "importPath": "services.llm_service",
+        "description": "services.llm_service",
+        "peekOfCode": "PROMPT_TEMPLATE = \"\"\"\n{system_instruction}\nUse EXCLUSIVAMENTE o contexto abaixo para responder a pergunta do usuario.\nSe a resposta nao estiver no contexto, diga que nao encontrou a informacao nos documentos.\n--- CONTEXTO ---\n{context}\n----------------\nPergunta do Usuario: {query}\n\"\"\"\n@lru_cache(maxsize=1)",
         "detail": "services.llm_service",
         "documentation": {}
     },
@@ -1932,7 +2239,7 @@
         "kind": 2,
         "importPath": "ui.chat_ui",
         "description": "ui.chat_ui",
-        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    if set_page_config:\n        st.set_page_config(page_title=\"Chat\", layout=\"wide\")\n    init_theme_state()\n    apply_theme(st.session_state.get(\"dark_mode\", True))\n    exibir_chat()",
+        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    if set_page_config:\n        st.set_page_config(page_title=\"Chat\", layout=\"wide\")\n    init_theme_state()\n    apply_theme(st.session_state.get(\"dark_mode\", True))\n    # Initialize heavy vector/embedding resources only when entering the chat\n    _ensure_embedding_model()\n    exibir_chat()",
         "detail": "ui.chat_ui",
         "documentation": {}
     },
@@ -2022,7 +2329,7 @@
         "kind": 2,
         "importPath": "ui.compliance_ui",
         "description": "ui.compliance_ui",
-        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    _ensure_db_initialized()\n    if set_page_config:\n        st.set_page_config(page_title=APP_TITLE, layout=\"wide\")\n    init_theme_state()\n    apply_theme(st.session_state.get(\"dark_mode\", True))\n    st.title(\"Auditoria de Usuários\")\n    st.caption(f\"Banco local: {DB_PATH}\")\n    limit = st.number_input(\n        \"Limite de registros\",",
+        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    _ensure_db_initialized()\n    if set_page_config:\n        st.set_page_config(page_title=APP_TITLE, layout=\"wide\")\n    init_theme_state()\n    apply_theme(st.session_state.get(\"dark_mode\", True))\n    role = st.session_state.get(\"role\")\n    if role not in {\"ADMIN\", \"COMPLIANCE\"}:\n        st.error(\"Acesso restrito a administradores e compliance.\")\n        return",
         "detail": "ui.compliance_ui",
         "documentation": {}
     },
@@ -2031,7 +2338,7 @@
         "kind": 5,
         "importPath": "ui.compliance_ui",
         "description": "ui.compliance_ui",
-        "peekOfCode": "APP_TITLE = \"Alea Lumen - Auditoria\"\ndef _ensure_db_initialized() -> None:\n    if st.session_state.get(\"audit_db_initialized\"):\n        return\n    with time_block(\"audit: init_db\"):\n        init_db()\n    st.session_state[\"audit_db_initialized\"] = True\ndef _get_user_columns(conn) -> list[str]:\n    rows = conn.execute(\"PRAGMA table_info(users)\").fetchall()\n    return [row[1] for row in rows]",
+        "peekOfCode": "APP_TITLE = \"Alea Lumen - Auditoria\"\ndef _ensure_db_initialized() -> None:\n    if st.session_state.get(\"db_initialized\"):\n        return\n    with time_block(\"audit: init_db\"):\n        init_db()\n    st.session_state[\"db_initialized\"] = True\ndef _load_action_options() -> list[str]:\n    conn = get_connection()\n    if conn is None:",
         "detail": "ui.compliance_ui",
         "documentation": {}
     },
@@ -2049,7 +2356,7 @@
         "kind": 2,
         "importPath": "ui.login_ui",
         "description": "ui.login_ui",
-        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    if set_page_config:\n        st.set_page_config(page_title=\"Login\", layout=\"centered\")\n    _hide_sidebar()\n    init_theme_state()\n    apply_theme(st.session_state.get(\"dark_mode\", True))\n    with time_block(\"login: init_db\"):\n        init_db()\n    logo_path = get_logo_path()\n    col_left, col_mid, col_right = st.columns([1, 2, 1])",
+        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    if set_page_config:\n        st.set_page_config(page_title=\"Login\", layout=\"centered\")\n    _hide_sidebar()\n    init_theme_state()\n    apply_theme(st.session_state.get(\"dark_mode\", True))\n    _ensure_db_initialized()\n    logo_path = get_logo_path()\n    col_left, col_mid, col_right = st.columns([1, 2, 1])\n    with col_mid:",
         "detail": "ui.login_ui",
         "documentation": {}
     },
@@ -2087,6 +2394,24 @@
         "description": "ui.theme",
         "peekOfCode": "_DARK_MODE_KEY = \"dark_mode\"\ndef init_theme_state() -> None:\n    \"\"\"Ensure the theme preference exists in session state.\"\"\"\n    if _DARK_MODE_KEY not in st.session_state:\n        st.session_state[_DARK_MODE_KEY] = True\ndef apply_theme(dark_mode: bool) -> None:\n    \"\"\"Render theme CSS based on the selected mode.\"\"\"\n    if dark_mode:\n        colors = {\n            \"app_bg\": (",
         "detail": "ui.theme",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "ui.user_registration_ui",
+        "description": "ui.user_registration_ui",
+        "peekOfCode": "def main(set_page_config: bool = True) -> None:\n    _ensure_db_initialized()\n    if set_page_config:\n        st.set_page_config(page_title=APP_TITLE, layout=\"wide\")\n    init_theme_state()\n    apply_theme(st.session_state.get(\"dark_mode\", True))\n    if not _require_admin():\n        return\n    token = st.session_state[\"token\"]\n    st.title(\"Cadastro de Usuarios\")",
+        "detail": "ui.user_registration_ui",
+        "documentation": {}
+    },
+    {
+        "label": "APP_TITLE",
+        "kind": 5,
+        "importPath": "ui.user_registration_ui",
+        "description": "ui.user_registration_ui",
+        "peekOfCode": "APP_TITLE = \"Alea Lumen - Cadastro de Usuarios\"\ndef _ensure_db_initialized() -> None:\n    if st.session_state.get(\"db_initialized\"):\n        return\n    with time_block(\"user_registration: init_db\"):\n        init_db()\n    st.session_state[\"db_initialized\"] = True\ndef _parse_response(raw: str) -> dict:\n    try:\n        return json.loads(raw)",
+        "detail": "ui.user_registration_ui",
         "documentation": {}
     },
     {

@@ -93,14 +93,21 @@ def _hide_sidebar() -> None:
     )
 
 
+def _ensure_db_initialized() -> None:
+    if st.session_state.get("db_initialized"):
+        return
+    with time_block("login: init_db"):
+        init_db()
+    st.session_state["db_initialized"] = True
+
+
 def main(set_page_config: bool = True) -> None:
     if set_page_config:
         st.set_page_config(page_title="Login", layout="centered")
     _hide_sidebar()
     init_theme_state()
     apply_theme(st.session_state.get("dark_mode", True))
-    with time_block("login: init_db"):
-        init_db()
+    _ensure_db_initialized()
 
     logo_path = get_logo_path()
     col_left, col_mid, col_right = st.columns([1, 2, 1])

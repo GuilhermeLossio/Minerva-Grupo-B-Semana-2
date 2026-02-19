@@ -16,6 +16,18 @@ ROUTES: Dict[str, Dict[str, object]] = {
         "module": "Pages.login",
         "callable": "main",
     },
+    "audit": {
+        "title": "Auditoria",
+        "module": "Pages.audit",
+        "callable": "main",
+        "roles": ["ADMIN", "COMPLIANCE"],
+    },
+    "users": {
+        "title": "Cadastro de Usuarios",
+        "module": "Pages.users",
+        "callable": "main",
+        "roles": ["ADMIN"],
+    },
     "admin": {
         "title": "SQL Admin",
         "module": "Pages.admin",
